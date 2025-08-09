@@ -4,7 +4,7 @@ require_once("inc/global.php");
 require_once("inc/header.php");
 require_once("inc/mysqli.php");
 // $database = new DB();
-$titleseo = "titolo";
+$titleseo = "dvf meccanica";
 $descriptionseo = "descrizione";
 $image = "/assets/img/global/logo.jpg";
 $widthseo = "400";

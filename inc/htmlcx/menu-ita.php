@@ -10,6 +10,47 @@ function setActiveLink($pages)
 
 ?>
 
-<nav class="navbar navbar-expand-lg static main-bg">
-    <p>Navbar</p>
-</nav>
+<!-- Preloader Start -->
+<div class="preloader">
+    <div class="loading-container">
+        <div class="loading"></div>
+        <div id="loading-icon"><img src="<?= $pathindex ?>assets/images/global/logo/logo/DVF-logo_neg.svg" alt="logo"></div>
+    </div>
+</div>
+<!-- Preloader End -->
+
+<!-- Header Start -->
+<header class="main-header">
+    <div class="header-sticky">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- Logo Start -->
+                <a class="navbar-brand" href="./">
+                    <img src="<?= $pathindex ?>assets/images/global/logo/logo/DVF-logo_neg.svg" alt="Logo">
+                </a>
+                <!-- Logo End -->
+
+                <!-- Main Menu Start -->
+                <div class="collapse navbar-collapse main-menu">
+                    <div class="nav-menu-wrapper">
+                        <ul class="navbar-nav mr-auto" id="menu">
+                            <li class="nav-item"><a class="nav-link" href="./">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">Azienda</a></li>
+                            <li class="nav-item"><a class="nav-link" href="services.html">Qualità</a></li>
+                            <li class="nav-item"><a class="nav-link" href="blog.html">Parco macchine</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Realizzazioni</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Motorsport</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Lavora con noi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contatti</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- Main Menu End -->
+                <div class="navbar-toggle"></div>
+            </div>
+        </nav>
+        <div class="responsive-menu"></div>
+    </div>
+</header>
+<!-- Header End -->

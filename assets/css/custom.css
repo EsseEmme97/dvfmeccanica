@@ -388,6 +388,14 @@ h4,
 	background-color: var(--accent-color);
 }
 
+.footer-copyright-text a {
+	color: var(--accent-color);
+}
+
+footer li, footer p {
+	font-size: 12px;
+}
+
 figure {
   margin: 0;
 }

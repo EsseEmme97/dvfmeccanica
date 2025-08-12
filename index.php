@@ -1,8 +1,8 @@
 <?
 $lingua = 1;
-require_once("inc/global.php");
-require_once("inc/header.php");
-require_once("inc/mysqli.php");
+require_once("./inc/global.php");
+require_once("./inc/header.php");
+require_once($pathindex . "inc/mysqli.php");
 // $database = new DB();
 $titleseo = "DVF";
 $descriptionseo = "descrizione";
@@ -14,11 +14,11 @@ $heightseo = "115";
 <html lang="it">
 
 <head>
-    <? require_once("inc/tagmanager.php") ?>
+    <? require_once($pathindex . "inc/tagmanager.php") ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <? require_once("inc/htmlcx/meta-ita.php"); ?>
+    <? require_once($pathindex . "inc/htmlcx/meta-ita.php"); ?>
     <link rel="canonical" href="<?= $pageurlseolan ?>">
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="<?= $pathindex ?>assets/images/global/favicon/DVF-favicon.ico">
@@ -40,11 +40,11 @@ $heightseo = "115";
 </head>
 
 <body>
-    <? require_once("inc/tagmanager_no.php") ?>
+    <? require_once($pathindex . "inc/tagmanager_no.php") ?>
 
     <!-- ==================== Start Navbar ==================== -->
 
-    <? require_once("inc/htmlcx/menu-ita.php") ?>
+    <? require_once($pathindex . "inc/htmlcx/menu-ita.php") ?>
 
     <!-- ==================== End Navbar ==================== -->
 
@@ -480,7 +480,7 @@ $heightseo = "115";
 
 
     <!-- ==================== Start Footer ==================== -->
-    <? require_once("inc/htmlcx/footer-ita.php") ?>
+    <? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>
     <!-- ==================== End Footer ==================== -->
     <!-- Jquery Library File -->
     <script src="<?= $pathindex ?>assets/js/jquery-3.7.1.min.js"></script>

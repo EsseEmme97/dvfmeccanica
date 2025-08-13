@@ -388,8 +388,20 @@ h4,
 	background-color: var(--accent-color);
 }
 
+.bg-light-gray {
+  background-color: #ccc;
+}
+
 .footer-copyright-text a {
 	color: var(--accent-color);
+}
+
+.scale-animation{
+  transition: transform 0.3s ease-in-out;
+}
+
+.scale-animation:hover {
+  transform: scale(1.10);
 }
 
 footer li, footer p {

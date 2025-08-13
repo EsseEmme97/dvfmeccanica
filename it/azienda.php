@@ -49,29 +49,29 @@ $heightseo = "115";
     <!-- ==================== End Navbar ==================== -->
 
     <!-- Page Header Start -->
-	<div class="page-header parallaxie">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-12">
-					<!-- Page Header Box Start -->
-					<div class="page-header-box">
-						<h1 class="text-anime-style-2" data-cursor="-opaque">About <span>Us</span></h1>
-						<nav class="wow fadeInUp">
+    <section class="page-header parallaxie">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <!-- Page Header Box Start -->
+                    <div class="page-header-box">
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">About <span>Us</span></h1>
+                        <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="<?= $pathindex ?>">home</a></li>
-								<li class="breadcrumb-item active" aria-current="page">about us</li>
-							</ol>
-						</nav>
-					</div>
-					<!-- Page Header Box End -->
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Page Header End -->
+                                <li class="breadcrumb-item"><a href="<?= $pathindex ?>">home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">about us</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <!-- Page Header Box End -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Page Header End -->
 
     <!-- About Us Start -->
-    <div class="about-us">
+    <section class="about-us">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -139,11 +139,11 @@ $heightseo = "115";
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- About Us End -->
 
     <!-- Our History Section Start -->
-    <div class="our-history">
+    <section class="our-history">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-lg-6">
@@ -175,7 +175,7 @@ $heightseo = "115";
                                     <button class="nav-link active" id="1920-tab" data-bs-toggle="tab" data-bs-target="#1920" type="button" role="tab" aria-selected="true">In 1920 - Planning</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="1922-tab" data-bs-toggle="tab" data-bs-target="#1922" type="button" role="tab" aria-selected="false">In 1922 -  Journey Started</button>
+                                    <button class="nav-link" id="1922-tab" data-bs-toggle="tab" data-bs-target="#1922" type="button" role="tab" aria-selected="false">In 1922 - Journey Started</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="1925-tab" data-bs-toggle="tab" data-bs-target="#1925" type="button" role="tab" aria-selected="false">In 1925 - Journey Progress</button>
@@ -189,7 +189,7 @@ $heightseo = "115";
                             </ul>
                         </div>
                         <!-- Sidebar Our History Nav End -->
-                         
+
                         <!-- Our History Item Start -->
                         <div class="our-history-item tab-pane fade show active" id="1920" role="tabpanel">
                             <div class="row">
@@ -201,15 +201,15 @@ $heightseo = "115";
                                             <h2 class="text-anime-style-2" data-cursor="-opaque">Company <span>started</span></h2>
                                             <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
                                         </div>
-                                        <!-- Section Title End -->                                    
+                                        <!-- Section Title End -->
                                     </div>
                                     <!-- Our History Content End -->
                                 </div>
-    
+
                                 <div class="col-lg-6">
                                     <!-- Our History Image Start -->
                                     <div class="our-history-image">
-                                        <figure  class="image-anime">
+                                        <figure class="image-anime">
                                             <img src="https://placehold.co/414x396" alt="immagine azienda">
                                         </figure>
                                     </div>
@@ -218,7 +218,7 @@ $heightseo = "115";
                             </div>
                         </div>
                         <!-- Our History Item End -->
-    
+
                         <!-- Our History Item Start -->
                         <div class="our-history-item tab-pane fade" id="1922" role="tabpanel">
                             <div class="row">
@@ -230,15 +230,15 @@ $heightseo = "115";
                                             <h2 class="text-anime-style-2" data-cursor="-opaque">Journey <span>started</span></h2>
                                             <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
                                         </div>
-                                        <!-- Section Title End -->                                    
+                                        <!-- Section Title End -->
                                     </div>
                                     <!-- Our History Content End -->
                                 </div>
-    
+
                                 <div class="col-lg-6">
                                     <!-- Our History Image Start -->
                                     <div class="our-history-image">
-                                        <figure  class="image-anime">
+                                        <figure class="image-anime">
                                             <img src="https://placehold.co/414x396" alt="immagine azienda">
                                         </figure>
                                     </div>
@@ -247,7 +247,7 @@ $heightseo = "115";
                             </div>
                         </div>
                         <!-- Our History Item End -->
-    
+
                         <!-- Our History Item Start -->
                         <div class="our-history-item tab-pane fade" id="1925" role="tabpanel">
                             <div class="row">
@@ -259,15 +259,15 @@ $heightseo = "115";
                                             <h2 class="text-anime-style-2" data-cursor="-opaque">Journey <span>progress</span></h2>
                                             <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
                                         </div>
-                                        <!-- Section Title End -->                                     
+                                        <!-- Section Title End -->
                                     </div>
                                     <!-- Our History Content End -->
                                 </div>
-    
+
                                 <div class="col-lg-6">
                                     <!-- Our History Image Start -->
                                     <div class="our-history-image">
-                                        <figure  class="image-anime">
+                                        <figure class="image-anime">
                                             <img src="https://placehold.co/414x396" alt="immagine azienda">
                                         </figure>
                                     </div>
@@ -288,15 +288,15 @@ $heightseo = "115";
                                             <h2 class="text-anime-style-2" data-cursor="-opaque">Global <span>reach</span></h2>
                                             <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
                                         </div>
-                                        <!-- Section Title End -->                                  
+                                        <!-- Section Title End -->
                                     </div>
                                     <!-- Our History Content End -->
                                 </div>
-    
+
                                 <div class="col-lg-6">
                                     <!-- Our History Image Start -->
                                     <div class="our-history-image">
-                                        <figure  class="image-anime">
+                                        <figure class="image-anime">
                                             <img src="https://placehold.co/414x396" alt="immagine azienda">
                                         </figure>
                                     </div>
@@ -317,15 +317,15 @@ $heightseo = "115";
                                             <h2 class="text-anime-style-2" data-cursor="-opaque">Industry <span>leader</span></h2>
                                             <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
                                         </div>
-                                        <!-- Section Title End -->                                     
+                                        <!-- Section Title End -->
                                     </div>
                                     <!-- Our History Content End -->
                                 </div>
-    
+
                                 <div class="col-lg-6">
                                     <!-- Our History Image Start -->
                                     <div class="our-history-image">
-                                        <figure  class="image-anime">
+                                        <figure class="image-anime">
                                             <img src="https://placehold.co/414x396" alt="immagine azienda">
                                         </figure>
                                     </div>
@@ -339,11 +339,11 @@ $heightseo = "115";
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Our History Section End -->
 
-     <!-- Our Mission Vision Section Start -->
-    <div class="our-mission-vision">
+    <!-- Our Mission Vision Section Start -->
+    <section class="our-mission-vision">
         <div class="mission-vision-bg parallaxie">
             <div class="container">
                 <div class="row section-row align-items-center">
@@ -355,7 +355,7 @@ $heightseo = "115";
                         </div>
                         <!-- Section Title End -->
                     </div>
-    
+
                     <div class="col-lg-6">
                         <!-- Section Title Content Start -->
                         <div class="section-title-content dark-section wow fadeInUp" data-wow-delay="0.25s">
@@ -376,18 +376,18 @@ $heightseo = "115";
                         <div class="mission-vision-nav">
                             <ul class="nav nav-tabs" id="mvTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="remodeling-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button" role="tab" aria-selected="true"><img src="images/icon-mission-nav.svg" alt=""> our mission</button>
+                                    <button class="nav-link active" id="remodeling-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button" role="tab" aria-selected="true">Amministrazione</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="installation-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button" role="tab" aria-selected="false"><img src="images/icon-vision-nav.svg" alt=""> our vision</button>
+                                    <button class="nav-link" id="installation-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button" role="tab" aria-selected="false">Acquisti</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="value-tab" data-bs-toggle="tab" data-bs-target="#value" type="button" role="tab" aria-selected="false"><img src="images/icon-value-nav.svg" alt=""> our value</button>
+                                    <button class="nav-link" id="value-tab" data-bs-toggle="tab" data-bs-target="#value" type="button" role="tab" aria-selected="false">Produzione</button>
                                 </li>
                             </ul>
                         </div>
                         <!-- Sidebar Mission Vision Nav End -->
-                         
+
                         <!-- Mission Vision Item Start -->
                         <div class="mission-vision-item tab-pane fade show active" id="mission" role="tabpanel">
                             <div class="row align-items-center">
@@ -397,7 +397,7 @@ $heightseo = "115";
                                         <div class="mission-vision-content-header">
                                             <p>Our mission is to transform the factory and industry sectors through sustainable practices, innovation, and advanced technology, fostering growth that benefits both business and the environment.</p>
                                         </div>
-    
+
                                         <div class="mission-vision-content-list">
                                             <ul>
                                                 <li>Sustainable Manufacturing Practices</li>
@@ -405,15 +405,15 @@ $heightseo = "115";
                                                 <li>Community Environmental Responsibility</li>
                                                 <li>Innovation-Driven Growth</li>
                                             </ul>
-                                        </div>                                     
+                                        </div>
                                     </div>
                                     <!-- Mission Vision Content End -->
                                 </div>
-    
+
                                 <div class="col-lg-6">
                                     <!-- Mission Vision Image Start -->
                                     <div class="mission-vision-image">
-                                        <figure  class="image-anime">
+                                        <figure class="image-anime">
                                             <img src="https://placehold.co/556x350" alt="immagine missione aziendale">
                                         </figure>
                                     </div>
@@ -422,7 +422,7 @@ $heightseo = "115";
                             </div>
                         </div>
                         <!-- Mission Vision Item End -->
-    
+
                         <!-- Mission Vision Item Start -->
                         <div class="mission-vision-item tab-pane fade" id="vision" role="tabpanel">
                             <div class="row align-items-center">
@@ -432,7 +432,7 @@ $heightseo = "115";
                                         <div class="mission-vision-content-header">
                                             <p>Our vision is to transform the factory and industry sectors through sustainable practices, innovation, and advanced technology, fostering growth that benefits both business and the environment.</p>
                                         </div>
-    
+
                                         <div class="mission-vision-content-list">
                                             <ul>
                                                 <li>Sustainable Manufacturing Practices</li>
@@ -440,15 +440,15 @@ $heightseo = "115";
                                                 <li>Community Environmental Responsibility</li>
                                                 <li>Innovation-Driven Growth</li>
                                             </ul>
-                                        </div>                                    
+                                        </div>
                                     </div>
                                     <!-- Mission Vision Content End -->
                                 </div>
-    
+
                                 <div class="col-lg-6">
                                     <!-- Mission Vision Image Start -->
                                     <div class="mission-vision-image">
-                                        <figure  class="image-anime">
+                                        <figure class="image-anime">
                                             <img src="https://placehold.co/556x350" alt="immagine visione aziendale">
                                         </figure>
                                     </div>
@@ -457,7 +457,7 @@ $heightseo = "115";
                             </div>
                         </div>
                         <!-- Mission Vision Item End -->
-    
+
                         <!-- Mission Vision Item Start -->
                         <div class="mission-vision-item tab-pane fade" id="value" role="tabpanel">
                             <div class="row align-items-center">
@@ -467,7 +467,7 @@ $heightseo = "115";
                                         <div class="mission-vision-content-header">
                                             <p>Our value is to transform the factory and industry sectors through sustainable practices, innovation, and advanced technology, fostering growth that benefits both business and the environment.</p>
                                         </div>
-    
+
                                         <div class="mission-vision-content-list">
                                             <ul>
                                                 <li>Sustainable Manufacturing Practices</li>
@@ -475,15 +475,15 @@ $heightseo = "115";
                                                 <li>Community Environmental Responsibility</li>
                                                 <li>Innovation-Driven Growth</li>
                                             </ul>
-                                        </div>                                     
+                                        </div>
                                     </div>
                                     <!-- Mission Vision Content End -->
                                 </div>
-    
+
                                 <div class="col-lg-6">
                                     <!-- Mission Vision Image Start -->
                                     <div class="mission-vision-image">
-                                        <figure  class="image-anime">
+                                        <figure class="image-anime">
                                             <img src="https://placehold.co/556x350" alt="immagine valori aziendali">
                                         </figure>
                                     </div>
@@ -497,8 +497,208 @@ $heightseo = "115";
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Our Mission Vision Section End -->
+
+    <section class="our-work bg-light-gray">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-6">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">our work</h3>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- Section Title Content Start -->
+                    <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
+                        <p>Our successful project initiatives showcase our commitment to excellence and innovation across various industries.</p>
+                    </div>
+                    <!-- Section Title Content End -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Features Section Start -->
+    <section class="our-features">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-6">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">our key feature</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Core strengths in <span>industrial innovation</span></h2>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- Section Title Content Start -->
+                    <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
+                        <p>Our expertise in industrial innovation combines advanced technology, sustainable practices, and a skilled workforce to deliver efficient, future-ready solutions that drive industry progress.</p>
+                    </div>
+                    <!-- Section Title Content End -->
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <!-- Our Features Boxes Start -->
+                <div class="our-features-boxes">
+                    <!-- Our Features Item Start -->
+                    <div class="our-features-item">
+                        <div class="icon-box">
+                            <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-panificazione.svg" alt="icona servizio">
+                        </div>
+                        <div class="features-item-content">
+                            <h3>Advanced Technology Integration</h3>
+                            <p>We integrate cutting-edge technologies into every aspect of our operations, enhancing efficiency, precision, and innovation to deliver superior industrial solutions.</p>
+                        </div>
+                    </div>
+                    <!-- Our Features Item End -->
+
+                    <!-- Our Features Item Start -->
+                    <div class="our-features-item">
+                        <div class="icon-box">
+                            <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-motorsport.svg" alt="icona servizio">
+                        </div>
+                        <div class="features-item-content">
+                            <h3>Uncompromising Quality Standards</h3>
+                            <p>We uphold the highest quality standards across all processes, ensuring consistency, reliability, and excellence in every product and service we deliver.</p>
+                        </div>
+                    </div>
+                    <!-- Our Features Item End -->
+
+                    <!-- Our Features Item Start -->
+                    <div class="our-features-item">
+                        <div class="icon-box">
+                            <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-formatura.svg" alt="icona servizio">
+                        </div>
+                        <div class="features-item-content">
+                            <h3>Continuous Innovation and R&D</h3>
+                            <p>We prioritize ongoing research and development to drive continuous innovation, staying ahead of industry trends and creating advanced solutions that meet evolving market demands.</p>
+                        </div>
+                    </div>
+                    <!-- Our Features Item End -->
+
+                    <!-- Our Features Item Start -->
+                    <div class="our-features-item features-image-box">
+                        <figure class="image-anime">
+                            <img src="https://placehold.co/648x308" alt="immagine lavorazione">
+                        </figure>
+                    </div>
+                    <!-- Our Features Item End -->
+                </div>
+                <!-- Our Features Boxes End -->
+            </div>
+        </div>
+    </section>
+    <!-- Our Features Section End -->
+     
+    <!-- What We Do Start -->
+    <div class="what-we-do">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <!-- What We Do Content Start -->
+                    <div class="what-we-do-content">
+                        <!-- Section Title Start -->
+                        <div class="section-title dark-section">
+                            <h3 class="wow fadeInUp">what we do</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Innovative factory and industry <span>solutions today</span></h2>
+                        </div>
+                        <!-- Section Title End -->
+
+                        <!-- What We Do List Start -->
+                        <div class="what-we-do-list">
+                            <div class="what-we-do-list-box-1">
+                                <!-- What We Do Item Start -->
+                                <div class="what-we-do-item">
+                                    <div class="icon-box">
+                                        <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-formatura.svg" alt="icona servizio">
+                                    </div>
+                                    <div class="what-we-item-content">
+                                        <h3>automation solutions</h3>
+                                        <p>Streamlining processes through cutting-edge technology.</p>
+                                    </div>
+                                </div>
+                                <!-- What We Do Item End -->
+
+                                <!-- What We Do Item Start -->
+                                <div class="what-we-do-item">
+                                    <div class="icon-box">
+                                        <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-motorsport.svg" alt="icona servizio">
+                                    </div>
+                                    <div class="what-we-item-content">
+                                        <h3>quality control</h3>
+                                        <p>Ensuring product excellence through rigorous testing.</p>
+                                    </div>
+                                </div>
+                                <!-- What We Do Item End -->
+                            </div>
+
+                            <div class="what-we-do-list-box-2">
+                                <!-- What We Do Item Start -->
+                                <div class="what-we-do-item">
+                                    <div class="icon-box">
+                                        <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-panificazione.svg" alt="icona servizio">
+                                    </div>
+                                    <div class="what-we-item-content">
+                                        <h3>process engineering</h3>
+                                        <p>Ensuring product excellence through rigorous testing.</p>
+                                    </div>
+                                </div>
+                                <!-- What We Do Item End -->
+
+                                <!-- What We Do Item Start -->
+                                <div class="what-we-do-item">
+                                    <div class="icon-box">
+                                        <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-ricerca.svg" alt="icona servizio">
+                                    </div>
+                                    <div class="what-we-item-content">
+                                        <h3>product development</h3>
+                                        <p>Streamlining processes through cutting-edge technology.</p>
+                                    </div>
+                                </div>
+                                <!-- What We Do Item End -->
+                            </div>
+                        </div>
+                        <!-- What We Do List Start -->
+                    </div>
+                    <!-- What We Do Content End -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- What We Do Image Start -->
+                    <div class="what-we-do-image">
+                        <figure class="image-anime">
+                            <img src="https://placehold.co/946x1020" alt="immagine prodotto">
+                        </figure>
+                        <!-- What We Do Image End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- What We Do End -->
+
+    <!-- Start CTA -->
+    <section class="bg-accent text-white p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <span class="h2">Macchine all'avanguardia <br>per ogni esigenza</span>
+                </div>
+                <div class="col-6 d-flex align-items-center">
+                    <a class="h2 scale-animation" href="<?= $pathindex ?>parco-macchine">Scopri il nostro parco macchine</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end cta -->
 
     <!-- ==================== Start Footer ==================== -->
     <? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>

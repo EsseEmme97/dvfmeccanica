@@ -48,7 +48,7 @@ $heightseo = "115";
 
     <!-- ==================== End Navbar ==================== -->
 
-    <div class="hero parallaxie">
+    <section class="hero parallaxie">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
@@ -72,11 +72,11 @@ $heightseo = "115";
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Hero Section End -->
 
     <!-- About Us Start -->
-    <div class="about-us">
+    <section class="about-us">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -144,11 +144,11 @@ $heightseo = "115";
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- About Us End -->
 
     <!-- Our Service List Start -->
-    <div class="our-services-list mt-5">
+    <section class="our-services-list mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -230,11 +230,11 @@ $heightseo = "115";
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Our Service List End -->
 
     <!-- What We Do Start -->
-    <div class="what-we-do">
+    <section class="what-we-do">
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-lg-6">
@@ -317,7 +317,7 @@ $heightseo = "115";
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- What We Do End -->
 
     <!-- Start CTA -->
@@ -336,7 +336,7 @@ $heightseo = "115";
     <!-- end cta -->
 
     <!-- Our Work Section Start -->
-    <div class="our-work">
+    <section class="our-work">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-lg-6">
@@ -382,11 +382,11 @@ $heightseo = "115";
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Our Work Section End -->
 
     <!-- Our Process Section Start -->
-    <div class="our-process">
+    <section class="our-process">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-lg-6">
@@ -461,7 +461,7 @@ $heightseo = "115";
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Our Process Section End -->
     <!-- Start CTA -->
     <section class="bg-accent text-white p-5">

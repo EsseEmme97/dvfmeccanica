@@ -4,7 +4,7 @@ function setActiveLink($pages)
 {
     $current_page = basename($_SERVER["SCRIPT_NAME"]);
     if (in_array($current_page, $pages)) {
-        echo "attivo";
+        echo "text-accent";
     }
 }
 
@@ -34,14 +34,14 @@ function setActiveLink($pages)
                 <div class="collapse navbar-collapse main-menu">
                     <div class="nav-menu-wrapper">
                         <ul class="navbar-nav mr-auto" id="menu">
-                            <li class="nav-item"><a class="nav-link" href="<?= $pathindex ?>">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="<?= $pathindex ?>azienda">Azienda</a></li>
-                            <li class="nav-item"><a class="nav-link" href="<?= $pathindex ?>qualita">Qualità</a></li>
-                            <li class="nav-item"><a class="nav-link" href="<?= $pathindex ?>parco-macchine">Parco macchine</a></li>
-                            <li class="nav-item"><a class="nav-link" href="<?= $pathindex ?>realizzazioni">Realizzazioni</a></li>
-                            <li class="nav-item"><a class="nav-link" href="<?= $pathindex ?>motorsport">Motorsport</a></li>
-                            <li class="nav-item"><a class="nav-link" href="<?= $pathindex ?>lavora-con-noi">Lavora con noi</a></li>
-                            <li class="nav-item"><a class="nav-link" href="<?= $pathindex ?>contatti">Contatti</a></li>
+                            <li class="nav-item"><a class="nav-link <? setActiveLink(["index.php"]) ?>" href="<?= $pathindex ?>">Home</a></li>
+                            <li class="nav-item"><a class="nav-link <? setActiveLink(["azienda.php"]) ?>" href="<?= $pathindex ?>azienda">Azienda</a></li>
+                            <li class="nav-item"><a class="nav-link <? setActiveLink(["qualita.php"]) ?>" href="<?= $pathindex ?>qualita">Qualità</a></li>
+                            <li class="nav-item"><a class="nav-link <? setActiveLink(["parco-macchine.php"]) ?>" href="<?= $pathindex ?>parco-macchine">Parco macchine</a></li>
+                            <li class="nav-item"><a class="nav-link <? setActiveLink(["realizzazioni.php"]) ?>" href="<?= $pathindex ?>realizzazioni">Realizzazioni</a></li>
+                            <li class="nav-item"><a class="nav-link <? setActiveLink(["motorsport.php"]) ?>" href="<?= $pathindex ?>motorsport">Motorsport</a></li>
+                            <li class="nav-item"><a class="nav-link <? setActiveLink(["lavora-con-noi.php"]) ?>" href="<?= $pathindex ?>lavora-con-noi">Lavora con noi</a></li>
+                            <li class="nav-item"><a class="nav-link <? setActiveLink(["contatti.php"]) ?>" href="<?= $pathindex ?>contatti">Contatti</a></li>
                         </ul>
                     </div>
 

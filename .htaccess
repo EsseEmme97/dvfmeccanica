@@ -6,6 +6,7 @@ RewriteEngine On
 
 RewriteRule  ^it$ index.php [L]
 RewriteRule ^azienda$ it/azienda.php [L]
+RewriteRule ^qualita$ it/qualita.php [L]
 RewriteRule ^realizzazioni$ it/realizzazioni.php [L]
 RewriteRule ^motorsport$ it/motorsport.php [L]
 RewriteRule ^lavora-con-noi$ it/lavora-con-noi.php [L]

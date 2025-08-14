@@ -208,10 +208,43 @@ $heightseo = "115";
 					<!-- Project Query Image End -->
 				</div>
 				<!-- Project Query Item End -->
+				<!-- Project Query Item Start -->
+				<div class="project-query-item">
+					<!-- Project Query Content Start -->
+					<div class="project-query-content">
+						<h2 class="text-anime-style-2">The <span>problem</span></h2>
+						<p class="wow fadeInUp" data-wow-delay="0.2s">The project addresses inconsistencies in product quality, inefficiencies in production processes.</p>
+					</div>
+					<!-- Project Query Content End -->
+
+					<!-- Project Query Image Start -->
+					<div class="project-query-img">
+						<figure class="image-anime reveal">
+							<img src="https://placehold.co/414x300" alt="">
+						</figure>
+					</div>
+					<!-- Project Query Image End -->
+				</div>
+				<!-- Project Query Item End -->
 			</div>
 			<!-- Project Query Box End -->
 		</div>
 	</section>
+
+	<!-- Start CTA -->
+	<section class="bg-accent text-white p-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<span class="h2">Hai un progetto da sviluppare? <br>Contattaci adesso</span>
+				</div>
+				<div class="col-6 d-flex align-items-center">
+					<a class="h2" href="tel:+390445641300">+390445641300</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end cta -->
 	<!-- ==================== Start Footer ==================== -->
 	<? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>
 	<!-- ==================== End Footer ==================== -->

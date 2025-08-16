@@ -20,7 +20,7 @@ function setActiveLink($pages)
 <!-- Preloader End -->
 
 <!-- Header Start -->
-<header class="main-header">
+<header class="main-header position-sticky top-0">
     <div class="header-sticky">
         <nav class="navbar navbar-expand-lg">
             <div class="container">

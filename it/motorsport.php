@@ -1,0 +1,366 @@
+<?
+$lingua = 1;
+require_once("../inc/global.php");
+require_once("../inc/header.php");
+require_once($pathindex . "inc/mysqli.php");
+// $database = new DB();
+$titleseo = "DVF - azienda";
+$descriptionseo = "descrizione";
+$image = "assets/images/global/favicon/DVF-favicon.ico";
+$widthseo = "400";
+$heightseo = "115";
+?>
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<? require_once($pathindex . "inc/tagmanager.php") ?>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<? require_once($pathindex . "inc/htmlcx/meta-ita.php"); ?>
+	<link rel="canonical" href="<?= $pageurlseolan ?>">
+	<!-- Favicon Icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="<?= $pathindex ?>assets/images/global/favicon/DVF-favicon.ico">
+	<link href="<?= $pathindex ?>assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- SlickNav Css -->
+	<link href="<?= $pathindex ?>assets/css/slicknav.min.css" rel="stylesheet">
+	<!-- Swiper Css -->
+	<link rel="stylesheet" href="<?= $pathindex ?>assets/css/swiper-bundle.min.css">
+	<!-- Font Awesome Icon Css-->
+	<link href="<?= $pathindex ?>assets/css/all.css" rel="stylesheet" media="screen">
+	<!-- Animated Css -->
+	<link href="<?= $pathindex ?>assets/css/animate.css" rel="stylesheet">
+	<!-- Magnific Popup Core Css File -->
+	<link rel="stylesheet" href="<?= $pathindex ?>assets/css/magnific-popup.css">
+	<!-- Mouse Cursor Css File -->
+	<link rel="stylesheet" href="<?= $pathindex ?>assets/css/mousecursor.css">
+	<!-- Main Custom Css -->
+	<link href="<?= $pathindex ?>assets/css/custom.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+	<? require_once($pathindex . "inc/tagmanager_no.php") ?>
+
+	<!-- ==================== Start Navbar ==================== -->
+
+	<? require_once($pathindex . "inc/htmlcx/menu-ita.php") ?>
+
+	<!-- ==================== End Navbar ==================== -->
+
+	<!-- Page Header Start -->
+	<section class="page-header parallaxie">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-12">
+					<!-- Page Header Box Start -->
+					<div class="page-header-box">
+						<h1 class="text-anime-style-2" data-cursor="-opaque">Motorsport</h1>
+						<nav class="wow fadeInUp">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="<?= $pathindex ?>">home</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Motorsport</li>
+							</ol>
+						</nav>
+					</div>
+					<!-- Page Header Box End -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Page Header End -->
+
+	<!-- Our Story Start -->
+	<section class="our-story">
+		<div class="container">
+			<div class="row section-row align-items-center">
+				<div class="col-lg-6">
+					<!-- Section Title Start -->
+					<div class="section-title">
+						<h3 class="wow fadeInUp">our story</h3>
+						<h2 class="text-anime-style-2" data-cursor="-opaque">Transforming industries <span>with innovative efficient solutions</span></h2>
+					</div>
+					<!-- Section Title End -->
+				</div>
+
+				<div class="col-lg-6">
+					<!-- Our Story Header Image Start -->
+					<div class="our-story-header-img">
+						<figure class="reveal image-anime">
+							<img src="https://placehold.co/304x216" alt="immagine azienda">
+						</figure>
+
+						<figure class="reveal image-anime">
+							<img src="https://placehold.co/304x216" alt="immagine azienda">
+						</figure>
+					</div>
+					<!-- Our Story Header Image End -->
+				</div>
+			</div>
+
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<!-- Our Story Image Start -->
+					<div class="our-story-img">
+						<figure class="reveal image-anime">
+							<img src="https://placehold.co/594x500" alt="immagine azienda">
+						</figure>
+					</div>
+					<!-- Our Story Image End -->
+				</div>
+
+				<div class="col-lg-6">
+					<div class="our-story-content">
+						<div class="our-story-content-body">
+							<p>We specialize in revolutionizing industries by delivering innovative, efficient solutions that enhance productivity and streamline processes. Through advanced technologies, precision engineering, and sustainable practices.</p>
+						</div>
+
+						<div class="our-story-counters">
+							<!-- Our Story Counter Start -->
+							<div class="our-story-counter">
+								<h3><span class="counter">10</span>k+</h3>
+								<p>completed project</p>
+							</div>
+							<!-- Our Story Counter End -->
+
+							<!-- Our Story Counter Start -->
+							<div class="our-story-counter">
+								<h3><span class="counter">15</span>+</h3>
+								<p>satisfied customer</p>
+							</div>
+							<!-- Our Story Counter End -->
+
+							<!-- Our Story Counter Start -->
+							<div class="our-story-counter">
+								<h3><span class="counter">10</span>k+</h3>
+								<p>years of mastery</p>
+							</div>
+							<!-- Our Story Counter End -->
+						</div>
+
+						<!-- Our Story Intro Video Start -->
+						<div class="our-story-intro-video">
+							<!-- Our Story Client Image Start -->
+							<div class="our-story-client-img">
+								<!-- Client Image Start -->
+								<div class="client-image">
+									<figure class="image-anime reveal">
+										<img src="images/story-client-img-1.jpg" alt="">
+									</figure>
+								</div>
+								<!-- Client Image End -->
+
+								<!-- Client Image Start -->
+								<div class="client-image">
+									<figure class="image-anime reveal">
+										<img src="images/story-client-img-2.jpg" alt="">
+									</figure>
+								</div>
+								<!-- Client Image End -->
+
+								<!-- Client Image Start -->
+								<div class="client-image">
+									<figure class="image-anime reveal">
+										<img src="images/story-client-img-3.jpg" alt="">
+									</figure>
+								</div>
+								<!-- Client Image End -->
+							</div>
+							<!-- Our Story Client Image End -->
+
+							<!-- Intro Video Box Start -->
+							<div class="intro-video-box">
+								<!-- Video Play Button Start -->
+								<div class="video-play-button">
+									<a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
+										<i class="fa-solid fa-play"></i>
+									</a>
+									<p>watch intro</p>
+								</div>
+								<!-- Video Play Button End -->
+							</div>
+							<!-- Intro Video Box End -->
+						</div>
+						<!-- Our Story Intro Video End -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Our Story End -->
+
+	<!-- Start CTA -->
+	<section class="bg-accent text-white p-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<span class="h2">La nostra esperienza<br>al tuo servizio</span>
+				</div>
+				<div class="col-6 d-flex align-items-center">
+					<a class="h2" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end cta -->
+
+	<!-- Our Features Section Start -->
+	<section class="our-features">
+		<div class="container">
+			<div class="row section-row align-items-center">
+				<div class="col-lg-6">
+					<!-- Section Title Start -->
+					<div class="section-title">
+						<h3 class="wow fadeInUp">our key feature</h3>
+						<h2 class="text-anime-style-2" data-cursor="-opaque">Core strengths in <span>industrial innovation</span></h2>
+					</div>
+					<!-- Section Title End -->
+				</div>
+
+				<div class="col-lg-6">
+					<!-- Section Title Content Start -->
+					<div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
+						<p>Our expertise in industrial innovation combines advanced technology, sustainable practices, and a skilled workforce to deliver efficient, future-ready solutions that drive industry progress.</p>
+					</div>
+					<!-- Section Title Content End -->
+				</div>
+			</div>
+
+			<div class="row no-gutters">
+				<!-- Our Features Boxes Start -->
+				<div class="our-features-boxes">
+					<!-- Our Features Item Start -->
+					<div class="our-features-item">
+						<div class="icon-box">
+							<img src="<?= $pathindex ?>assets/images/icon set/motorsport/motorsport-puntualita.svg" alt="icona puntualità">
+						</div>
+						<div class="features-item-content">
+							<h3>Advanced Technology Integration</h3>
+							<p>We integrate cutting-edge technologies into every aspect of our operations, enhancing efficiency, precision, and innovation to deliver superior industrial solutions.</p>
+						</div>
+					</div>
+					<!-- Our Features Item End -->
+
+					<!-- Our Features Item Start -->
+					<div class="our-features-item">
+						<div class="icon-box">
+							<img src="<?= $pathindex ?>assets/images/icon set/motorsport/motorsport-creativita.svg" alt="icona creatività">
+						</div>
+						<div class="features-item-content">
+							<h3>Uncompromising Quality Standards</h3>
+							<p>We uphold the highest quality standards across all processes, ensuring consistency, reliability, and excellence in every product and service we deliver.</p>
+						</div>
+					</div>
+					<!-- Our Features Item End -->
+
+					<!-- Our Features Item Start -->
+					<div class="our-features-item">
+						<div class="icon-box">
+							<img src="<?= $pathindex ?>assets/images/icon set/motorsport/motorsport-magia.svg" alt="icona magia">
+						</div>
+						<div class="features-item-content">
+							<h3>Continuous Innovation and R&D</h3>
+							<p>We prioritize ongoing research and development to drive continuous innovation, staying ahead of industry trends and creating advanced solutions that meet evolving market demands.</p>
+						</div>
+					</div>
+					<!-- Our Features Item End -->
+
+					<!-- Our Features Item Start -->
+					<div class="our-features-item features-image-box">
+						<figure class="image-anime">
+							<img src="https://placehold.co/648x308" alt="immagine azienda">
+						</figure>
+					</div>
+					<!-- Our Features Item End -->
+				</div>
+				<!-- Our Features Boxes End -->
+			</div>
+		</div>
+	</section>
+	<!-- Our Features Section End -->
+
+	<!-- Our Work Section Start -->
+    <section class="our-work">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-6">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">Cosa facciamo</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- Section Title Content Start -->
+                    <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
+                        <p>Lavoriamo con la massima serietà e dedizione: i componenti meccanici che produciamo vogliono essere sinonimo di qualità.</p>
+                    </div>
+                    <!-- Section Title Content End -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Project Item Boxes start -->
+                    <div class="row project-item-boxes align-items-center">
+                        <? for ($i = 1; $i <= 4; $i++): ?>
+                            <div class="col-md-6 project-item-box manufacturing automation">
+                                <!-- Project Item Start -->
+                                <div class="project-item wow fadeInUp">
+                                    <div class="project-image">
+                                        <figure class="image-anime">
+                                            <img src="https://placehold.co/600x400" alt="immagine realizzazione">
+                                        </figure>
+                                    </div>
+                                </div>
+                                <!-- Project Item End -->
+                            </div>
+                        <? endfor; ?>
+                    </div>
+                    <!-- Project Item Boxes End -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Work Section End -->
+	<!-- ==================== Start Footer ==================== -->
+	<? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>
+	<!-- ==================== End Footer ==================== -->
+	<!-- Jquery Library File -->
+	<script src="<?= $pathindex ?>assets/js/jquery-3.7.1.min.js"></script>
+	<!-- Bootstrap js file -->
+	<script src="<?= $pathindex ?>assets/js/bootstrap.min.js"></script>
+	<!-- Validator js file -->
+	<script src="<?= $pathindex ?>assets/js/validator.min.js"></script>
+	<!-- SlickNav js file -->
+	<script src="<?= $pathindex ?>assets/js/jquery.slicknav.js"></script>
+	<!-- Swiper js file -->
+	<script src="<?= $pathindex ?>assets/js/swiper-bundle.min.js"></script>
+	<!-- Counter js file -->
+	<script src="<?= $pathindex ?>assets/js/jquery.waypoints.min.js"></script>
+	<script src="<?= $pathindex ?>assets/js/jquery.counterup.min.js"></script>
+	<!-- Isotop js file -->
+	<script src="<?= $pathindex ?>assets/js/isotope.min.js"></script>
+	<!-- Magnific js file -->
+	<script src="<?= $pathindex ?>assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- SmoothScroll -->
+	<script src="<?= $pathindex ?>assets/js/SmoothScroll.js"></script>
+	<!-- Parallax js -->
+	<script src="<?= $pathindex ?>assets/js/parallaxie.js"></script>
+	<!-- MagicCursor js file -->
+	<script src="<?= $pathindex ?>assets/js/gsap.min.js"></script>
+	<script src="<?= $pathindex ?>assets/js/magiccursor.js"></script>
+	<!-- Text Effect js file -->
+	<script src="<?= $pathindex ?>assets/js/SplitText.js"></script>
+	<script src="<?= $pathindex ?>assets/js/ScrollTrigger.min.js"></script>
+	<!-- YTPlayer js File -->
+	<script src="<?= $pathindex ?>assets/js/jquery.mb.YTPlayer.min.js"></script>
+	<!-- Wow js file -->
+	<script src="<?= $pathindex ?>assets/js/wow.min.js"></script>
+	<!-- Main Custom js file -->
+	<script src="<?= $pathindex ?>assets/js/function.js"></script>
+</body>
+
+</html>

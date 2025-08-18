@@ -40,7 +40,7 @@ function setActiveLink($pages)
                             <li class="nav-item"><a class="nav-link <? setActiveLink(["parco-macchine.php"]) ?>" href="<?= $pathindex ?>parco-macchine">Parco macchine</a></li>
                             <li class="nav-item"><a class="nav-link <? setActiveLink(["realizzazioni.php"]) ?>" href="<?= $pathindex ?>realizzazioni">Realizzazioni</a></li>
                             <li class="nav-item"><a class="nav-link <? setActiveLink(["motorsport.php"]) ?>" href="<?= $pathindex ?>motorsport">Motorsport</a></li>
-                            <li class="nav-item"><a class="nav-link <? setActiveLink(["lavora-con-noi.php"]) ?>" href="<?= $pathindex ?>lavora-con-noi">Lavora con noi</a></li>
+                            <li class="nav-item"><a class="nav-link <? setActiveLink(["lavora-con-noi.php", "posizione-lavorativa.php"]) ?>" href="<?= $pathindex ?>lavora-con-noi">Lavora con noi</a></li>
                             <li class="nav-item"><a class="nav-link <? setActiveLink(["contatti.php"]) ?>" href="<?= $pathindex ?>contatti">Contatti</a></li>
                         </ul>
                     </div>

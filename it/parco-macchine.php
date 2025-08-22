@@ -55,7 +55,7 @@ $heightseo = "115";
 				<div class="col-lg-12">
 					<!-- Page Header Box Start -->
 					<div class="page-header-box">
-						<h1 class="text-anime-style-2" data-cursor="-opaque">Parco<span>Macchine</span></h1>
+						<h1 class="text-anime-style-2" data-cursor="-opaque">Parco <span>Macchine</span></h1>
 						<nav class="wow fadeInUp">
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="<?= $pathindex ?>">home</a></li>
@@ -76,7 +76,7 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">Cosa facciamo</h3>
+                        <span class="wow fadeInUp label text-black">Cosa facciamo</span>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
                     </div>
                     <!-- Section Title End -->
@@ -105,7 +105,7 @@ $heightseo = "115";
                                         </figure>
                                     </div>
                                     <div class="project-content">
-                                        <h3><a href="project-single.html">Macchinario nr.<?= $i ?></a></h3>
+                                        <a href="<?= $pathindex ?>/parco-macchine">Macchinario nr.<?= $i ?></a>
                                     </div>
                                 </div>
                                 <!-- Project Item End -->
@@ -125,7 +125,7 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">our history</h3>
+                        <span class="wow fadeInUp label text-black">our history</span>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Foundation of excellences <span>in industry</span></h2>
                     </div>
                     <!-- Section Title End -->
@@ -146,7 +146,7 @@ $heightseo = "115";
                     <!-- Service Item Start -->
                     <div class="service-item">
                         <div class="service-body">
-                            <h3>custom manufacturing solution</h3>
+                            <span class="fw-bold">custom manufacturing solution</span>
                         </div>
                     </div>
                     <!-- Service Item End -->
@@ -157,13 +157,13 @@ $heightseo = "115";
 	 </section>
 
 	 <!-- Our Work Section Start -->
-    <section class="our-work">
+    <section class="our-work pt-0">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">Cosa facciamo</h3>
+                        <span class="wow fadeInUp label text-black">Cosa facciamo</span>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
                     </div>
                     <!-- Section Title End -->
@@ -195,7 +195,7 @@ $heightseo = "115";
                                         </figure>
                                     </div>
                                     <div class="project-content">
-                                        <h3><a href="project-single.html">Realizzazione nr.<?= $i ?></a></h3>
+                                        <a href="<?= $pathindex ?>parco-macchine">Realizzazione nr.<?= $i ?></a>
                                     </div>
                                 </div>
                                 <!-- Project Item End -->

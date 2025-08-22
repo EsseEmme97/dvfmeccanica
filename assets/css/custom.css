@@ -1674,7 +1674,7 @@ header.main-header .header-sticky.active {
   width: calc(33.33% - 20px);
 }
 
-.our-story-counter h3 {
+.our-story-counter span {
   font-size: 50px;
   font-weight: 700;
   color: var(--accent-color);
@@ -3210,7 +3210,7 @@ header.main-header .header-sticky.active {
   text-align: center;
 }
 
-.team-content h3 {
+.team-content span {
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
@@ -3218,7 +3218,7 @@ header.main-header .header-sticky.active {
   transition: all 0.3s ease-in-out;
 }
 
-.team-content h3:hover {
+.team-content span:hover {
   color: var(--accent-color);
 }
 
@@ -4906,7 +4906,7 @@ header.main-header .header-sticky.active {
   width: calc(100% - 80px);
 }
 
-.contact-info-content h3 {
+.contact-info-content span {
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
@@ -6107,6 +6107,10 @@ header.main-header .header-sticky.active {
 @media only screen and (max-width: 767px) {
   .topbar {
     padding: 10px 0;
+  }
+
+  .nav-item > a.text-accent{
+    color: var(--dark-red) !important;
   }
 
   .h2{

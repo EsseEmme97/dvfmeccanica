@@ -42,7 +42,7 @@
             <div class="col-lg-4 col-md-4 col-6">
                 <!-- Footer Links Start -->
                 <div class="footer-links">
-                    <span class="footer-title">quick links</span>
+                    <span class="footer-title">Link veloci</span>
                     <ul class="row">
                         <li class="col-6 p-0"><a href="<?= $pathindex ?>">home</a></li>
                         <li class="col-6 p-0"><a href="<?= $pathindex ?>azienda">Azienda</a></li>

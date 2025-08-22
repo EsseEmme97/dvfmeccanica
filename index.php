@@ -252,25 +252,29 @@ $heightseo = "115";
                             <div class="what-we-do-list-box-1">
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
-                                    <div class="icon-box">
-                                        <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
-                                    </div>
-                                    <div class="what-we-item-content">
-                                        <span>automation solutions</span>
-                                        <p>Streamlining processes through cutting-edge technology.</p>
-                                    </div>
+                                    <a href="<?= $pathindex ?>parco-macchine">
+                                        <div class="icon-box">
+                                            <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
+                                        </div>
+                                        <div class="what-we-item-content">
+                                            <span>automation solutions</span>
+                                            <p>Streamlining processes through cutting-edge technology.</p>
+                                        </div>
+                                    </a>
                                 </div>
                                 <!-- What We Do Item End -->
 
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
-                                    <div class="icon-box">
-                                        <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
-                                    </div>
-                                    <div class="what-we-item-content">
-                                        <span>quality control</span>
-                                        <p>Ensuring product excellence through rigorous testing.</p>
-                                    </div>
+                                    <a href="<?= $pathindex ?>parco-macchine">
+                                        <div class="icon-box">
+                                            <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
+                                        </div>
+                                        <div class="what-we-item-content">
+                                            <span>quality control</span>
+                                            <p>Ensuring product excellence through rigorous testing.</p>
+                                        </div>
+                                    </a>
                                 </div>
                                 <!-- What We Do Item End -->
                             </div>
@@ -278,25 +282,29 @@ $heightseo = "115";
                             <div class="what-we-do-list-box-2">
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
-                                    <div class="icon-box">
-                                        <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
-                                    </div>
-                                    <div class="what-we-item-content">
-                                        <span>process engineering</span>
-                                        <p>Ensuring product excellence through rigorous testing.</p>
-                                    </div>
+                                    <a href="<?= $pathindex ?>parco-macchine">
+                                        <div class="icon-box">
+                                            <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
+                                        </div>
+                                        <div class="what-we-item-content">
+                                            <span>process engineering</span>
+                                            <p>Ensuring product excellence through rigorous testing.</p>
+                                        </div>
+                                    </a>
                                 </div>
                                 <!-- What We Do Item End -->
 
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
-                                    <div class="icon-box">
-                                        <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
-                                    </div>
-                                    <div class="what-we-item-content">
-                                        <span>product development</span>
-                                        <p>Streamlining processes through cutting-edge technology.</p>
-                                    </div>
+                                    <a href="<?= $pathindex ?>parco-macchine">
+                                        <div class="icon-box">
+                                            <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
+                                        </div>
+                                        <div class="what-we-item-content">
+                                            <span>product development</span>
+                                            <p>Streamlining processes through cutting-edge technology.</p>
+                                        </div>
+                                    </a>
                                 </div>
                                 <!-- What We Do Item End -->
                             </div>
@@ -371,7 +379,7 @@ $heightseo = "115";
                                         </figure>
                                     </div>
                                     <div class="project-content">
-                                        <a href="<?= $pathindex?>parco-macchine">Realizzazione nr.<?= $i ?></a>
+                                        <a href="<?= $pathindex ?>parco-macchine">Realizzazione nr.<?= $i ?></a>
                                     </div>
                                 </div>
                                 <!-- Project Item End -->
@@ -476,7 +484,7 @@ $heightseo = "115";
             </div>
         </div>
     </section>
-    <!-- end cta -->                        
+    <!-- end cta -->
 
 
     <!-- ==================== Start Footer ==================== -->

@@ -77,7 +77,7 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Start -->
 					<div class="section-title">
-						<h3 class="wow fadeInUp">our story</h3>
+						<span class="wow fadeInUp label text-black">our story</span>
 						<h2 class="text-anime-style-2" data-cursor="-opaque">Transforming industries <span>with innovative efficient solutions</span></h2>
 					</div>
 					<!-- Section Title End -->
@@ -118,21 +118,21 @@ $heightseo = "115";
 						<div class="our-story-counters">
 							<!-- Our Story Counter Start -->
 							<div class="our-story-counter">
-								<h3><span class="counter">10</span>k+</h3>
+								<span><span class="counter">10</span>k+</span>
 								<p>completed project</p>
 							</div>
 							<!-- Our Story Counter End -->
 
 							<!-- Our Story Counter Start -->
 							<div class="our-story-counter">
-								<h3><span class="counter">15</span>+</h3>
+								<span><span class="counter">15</span>+</span>
 								<p>satisfied customer</p>
 							</div>
 							<!-- Our Story Counter End -->
 
 							<!-- Our Story Counter Start -->
 							<div class="our-story-counter">
-								<h3><span class="counter">10</span>k+</h3>
+								<span><span class="counter">10</span>k+</span>
 								<p>years of mastery</p>
 							</div>
 							<!-- Our Story Counter End -->
@@ -190,13 +190,13 @@ $heightseo = "115";
 	<!-- Our Story End -->
 
 	<!-- Start CTA -->
-	<section class="bg-accent text-white p-5">
+	<section class="bg-accent text-white py-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-6">
+				<div class="col-lg-6 text-center">
 					<span class="h2">La nostra esperienza<br>al tuo servizio</span>
 				</div>
-				<div class="col-6 d-flex align-items-center">
+				<div class="col-lg-6 d-flex mt-5 align-items-center justify-content-center justify-content-lg-start">
 					<a class="h2" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
 				</div>
 			</div>
@@ -211,7 +211,7 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Start -->
 					<div class="section-title">
-						<h3 class="wow fadeInUp">our key feature</h3>
+						<span class="wow fadeInUp label text-black">our key feature</span>
 						<h2 class="text-anime-style-2" data-cursor="-opaque">Core strengths in <span>industrial innovation</span></h2>
 					</div>
 					<!-- Section Title End -->
@@ -235,7 +235,7 @@ $heightseo = "115";
 							<img src="<?= $pathindex ?>assets/images/icon set/motorsport/motorsport-puntualita.svg" alt="icona puntualità">
 						</div>
 						<div class="features-item-content">
-							<h3>Advanced Technology Integration</h3>
+							<span>Advanced Technology Integration</span>
 							<p>We integrate cutting-edge technologies into every aspect of our operations, enhancing efficiency, precision, and innovation to deliver superior industrial solutions.</p>
 						</div>
 					</div>
@@ -247,7 +247,7 @@ $heightseo = "115";
 							<img src="<?= $pathindex ?>assets/images/icon set/motorsport/motorsport-creativita.svg" alt="icona creatività">
 						</div>
 						<div class="features-item-content">
-							<h3>Uncompromising Quality Standards</h3>
+							<span>Uncompromising Quality Standards</span>
 							<p>We uphold the highest quality standards across all processes, ensuring consistency, reliability, and excellence in every product and service we deliver.</p>
 						</div>
 					</div>
@@ -259,7 +259,7 @@ $heightseo = "115";
 							<img src="<?= $pathindex ?>assets/images/icon set/motorsport/motorsport-magia.svg" alt="icona magia">
 						</div>
 						<div class="features-item-content">
-							<h3>Continuous Innovation and R&D</h3>
+							<span>Continuous Innovation and R&D</span>
 							<p>We prioritize ongoing research and development to drive continuous innovation, staying ahead of industry trends and creating advanced solutions that meet evolving market demands.</p>
 						</div>
 					</div>
@@ -286,7 +286,7 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">Cosa facciamo</h3>
+                        <span class="wow fadeInUp label text-black">Cosa facciamo</span>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
                     </div>
                     <!-- Section Title End -->

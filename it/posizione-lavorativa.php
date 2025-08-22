@@ -109,7 +109,7 @@ $posizione_lavorativa = $_GET["posizione"];
 						<!-- Page Contact Form Start -->
 						<div class="contact-us-form">
 							<div class="section-title">
-								<h2 class="text-anime-style-2" data-cursor="-opaque">Contact <span>me</span></h2>
+								<h2 class="text-anime-style-2" data-cursor="-opaque">Contattaci</h2>
 							</div>
 
 							<div class="contact-form">
@@ -117,22 +117,22 @@ $posizione_lavorativa = $_GET["posizione"];
 								<form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.5s">
 									<div class="row">
 										<div class="form-group col-md-6 mb-4">
-											<input type="text" name="fname" class="form-control" id="fname" placeholder="Enter first name" required>
+											<input type="text" name="fname" class="form-control" id="fname" placeholder="Nome" required>
 											<div class="help-block with-errors"></div>
 										</div>
 
 										<div class="form-group col-md-6 mb-4">
-											<input type="text" name="lname" class="form-control" id="lname" placeholder="Enter last name" required>
+											<input type="text" name="lname" class="form-control" id="lname" placeholder="Cognome" required>
 											<div class="help-block with-errors"></div>
 										</div>
 
 										<div class="form-group col-md-6 mb-4">
-											<input type="email" name="email" class="form-control" id="email" placeholder="Enter your e-mail" required>
+											<input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
 											<div class="help-block with-errors"></div>
 										</div>
 
 										<div class="form-group col-md-6 mb-4">
-											<input type="text" name="phone" class="form-control" id="phone" placeholder="Enter your phone no." required>
+											<input type="file" name="cv" class="form-control" id="cv" placeholder="CV" required>
 											<div class="help-block with-errors"></div>
 										</div>
 

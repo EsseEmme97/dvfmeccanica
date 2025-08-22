@@ -689,7 +689,7 @@ $heightseo = "115";
     <section class="bg-accent text-white py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 text-center text-lg-start">
                     <span class="h2">Macchine all'avanguardia <br>per ogni esigenza</span>
                 </div>
                 <div class="col-lg-6 d-flex align-items-center mt-lg-0 mt-5 text-center text-lg-start">

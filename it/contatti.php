@@ -71,113 +71,113 @@ $heightseo = "115";
 	<!-- Page Header End -->
 
 	<!-- Page Contact Us Start -->
-	<div class="page-contact-us">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-5">
-					<!-- Contact Information Start -->
-					<div class="contact-information">
-						<!-- Section Title Start -->
-						<div class="section-title">
-							<h3 class="wow fadeInUp">Contattaci</h3>
-							<h2 class="text-anime-style-3" data-cursor="-opaque">Rimaniamo in <span>contatto</span></h2>
-							<p class="wow fadeInUp" data-wow-delay="0.2s">Reach out for any inquiries, support, or to discuss how we can meet your industrial needs.</p>
-						</div>
-						<!-- Section Title End -->
+    <div class="page-contact-us">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <!-- Contact Information Start -->
+                    <div class="contact-information">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <span class="wow fadeInUp label text-black">Contattaci</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Rimaniamo in <span>contatto</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Reach out for any inquiries, support, or to discuss how we can meet your industrial needs.</p>
+                        </div>
+                        <!-- Section Title End -->
 
-						<!-- Contact Info Box Start -->
-						<div class="contact-info-box">
-							<!-- Page Contact Item Start -->
-							<div class="contact-info-item wow fadeInUp">
-								<div class="icon-box">
-									<img src="<?= $pathindex ?>assets/images/global/recapiti/Icon fa-solid-phone.svg" alt="icona telefono">
-								</div>
-								<div class="contact-info-content">
-									<h3>Telefono</h3>
-									<p>+1.809.120.670</p>
-								</div>
-							</div>
-							<!-- Page Contact Item End -->
+                        <!-- Contact Info Box Start -->
+                        <div class="contact-info-box">
+                            <!-- Page Contact Item Start -->
+                            <div class="contact-info-item wow fadeInUp">
+                                <div class="icon-box">
+                                    <img src="<?= $pathindex ?>assets/images/global/recapiti/Icon fa-solid-phone.svg" alt="icona telefono">
+                                </div>
+                                <div class="contact-info-content">
+                                    <span>Telefono</span>
+                                    <p>+1.809.120.670</p>
+                                </div>
+                            </div>
+                            <!-- Page Contact Item End -->
 
-							<!-- Page Contact Item Start -->
-							<div class="contact-info-item wow fadeInUp" data-wow-delay="0.25s">
-								<div class="icon-box">
-									<img src="<?= $pathindex ?>assets/images/global/recapiti/Icon material-round-mail.svg" alt="icona email">
-								</div>
-								<div class="contact-info-content">
-									<h3>Email</h3>
-									<p>info@domain.com</p>
-								</div>
-							</div>
-							<!-- Page Contact Item End -->
+                            <!-- Page Contact Item Start -->
+                            <div class="contact-info-item wow fadeInUp" data-wow-delay="0.25s">
+                                <div class="icon-box">
+                                    <img src="<?= $pathindex ?>assets/images/global/recapiti/Icon material-round-mail.svg" alt="icona email">
+                                </div>
+                                <div class="contact-info-content">
+                                    <span>Email</span>
+                                    <p>info@dvfmeccanica.com</p>
+                                </div>
+                            </div>
+                            <!-- Page Contact Item End -->
 
-							<!-- Page Contact Item Start -->
-							<div class="contact-info-item wow fadeInUp" data-wow-delay="0.5s">
-								<div class="icon-box">
-									<i class="fa-solid fa-location-dot text-white fa-xl"></i>
-								</div>
-								<div class="contact-info-content">
-									<h3>Our Address</h3>
-									<p>37 San Juan Lane Graaf Florisstraat 22A,3021 CH</p>
-								</div>
-							</div>
-							<!-- Page Contact Item End -->
-						</div>
-					</div>
-					<!-- Contact Information End -->
-				</div>
+                            <!-- Page Contact Item Start -->
+                            <div class="contact-info-item wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="icon-box">
+                                    <i class="fa-solid fa-location-dot text-white fa-xl"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <span>Indirizzo</span>
+                                    <p>Via delle Prese, 26 36014 Santorso (VI)</p>
+                                </div>
+                            </div>
+                            <!-- Page Contact Item End -->
+                        </div>
+                    </div>
+                    <!-- Contact Information End -->
+                </div>
 
-				<div class="col-lg-7">
-					<!-- Page Contact Form Start -->
-					<div class="contact-us-form">
-						<div class="section-title">
-							<h2 class="text-anime-style-2" data-cursor="-opaque">Contattaci</h2>
-						</div>
+                <div class="col-lg-7">
+                    <!-- Page Contact Form Start -->
+                    <div class="contact-us-form">
+                        <div class="section-title">
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Contattaci</h2>
+                        </div>
 
-						<div class="contact-form">
-							<!-- Contact Form Start -->
-							<form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.5s">
-								<div class="row">
-									<div class="form-group col-md-6 mb-4">
-										<input type="text" name="fname" class="form-control" id="fname" placeholder="Enter first name" required>
-										<div class="help-block with-errors"></div>
-									</div>
+                        <div class="contact-form">
+                            <!-- Contact Form Start -->
+                            <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="row">
+                                    <div class="form-group col-md-6 mb-4">
+                                        <input type="text" name="fname" class="form-control" id="fname" placeholder="Nome" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
 
-									<div class="form-group col-md-6 mb-4">
-										<input type="text" name="lname" class="form-control" id="lname" placeholder="Enter last name" required>
-										<div class="help-block with-errors"></div>
-									</div>
+                                    <div class="form-group col-md-6 mb-4">
+                                        <input type="text" name="lname" class="form-control" id="lname" placeholder="Cognome" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
 
-									<div class="form-group col-md-12 mb-4">
-										<input type="email" name="email" class="form-control" id="email" placeholder="Enter your e-mail" required>
-										<div class="help-block with-errors"></div>
-									</div>
+                                    <div class="form-group col-md-12 mb-4">
+                                        <input type="email" name ="email" class="form-control" id="email" placeholder="Email" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
 
-									<div class="form-group col-md-12 mb-4">
-										<input type="text" name="phone" class="form-control" id="phone" placeholder="Enter your phone no." required>
-										<div class="help-block with-errors"></div>
-									</div>
+                                    <div class="form-group col-md-12 mb-4">
+                                        <input type="text" name="phone" class="form-control" id="phone" placeholder="Numero di telefono" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
 
-									<div class="form-group col-md-12 mb-5">
-										<textarea name="message" class="form-control" id="message" rows="4" placeholder="Write Message"></textarea>
-										<div class="help-block with-errors"></div>
-									</div>
+                                    <div class="form-group col-md-12 mb-5">
+                                        <textarea name="message" class="form-control" id="message" rows="4" placeholder="Scrivi messaggio"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
 
-									<div class="col-md-12">
-										<button type="submit" class="btn-default"><span>submit message</span></button>
-										<div id="msgSubmit" class="h3 hidden"></div>
-									</div>
-								</div>
-							</form>
-							<!-- Contact Form End -->
-						</div>
-					</div>
-					<!-- Page Contact Form End -->
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--  Page Contact Us End -->
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn-default"><span>Invia messaggio</span></button>
+                                        <div id="msgSubmit" class="h3 hidden"></div>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- Contact Form End -->
+                        </div>
+                    </div>
+                    <!-- Page Contact Form End -->
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!--  Page Contact Us End -->
 
 	<!-- Google Map Start -->
 	<div class="google-map">

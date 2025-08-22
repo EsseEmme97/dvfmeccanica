@@ -77,7 +77,7 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">our history</h3>
+                        <span class="wow fadeInUp label text-black">our history</span>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Foundation of excellences <span>in industry</span></h2>
                     </div>
                     <!-- Section Title End -->
@@ -106,8 +106,8 @@ $heightseo = "115";
 
 							<!-- Team Content Start -->
 							<div class="team-content">
-								<h3><a href="team-single.html">ronald richards</a></h3>
-								<p>manufacturing executive</p>
+								<span>nome riferimento</span>
+								<p>breve descrizione</p>
 							</div>
 							<!-- Team Content End -->
 						</div>

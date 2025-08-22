@@ -77,7 +77,7 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Start -->
 					<div class="section-title">
-						<h3 class="wow fadeInUp">Come lo facciamo</h3>
+						<span class="wow fadeInUp label text-black">Come lo facciamo</span>
 						<h2 class="text-anime-style-2" data-cursor="-opaque">Streamlined processes <span>for optimal efficiency</span></h2>
 					</div>
 					<!-- Section Title End -->
@@ -109,10 +109,10 @@ $heightseo = "115";
 						<!-- Process Step Item Start -->
 						<div class="process-step-item wow fadeInUp">
 							<div class="process-step-no">
-								<h2>01</h2>
+								<span>01</span>
 							</div>
 							<div class="process-step-content">
-								<h3>Qualità certificata ISO 9001</h3>
+								<span class="title">Qualità certificata ISO 9001</span>
 								<p>La qualità del nostro lavoro è certificata secondo gli standard internazionali ISO 9001</p>
 							</div>
 						</div>
@@ -121,10 +121,10 @@ $heightseo = "115";
 						<!-- Process Step Item Start -->
 						<div class="process-step-item active wow fadeInUp" data-wow-delay="0.25s">
 							<div class="process-step-no">
-								<h2>02</h2>
+								<span>02</span>
 							</div>
 							<div class="process-step-content">
-								<h3>Pannelli fotovoltaici</h3>
+								<span class="title">Pannelli fotovoltaici</span>
 								<p>Riduciamo il nostro impatto ambientale grazie al nuovo impianto fotovoltaico, che ci rende green</p>
 							</div>
 						</div>
@@ -133,10 +133,10 @@ $heightseo = "115";
 						<!-- Process Step Item Start -->
 						<div class="process-step-item wow fadeInUp" data-wow-delay="0.5s">
 							<div class="process-step-no">
-								<h2>03</h2>
+								<span>03</span>
 							</div>
 							<div class="process-step-content">
-								<h3>Sistemi di aspirazione centralizzati</h3>
+								<span class="title">Sistemi di aspirazione centralizzati</span>
 								<p>Disponiamo di due sistemi d’aspirazione centralizzati, per garantire la massima qualità dell’aria</p>
 							</div>
 						</div>
@@ -155,7 +155,7 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Start -->
 					<div class="section-title">
-						<h3 class="wow fadeInUp">our work</h3>
+						<span class="wow fadeInUp label text-black">our work</span>
 						<h2 class="text-anime-style-3" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
 					</div>
 					<!-- Section Title End -->
@@ -175,7 +175,7 @@ $heightseo = "115";
 				<div class="project-query-item">
 					<!-- Project Query Content Start -->
 					<div class="project-query-content">
-						<h2 class="text-anime-style-2">The <span>problem</span></h2>
+						<span class="text-anime-style-2 h2 fw-bold">The problem</span>
 						<p class="wow fadeInUp" data-wow-delay="0.2s">The project addresses inconsistencies in product quality, inefficiencies in production processes.</p>
 					</div>
 					<!-- Project Query Content End -->
@@ -194,7 +194,7 @@ $heightseo = "115";
 				<div class="project-query-item">
 					<!-- Project Query Content Start -->
 					<div class="project-query-content">
-						<h2 class="text-anime-style-2">The <span>solution</span></h2>
+						<span class="text-anime-style-2 h2 fw-bold">The solution</span>
 						<p class="wow fadeInUp" data-wow-delay="0.2s">The project implements Total Quality Management solutions to improve product quality.</p>
 					</div>
 					<!-- Project Query Content End -->
@@ -212,7 +212,7 @@ $heightseo = "115";
 				<div class="project-query-item">
 					<!-- Project Query Content Start -->
 					<div class="project-query-content">
-						<h2 class="text-anime-style-2">The <span>problem</span></h2>
+						<span class="text-anime-style-2 h2 fw-bold">The problem</span>
 						<p class="wow fadeInUp" data-wow-delay="0.2s">The project addresses inconsistencies in product quality, inefficiencies in production processes.</p>
 					</div>
 					<!-- Project Query Content End -->
@@ -232,13 +232,13 @@ $heightseo = "115";
 	</section>
 
 	<!-- Start CTA -->
-	<section class="bg-accent text-white p-5">
+	<section class="bg-accent text-white py-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-6">
+				<div class="col-lg-6 text-center text-lg-start">
 					<span class="h2">Hai un progetto da sviluppare? <br>Contattaci adesso</span>
 				</div>
-				<div class="col-6 d-flex align-items-center">
+				<div class="col-lg-6 d-flex justify-content-center justify-content-lg-start mt-5 mt-lg-0 align-items-center">
 					<a class="h2" href="tel:+390445641300">+390445641300</a>
 				</div>
 			</div>

@@ -77,7 +77,7 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Start -->
 					<div class="section-title">
-						<h3 class="wow fadeInUp">our history</h3>
+						<span class="wow fadeInUp label text-black">our history</span>
 						<h2 class="text-anime-style-2" data-cursor="-opaque">Foundation of excellences <span>in industry</span></h2>
 					</div>
 					<!-- Section Title End -->
@@ -106,7 +106,7 @@ $heightseo = "115";
 						</div>
 
 						<div class="service-body text-center">
-							<h3>Posizione lavorativa <?= $i ?></h3>
+							<span class="h3">Posizione lavorativa <?= $i ?></span>
 						</div>
 
 						<div class="text-center">
@@ -132,7 +132,7 @@ $heightseo = "115";
                     <div class="contact-information">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h3 class="wow fadeInUp">Contattaci</h3>
+                            <span class="wow fadeInUp label text-black">Contattaci</span>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">Rimaniamo in <span>contatto</span></h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">Reach out for any inquiries, support, or to discuss how we can meet your industrial needs.</p>
                         </div>
@@ -146,7 +146,7 @@ $heightseo = "115";
                                     <img src="<?= $pathindex ?>assets/images/global/recapiti/Icon fa-solid-phone.svg" alt="icona telefono">
                                 </div>
                                 <div class="contact-info-content">
-                                    <h3>Telefono</h3>
+                                    <span>Telefono</span>
                                     <p>+1.809.120.670</p>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@ $heightseo = "115";
                                     <img src="<?= $pathindex ?>assets/images/global/recapiti/Icon material-round-mail.svg" alt="icona email">
                                 </div>
                                 <div class="contact-info-content">
-                                    <h3>Email</h3>
+                                    <span>Email</span>
                                     <p>info@domain.com</p>
                                 </div>
                             </div>
@@ -170,8 +170,8 @@ $heightseo = "115";
                                     <i class="fa-solid fa-location-dot text-white fa-xl"></i>
                                 </div>
                                 <div class="contact-info-content">
-                                    <h3>Our Address</h3>
-                                    <p>37 San Juan Lane Graaf Florisstraat 22A,3021 CH</p>
+                                    <span>Indirizzo</span>
+                                    <p>Via delle Prese, 26 36014 Santorso (VI)</p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->
@@ -192,32 +192,32 @@ $heightseo = "115";
                             <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="row">
                                     <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="fname" class="form-control" id="fname" placeholder="Enter first name" required>
+                                        <input type="text" name="fname" class="form-control" id="fname" placeholder="Nome" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="lname" class="form-control" id="lname" placeholder="Enter last name" required>
+                                        <input type="text" name="lname" class="form-control" id="lname" placeholder="Cognome" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-12 mb-4">
-                                        <input type="email" name ="email" class="form-control" id="email" placeholder="Enter your e-mail" required>
+                                        <input type="email" name ="email" class="form-control" id="email" placeholder="Email" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-12 mb-4">
-                                        <input type="text" name="phone" class="form-control" id="phone" placeholder="Enter your phone no." required>
+                                        <input type="file" name="cv" class="form-control" id="cv" placeholder="Cv" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-12 mb-5">
-                                        <textarea name="message" class="form-control" id="message" rows="4" placeholder="Write Message"></textarea>
+                                        <textarea name="message" class="form-control" id="message" rows="4" placeholder="Scrivi messaggio"></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="col-md-12">
-                                        <button type="submit" class="btn-default"><span>submit message</span></button>
+                                        <button type="submit" class="btn-default"><span>Invia messaggio</span></button>
                                         <div id="msgSubmit" class="h3 hidden"></div>
                                     </div>
                                 </div>

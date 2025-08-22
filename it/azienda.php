@@ -96,7 +96,7 @@ $heightseo = "115";
                         <!-- Company Experience Start -->
                         <div class="company-experience">
                             <div class="company-experience-counter">
-                                <h2><span class="counter">35</span>+</h2>
+                                <span class="counter">35</span><span>+</span>
                             </div>
                             <div class="company-experience-content">
                                 <p>Anni di esperienza</p>
@@ -112,7 +112,7 @@ $heightseo = "115";
                     <div class="about-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h3 class="wow fadeInUp">su di noi</h3>
+                            <span class="wow fadeInUp label text-black">su di noi</span>
                             <h2 class="text-anime-style-2" data-cursor="-opaque">Building quality through <span>industrial innovation</span></h2>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">Nata alla fine degli anni ’80 per le lavorazioni meccaniche nel settore del packaging, oggi DVF è specializzata in lavorazioni meccaniche di precisione e prototipazione.</p>
                             <p class="wow fadeInUp" data-wow-delay="0.35s"> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -149,7 +149,7 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">our history</h3>
+                        <span class="wow fadeInUp label text-black">our history</span>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Foundation of excellences <span>in industry</span></h2>
                     </div>
                     <!-- Section Title End -->
@@ -198,7 +198,7 @@ $heightseo = "115";
                                     <div class="our-history-content">
                                         <!-- Section Title Start -->
                                         <div class="section-title">
-                                            <h2 class="text-anime-style-2" data-cursor="-opaque">Company <span>started</span></h2>
+                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Company <span>started</span></span>
                                             <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
                                         </div>
                                         <!-- Section Title End -->
@@ -227,7 +227,7 @@ $heightseo = "115";
                                     <div class="our-history-content">
                                         <!-- Section Title Start -->
                                         <div class="section-title">
-                                            <h2 class="text-anime-style-2" data-cursor="-opaque">Journey <span>started</span></h2>
+                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Journey <span>started</span></span>
                                             <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
                                         </div>
                                         <!-- Section Title End -->
@@ -256,7 +256,7 @@ $heightseo = "115";
                                     <div class="our-history-content">
                                         <!-- Section Title Start -->
                                         <div class="section-title">
-                                            <h2 class="text-anime-style-2" data-cursor="-opaque">Journey <span>progress</span></h2>
+                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Journey <span>progress</span></span>
                                             <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
                                         </div>
                                         <!-- Section Title End -->
@@ -285,7 +285,7 @@ $heightseo = "115";
                                     <div class="our-history-content">
                                         <!-- Section Title Start -->
                                         <div class="section-title">
-                                            <h2 class="text-anime-style-2" data-cursor="-opaque">Global <span>reach</span></h2>
+                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Global <span>reach</span></span>
                                             <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
                                         </div>
                                         <!-- Section Title End -->
@@ -314,7 +314,7 @@ $heightseo = "115";
                                     <div class="our-history-content">
                                         <!-- Section Title Start -->
                                         <div class="section-title">
-                                            <h2 class="text-anime-style-2" data-cursor="-opaque">Industry <span>leader</span></h2>
+                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Industry <span>leader</span></span>
                                             <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
                                         </div>
                                         <!-- Section Title End -->
@@ -350,7 +350,7 @@ $heightseo = "115";
                     <div class="col-lg-6">
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
-                            <h3 class="wow fadeInUp">our approach</h3>
+                            <span class="wow fadeInUp label">our approach</span>
                             <h2 class="text-anime-style-2" data-cursor="-opaque">Empowering sustainable <span>growth in industry</span></h2>
                         </div>
                         <!-- Section Title End -->
@@ -506,7 +506,7 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">our work</h3>
+                        <span class="wow fadeInUp label text-black">our work</span>
                         <h2 class="text-anime-style-3" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
                     </div>
                     <!-- Section Title End -->
@@ -530,7 +530,7 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">our key feature</h3>
+                        <span class="wow fadeInUp label text-black">our key feature</span>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Core strengths in <span>industrial innovation</span></h2>
                     </div>
                     <!-- Section Title End -->
@@ -554,7 +554,7 @@ $heightseo = "115";
                             <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-panificazione.svg" alt="icona servizio">
                         </div>
                         <div class="features-item-content">
-                            <h3>Advanced Technology Integration</h3>
+                            <span>Advanced Technology Integration</span>
                             <p>We integrate cutting-edge technologies into every aspect of our operations, enhancing efficiency, precision, and innovation to deliver superior industrial solutions.</p>
                         </div>
                     </div>
@@ -566,7 +566,7 @@ $heightseo = "115";
                             <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-motorsport.svg" alt="icona servizio">
                         </div>
                         <div class="features-item-content">
-                            <h3>Uncompromising Quality Standards</h3>
+                            <span>Uncompromising Quality Standards</span>
                             <p>We uphold the highest quality standards across all processes, ensuring consistency, reliability, and excellence in every product and service we deliver.</p>
                         </div>
                     </div>
@@ -578,7 +578,7 @@ $heightseo = "115";
                             <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-formatura.svg" alt="icona servizio">
                         </div>
                         <div class="features-item-content">
-                            <h3>Continuous Innovation and R&D</h3>
+                            <span>Continuous Innovation and R&D</span>
                             <p>We prioritize ongoing research and development to drive continuous innovation, staying ahead of industry trends and creating advanced solutions that meet evolving market demands.</p>
                         </div>
                     </div>
@@ -607,7 +607,7 @@ $heightseo = "115";
                     <div class="what-we-do-content">
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
-                            <h3 class="wow fadeInUp">what we do</h3>
+                            <span class="wow fadeInUp label">what we do</span>
                             <h2 class="text-anime-style-2" data-cursor="-opaque">Innovative factory and industry <span>solutions today</span></h2>
                         </div>
                         <!-- Section Title End -->
@@ -621,7 +621,7 @@ $heightseo = "115";
                                         <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-formatura.svg" alt="icona servizio">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <h3>automation solutions</h3>
+                                        <span>automation solutions</span>
                                         <p>Streamlining processes through cutting-edge technology.</p>
                                     </div>
                                 </div>
@@ -633,7 +633,7 @@ $heightseo = "115";
                                         <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-motorsport.svg" alt="icona servizio">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <h3>quality control</h3>
+                                        <span>quality control</span>
                                         <p>Ensuring product excellence through rigorous testing.</p>
                                     </div>
                                 </div>
@@ -647,7 +647,7 @@ $heightseo = "115";
                                         <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-panificazione.svg" alt="icona servizio">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <h3>process engineering</h3>
+                                        <span>process engineering</span>
                                         <p>Ensuring product excellence through rigorous testing.</p>
                                     </div>
                                 </div>
@@ -659,7 +659,7 @@ $heightseo = "115";
                                         <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-ricerca.svg" alt="icona servizio">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <h3>product development</h3>
+                                        <span>product development</span>
                                         <p>Streamlining processes through cutting-edge technology.</p>
                                     </div>
                                 </div>
@@ -686,13 +686,13 @@ $heightseo = "115";
     <!-- What We Do End -->
 
     <!-- Start CTA -->
-    <section class="bg-accent text-white p-5">
+    <section class="bg-accent text-white py-5">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 text-center">
                     <span class="h2">Macchine all'avanguardia <br>per ogni esigenza</span>
                 </div>
-                <div class="col-6 d-flex align-items-center">
+                <div class="col-lg-6 d-flex align-items-center mt-lg-0 mt-5 text-center text-lg-start">
                     <a class="h2 scale-animation" href="<?= $pathindex ?>parco-macchine">Scopri il nostro parco macchine</a>
                 </div>
             </div>

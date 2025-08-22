@@ -165,7 +165,7 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-footer">
-                                <a href="service-single.html" class="service-btn">
+                                <a href="<?= $pathindex ?>parco-macchine" class="service-btn">
                                     <img src="<?= $pathindex ?>assets/images/global/recapiti/arrow-white.svg" alt="immagine freccia">
                                 </a>
                             </div>
@@ -183,7 +183,7 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-footer">
-                                <a href="service-single.html" class="service-btn">
+                                <a href="<?= $pathindex ?>parco-macchine" class="service-btn">
                                     <img src="<?= $pathindex ?>assets/images/global/recapiti/arrow-white.svg" alt="immagine freccia">
                                 </a>
                             </div>
@@ -201,7 +201,7 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-footer">
-                                <a href="service-single.html" class="service-btn">
+                                <a href="<?= $pathindex ?>parco-macchine" class="service-btn">
                                     <img src="<?= $pathindex ?>assets/images/global/recapiti/arrow-white.svg" alt="immagine freccia">
                                 </a>
                             </div>
@@ -219,7 +219,7 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-footer">
-                                <a href="service-single.html" class="service-btn">
+                                <a href="<?= $pathindex ?>parco-macchine" class="service-btn">
                                     <img src="<?= $pathindex ?>assets/images/global/recapiti/arrow-white.svg" alt="immagine freccia">
                                 </a>
                             </div>
@@ -328,7 +328,7 @@ $heightseo = "115";
                     <span class="h2">Ti abbiamo convinto? <br>Richiedi un preventivo</span>
                 </div>
                 <div class="col-lg-6 col-12 d-flex align-items-center mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
-                    <a class="h2" href="mailto:">info@dvfmeccanica.com</a>
+                    <a class="h2" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
                 </div>
             </div>
         </div>
@@ -371,7 +371,7 @@ $heightseo = "115";
                                         </figure>
                                     </div>
                                     <div class="project-content">
-                                        <a href="project-single.html">Realizzazione nr.<?= $i ?></a>
+                                        <a href="<?= $pathindex?>parco-macchine">Realizzazione nr.<?= $i ?></a>
                                     </div>
                                 </div>
                                 <!-- Project Item End -->

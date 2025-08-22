@@ -772,7 +772,7 @@ body {
   cursor: none;
 }
 
-.section-title h2 {
+.section-title span.h2 {
   font-size: 50px;
   font-weight: 300;
   line-height: 1.2em;
@@ -783,7 +783,7 @@ body {
 }
 
 .section-title h1 span,
-.section-title h2 span {
+.section-title span {
   font-weight: 700;
 }
 
@@ -3061,7 +3061,7 @@ header.main-header .header-sticky.active {
   filter: brightness(0) invert(1);
 }
 
-.features-item-content h3 {
+.features-item-content span {
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
@@ -3075,7 +3075,7 @@ header.main-header .header-sticky.active {
 }
 
 .our-features-item:hover .features-item-content p,
-.our-features-item:hover .features-item-content h3 {
+.our-features-item:hover .features-item-content span {
   color: var(--white-color);
 }
 
@@ -5097,7 +5097,7 @@ header.main-header .header-sticky.active {
     font-size: 54px;
   }
 
-  .section-title h2 {
+  .section-title span.h2 {
     font-size: 40px;
   }
 

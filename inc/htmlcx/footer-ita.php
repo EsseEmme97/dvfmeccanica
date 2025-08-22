@@ -44,15 +44,14 @@
                 <div class="footer-links">
                     <span class="footer-title">quick links</span>
                     <ul class="row">
-                        <li class="col-6 p-0"><a href="index.html">home</a></li>
-                        <li class="col-6 p-0"><a href="about.html">Azienda</a></li>
-                        <li class="col-6 p-0"><a href="services.html">Servizi</a></li>
-                        <li class="col-6 p-0"><a href="blog.html">Qualità</a></li>
-                        <li class="col-6 p-0"><a href="blog.html">Parco Macchine</a></li>
-                        <li class="col-6 p-0"><a href="blog.html">Realizzazioni</a></li>
-                        <li class="col-6 p-0"><a href="blog.html">Motorsport</a></li>
-                        <li class="col-6 p-0"><a href="blog.html">Lavora con noi</a></li>
-                        <li class="col-6 p-0"><a href="blog.html">Contatti</a></li>
+                        <li class="col-6 p-0"><a href="<?= $pathindex ?>">home</a></li>
+                        <li class="col-6 p-0"><a href="<?= $pathindex ?>azienda">Azienda</a></li>
+                        <li class="col-6 p-0"><a href="<?= $pathindex ?>qualità">Qualità</a></li>
+                        <li class="col-6 p-0"><a href="<?= $pathindex ?>parco-macchine">Parco Macchine</a></li>
+                        <li class="col-6 p-0"><a href="<?= $pathindex ?>realizzazioni">Realizzazioni</a></li>
+                        <li class="col-6 p-0"><a href="<?= $pathindex ?>motorsport">Motorsport</a></li>
+                        <li class="col-6 p-0"><a href="<?= $pathindex ?>lavora-con-noi">Lavora con noi</a></li>
+                        <li class="col-6 p-0"><a href="<?= $pathindex ?>contatti">Contatti</a></li>
                     </ul>
                 </div>
                 <!-- Footer Links End -->

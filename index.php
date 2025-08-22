@@ -56,7 +56,7 @@ $heightseo = "115";
                     <div class="hero-content">
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
-                            <h3 class="wow fadeInUp">Dvf vi dà il benvenuto</h3>
+                            <span class="wow fadeInUp label">Dvf vi dà il benvenuto</span>
                             <h1 class="text-anime-style-2" data-cursor="-opaque">Excellence innovating <span>industry for today</span></h1>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">At the heart of our operations is a commitment to delivering superior products through cutting-edge technology and innovative processes. </p>
                         </div>
@@ -101,7 +101,7 @@ $heightseo = "115";
                         <!-- Company Experience Start -->
                         <div class="company-experience">
                             <div class="company-experience-counter">
-                                <h2><span class="counter">35</span>+</h2>
+                                <span class="counter">35</span><span>+</span>
                             </div>
                             <div class="company-experience-content">
                                 <p>Anni di esperienza</p>
@@ -117,7 +117,7 @@ $heightseo = "115";
                     <div class="about-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h3 class="wow fadeInUp">su di noi</h3>
+                            <span class="wow fadeInUp label text-black">su di noi</span>
                             <h2 class="text-anime-style-2" data-cursor="-opaque">Building quality through <span>industrial innovation</span></h2>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">Nata alla fine degli anni ’80 per le lavorazioni meccaniche nel settore del packaging, oggi DVF è specializzata in lavorazioni meccaniche di precisione e prototipazione.</p>
                             <p class="wow fadeInUp" data-wow-delay="0.35s"> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -161,7 +161,7 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-body">
-                                <h3>custom manufacturing solution</h3>
+                                <span>custom manufacturing solution</span>
                             </div>
 
                             <div class="service-footer">
@@ -179,7 +179,7 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-body">
-                                <h3>industrial automation and robotics</h3>
+                                <span>industrial automation and robotics</span>
                             </div>
 
                             <div class="service-footer">
@@ -197,7 +197,7 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-body">
-                                <h3>product design and prototyping</h3>
+                                <span>product design and prototyping</span>
                             </div>
 
                             <div class="service-footer">
@@ -215,7 +215,7 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-body">
-                                <h3>equipment maintenance support</h3>
+                                <span>equipment maintenance support</span>
                             </div>
 
                             <div class="service-footer">
@@ -242,7 +242,7 @@ $heightseo = "115";
                     <div class="what-we-do-content">
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
-                            <h3 class="wow fadeInUp">what we do</h3>
+                            <span class="wow fadeInUp label">cosa facciamo</span>
                             <h2 class="text-anime-style-2" data-cursor="-opaque">Innovative factory and industry <span>solutions today</span></h2>
                         </div>
                         <!-- Section Title End -->
@@ -256,7 +256,7 @@ $heightseo = "115";
                                         <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <h3>automation solutions</h3>
+                                        <span>automation solutions</span>
                                         <p>Streamlining processes through cutting-edge technology.</p>
                                     </div>
                                 </div>
@@ -268,7 +268,7 @@ $heightseo = "115";
                                         <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <h3>quality control</h3>
+                                        <span>quality control</span>
                                         <p>Ensuring product excellence through rigorous testing.</p>
                                     </div>
                                 </div>
@@ -282,7 +282,7 @@ $heightseo = "115";
                                         <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <h3>process engineering</h3>
+                                        <span>process engineering</span>
                                         <p>Ensuring product excellence through rigorous testing.</p>
                                     </div>
                                 </div>
@@ -294,7 +294,7 @@ $heightseo = "115";
                                         <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <h3>product development</h3>
+                                        <span>product development</span>
                                         <p>Streamlining processes through cutting-edge technology.</p>
                                     </div>
                                 </div>
@@ -321,13 +321,13 @@ $heightseo = "115";
     <!-- What We Do End -->
 
     <!-- Start CTA -->
-    <section class="bg-accent text-white p-5">
+    <section class="bg-accent text-white py-5">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-12 text-center text-lg-start">
                     <span class="h2">Ti abbiamo convinto? <br>Richiedi un preventivo</span>
                 </div>
-                <div class="col-6 d-flex align-items-center">
+                <div class="col-lg-6 col-12 d-flex align-items-center mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
                     <a class="h2" href="mailto:">info@dvfmeccanica.com</a>
                 </div>
             </div>
@@ -342,7 +342,7 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">Cosa facciamo</h3>
+                        <span class="wow fadeInUp label text-black">Cosa facciamo</span>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
                     </div>
                     <!-- Section Title End -->
@@ -371,7 +371,7 @@ $heightseo = "115";
                                         </figure>
                                     </div>
                                     <div class="project-content">
-                                        <h3><a href="project-single.html">Realizzazione nr.<?= $i ?></a></h3>
+                                        <a href="project-single.html">Realizzazione nr.<?= $i ?></a>
                                     </div>
                                 </div>
                                 <!-- Project Item End -->
@@ -392,7 +392,7 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">Come lo facciamo</h3>
+                        <span class="wow fadeInUp label text-black">Come lo facciamo</span>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Streamlined processes <span>for optimal efficiency</span></h2>
                     </div>
                     <!-- Section Title End -->
@@ -424,10 +424,10 @@ $heightseo = "115";
                         <!-- Process Step Item Start -->
                         <div class="process-step-item wow fadeInUp">
                             <div class="process-step-no">
-                                <h2>01</h2>
+                                <span>01</span>
                             </div>
                             <div class="process-step-content">
-                                <h3>Qualità certificata ISO 9001</h3>
+                                <span class="title">Qualità certificata ISO 9001</span>
                                 <p>La qualità del nostro lavoro è certificata secondo gli standard internazionali ISO 9001</p>
                             </div>
                         </div>
@@ -436,10 +436,10 @@ $heightseo = "115";
                         <!-- Process Step Item Start -->
                         <div class="process-step-item active wow fadeInUp" data-wow-delay="0.25s">
                             <div class="process-step-no">
-                                <h2>02</h2>
+                                <span>02</span>
                             </div>
                             <div class="process-step-content">
-                                <h3>Pannelli fotovoltaici</h3>
+                                <span class="title">Pannelli fotovoltaici</span class="title">
                                 <p>Riduciamo il nostro impatto ambientale grazie al nuovo impianto fotovoltaico, che ci rende green</p>
                             </div>
                         </div>
@@ -448,10 +448,10 @@ $heightseo = "115";
                         <!-- Process Step Item Start -->
                         <div class="process-step-item wow fadeInUp" data-wow-delay="0.5s">
                             <div class="process-step-no">
-                                <h2>03</h2>
+                                <span>03</span>
                             </div>
                             <div class="process-step-content">
-                                <h3>Sistemi di aspirazione centralizzati</h3>
+                                <span class="title">Sistemi di aspirazione centralizzati</span>
                                 <p>Disponiamo di due sistemi d’aspirazione centralizzati, per garantire la massima qualità dell’aria</p>
                             </div>
                         </div>
@@ -464,13 +464,13 @@ $heightseo = "115";
     </section>
     <!-- Our Process Section End -->
     <!-- Start CTA -->
-    <section class="bg-accent text-white p-5">
+    <section class="bg-accent text-white py-5">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 text-center text-lg-start">
                     <span class="h2">Hai un progetto da sviluppare? <br>Contattaci adesso</span>
                 </div>
-                <div class="col-6 d-flex align-items-center">
+                <div class="col-lg-6 d-flex align-items-center mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
                     <a class="h2" href="tel:+390445641300">+390445641300</a>
                 </div>
             </div>

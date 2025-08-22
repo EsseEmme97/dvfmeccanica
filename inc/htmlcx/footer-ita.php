@@ -24,7 +24,7 @@
             <div class="col-lg-2 col-md-4 col-12">
                 <!-- Footer Links Start -->
                 <div class="footer-links">
-                    <h3>Contatti</h3>
+                    <span class="footer-title">Contatti</span>
                     <ul>
                         <li>T. <a href="tel:+390445641300">+39 0445 641300</a></li>
                         <li>F. <a href="tel:+390445549301">+39 0445 549301</a></li>
@@ -42,7 +42,7 @@
             <div class="col-lg-4 col-md-4 col-6">
                 <!-- Footer Links Start -->
                 <div class="footer-links">
-                    <h3>quick links</h3>
+                    <span class="footer-title">quick links</span>
                     <ul class="row">
                         <li class="col-6 p-0"><a href="index.html">home</a></li>
                         <li class="col-6 p-0"><a href="about.html">Azienda</a></li>
@@ -61,7 +61,7 @@
             <div class="col-lg-2 col-md-4 col-6">
                 <!-- Footer Links Start -->
                 <div class="footer-links">
-                    <h3>Su di noi</h3>
+                    <span class="footer-title">Su di noi</span>
                     <p class="text-white">Fondata nel 1989 – DVF Meccanica utilizza le tecnologie più moderne per risolvere quesiti produttivi sempre nuovi. Ci piacciono le sfide e deriviamo molta soddisfazione dall’affrontare progetti complessi che solo passione, volontà e capacità possono portare a compimento.</p>
                 </div>
                 <!-- Footer Links End -->

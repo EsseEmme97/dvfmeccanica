@@ -735,7 +735,7 @@ body {
   margin-bottom: 40px;
 }
 
-.section-title h3 {
+.section-title .label {
   font-family: "Open Sans", sans-serif;
   display: inline-block;
   position: relative;
@@ -744,12 +744,12 @@ body {
   line-height: normal;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   padding-left: 26px;
   margin-bottom: 15px;
 }
 
-.section-title h3::before {
+.section-title .label::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -1404,9 +1404,10 @@ header.main-header .header-sticky.active {
   width: 120px;
 }
 
-.company-experience-counter h2 {
+.company-experience-counter span {
   font-size: 50px;
   color: var(--accent-color);
+  font-weight: bold;
 }
 
 .company-experience-content p {
@@ -1579,7 +1580,7 @@ header.main-header .header-sticky.active {
   margin-bottom: 60px;
 }
 
-.service-body h3 {
+.service-body span {
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
@@ -1816,7 +1817,7 @@ header.main-header .header-sticky.active {
   height: 40px;
 }
 
-.what-we-item-content h3 {
+.what-we-item-content span {
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
@@ -2008,13 +2009,10 @@ header.main-header .header-sticky.active {
   text-align: center;
 }
 
-.project-content h3 {
+.project-content a {
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
-}
-
-.project-content h3 a {
   color: inherit;
 }
 
@@ -2088,7 +2086,7 @@ header.main-header .header-sticky.active {
   z-index: 1;
 }
 
-.process-step-no h2 {
+.process-step-no span {
   font-size: 50px;
   font-weight: 700;
   color: var(--accent-color);
@@ -2100,7 +2098,7 @@ header.main-header .header-sticky.active {
   z-index: 1;
 }
 
-.process-step-content h3 {
+.process-step-content span.title {
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
@@ -2114,11 +2112,11 @@ header.main-header .header-sticky.active {
 }
 
 .process-step-item.active .process-step-content p,
-.process-step-item.active .process-step-content h3,
-.process-step-item.active .process-step-no h2,
+.process-step-item.active .process-step-content span.title,
+.process-step-item.active .process-step-no span,
 .process-step-item:hover .process-step-content p,
-.process-step-item:hover .process-step-content h3,
-.process-step-item:hover .process-step-no h2 {
+.process-step-item:hover .process-step-content span.title,
+.process-step-item:hover .process-step-no span {
   color: var(--white-color);
 }
 
@@ -2621,12 +2619,13 @@ header.main-header .header-sticky.active {
   color: var(--white-color);
 }
 
-.footer-links h3 {
+.footer-links span.footer-title {
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
   color: var(--white-color);
   margin-bottom: 30px;
+  display: block;
 }
 
 .footer-links ul {
@@ -6108,6 +6107,10 @@ header.main-header .header-sticky.active {
 @media only screen and (max-width: 767px) {
   .topbar {
     padding: 10px 0;
+  }
+
+  .h2{
+    font-size:28px
   }
 
   .topbar-contact-info ul {

@@ -409,7 +409,7 @@ h4,
 }
 
 footer li, footer p {
-	font-size: 12px;
+	font-size: 15px;
 }
 
 figure {
@@ -2570,7 +2570,7 @@ header.main-header .header-sticky.active {
 }
 
 .about-footer-content {
-  margin-bottom: 20px;
+  margin-top: 90px;
 }
 
 .about-footer-content p {

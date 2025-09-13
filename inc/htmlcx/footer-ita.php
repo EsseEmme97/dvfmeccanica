@@ -7,13 +7,13 @@
                 <div class="about-footer">
                     <!-- Footer Logo Start -->
                     <div class="footer-logo">
-                        <img src="<?= $pathindex ?>assets/images/global/logo/logo/DVF-logo_neg.svg" alt="logo principale">
+                        <img src="<?= $pathindex ?>assets/images/global/logo/logo/DVF-logo_footer.svg" alt="logo principale">
                     </div>
                     <!-- Footer Logo End -->
 
                     <!-- About Footer Content Start -->
-                    <div class="about-footer-content mt-5">
-                        <p> <strong>DVF Meccanica Srl</strong> <br> Via delle Prese, 26 36014 Santorso (VI)</p>
+                    <div class="about-footer-content">
+                        <p> <strong>DVF Meccanica Srl</strong> <br> Via delle Prese, 26 <br>36014 Santorso (VI)</p>
                     </div>
                     <!-- About Footer Content End -->
 
@@ -39,25 +39,25 @@
                 <!-- Footer Links End -->
             </div>
 
-            <div class="col-lg-4 col-md-4 col-6">
+            <div class="col-lg-4 col-md-4 col-12">
                 <!-- Footer Links Start -->
                 <div class="footer-links">
                     <span class="footer-title">Link veloci</span>
                     <ul class="row">
-                        <li class="col-6 p-0"><a href="<?= $pathindex ?>">home</a></li>
-                        <li class="col-6 p-0"><a href="<?= $pathindex ?>azienda">Azienda</a></li>
-                        <li class="col-6 p-0"><a href="<?= $pathindex ?>qualità">Qualità</a></li>
-                        <li class="col-6 p-0"><a href="<?= $pathindex ?>parco-macchine">Parco Macchine</a></li>
-                        <li class="col-6 p-0"><a href="<?= $pathindex ?>realizzazioni">Realizzazioni</a></li>
-                        <li class="col-6 p-0"><a href="<?= $pathindex ?>motorsport">Motorsport</a></li>
-                        <li class="col-6 p-0"><a href="<?= $pathindex ?>lavora-con-noi">Lavora con noi</a></li>
-                        <li class="col-6 p-0"><a href="<?= $pathindex ?>contatti">Contatti</a></li>
+                        <li class="col-lg-6 col-12 p-0"><a href="<?= $pathindex ?>">home</a></li>
+                        <li class="col-lg-6 col-12 p-0"><a href="<?= $pathindex ?>azienda">Azienda</a></li>
+                        <li class="col-lg-6 col-12 p-0"><a href="<?= $pathindex ?>qualità">Qualità</a></li>
+                        <li class="col-lg-6 col-12 p-0"><a href="<?= $pathindex ?>parco-macchine">Parco Macchine</a></li>
+                        <li class="col-lg-6 col-12 p-0"><a href="<?= $pathindex ?>realizzazioni">Realizzazioni</a></li>
+                        <li class="col-lg-6 col-12 p-0"><a href="<?= $pathindex ?>motorsport">Motorsport</a></li>
+                        <li class="col-lg-6 col-12 p-0"><a href="<?= $pathindex ?>lavora-con-noi">Lavora con noi</a></li>
+                        <li class="col-lg-6 col-12 p-0"><a href="<?= $pathindex ?>contatti">Contatti</a></li>
                     </ul>
                 </div>
                 <!-- Footer Links End -->
             </div>
 
-            <div class="col-lg-2 col-md-4 col-6">
+            <div class="col-lg-3 col-md-4 col-12">
                 <!-- Footer Links Start -->
                 <div class="footer-links">
                     <span class="footer-title">Su di noi</span>

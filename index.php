@@ -48,35 +48,89 @@ $heightseo = "115";
 
     <!-- ==================== End Navbar ==================== -->
 
-    <section class="hero parallaxie">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <!-- Hero Content Start -->
-                    <div class="hero-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title dark-section">
-                            <span class="wow fadeInUp label">Dvf vi dà il benvenuto</span>
-                            <h1 class="text-anime-style-2" data-cursor="-opaque">Excellence innovating <span>industry for today</span></h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">At the heart of our operations is a commitment to delivering superior products through cutting-edge technology and innovative processes. </p>
+    <!-- Hero Section Start -->
+    <div class="hero hero-slider-layout">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Hero Slide Start -->
+                <div class="swiper-slide">
+                    <div class="hero-slide">
+                        <!-- Slider Image Start -->
+                        <div class="hero-slider-image">
+                            <img src="images/hero-bg.jpg" alt="">
                         </div>
-                        <!-- Section Title End -->
+                        <!-- Slider Image End -->
 
-                        <!-- Hero Button Start -->
-                        <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="<?= $pathindex ?>azienda" class="btn-default"><span>Scopri di più</span></a>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <!-- Hero Content Start -->
+                                    <div class="hero-content">
+                                        <!-- Section Title Start -->
+                                        <div class="section-title dark-section">
+                                            <span class="wow fadeInUp label">su di noi</span>
+                                            <h1 class="text-anime-style-2" data-cursor="-opaque">Excellence innovating <span>industry for today</span></h1>
+                                            <p class="wow fadeInUp" data-wow-delay="0.25s">At the heart of our operations is a commitment to delivering superior products through cutting-edge technology and innovative processes. </p>
+                                        </div>
+                                        <!-- Section Title End -->
+
+                                        <!-- Hero Button Start -->
+                                        <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
+                                            <a href="contact.html" class="btn-default"><span>explore more</span></a>
+                                        </div>
+                                        <!-- Hero Button End -->
+                                    </div>
+                                    <!-- Hero Content End -->
+                                </div>
+                            </div>
                         </div>
-                        <!-- Hero Button End -->
                     </div>
-                    <!-- Hero Content End -->
                 </div>
+                <!-- Hero Slide End -->
+
+                <!-- Hero Slide Start -->
+                <div class="swiper-slide">
+                    <div class="hero-slide">
+                        <!-- Slider Image Start -->
+                        <div class="hero-slider-image">
+                            <img src="images/hero-bg-2.jpg" alt="">
+                        </div>
+                        <!-- Slider Image End -->
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <!-- Hero Content Start -->
+                                    <div class="hero-content">
+                                        <!-- Section Title Start -->
+                                        <div class="section-title dark-section">
+                                            <span class="wow fadeInUp label">su di noi</span>
+                                            <h1 class="text-anime-style-2" data-cursor="-opaque">Excellence innovating <span>industry for today</span></h1>
+                                            <p class="wow fadeInUp" data-wow-delay="0.25s">At the heart of our operations is a commitment to delivering superior products through cutting-edge technology and innovative processes. </p>
+                                        </div>
+                                        <!-- Section Title End -->
+
+                                        <!-- Hero Button Start -->
+                                        <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
+                                            <a href="contact.html" class="btn-default"><span>explore more</span></a>
+                                        </div>
+                                        <!-- Hero Button End -->
+                                    </div>
+                                    <!-- Hero Content End -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hero Slide End -->
             </div>
+            <div class="hero-pagination"></div>
         </div>
-    </section>
+    </div>
     <!-- Hero Section End -->
 
     <!-- About Us Start -->
-    <section class="about-us">
+    <section class="about-us pb-0">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -148,7 +202,7 @@ $heightseo = "115";
     <!-- About Us End -->
 
     <!-- Our Service List Start -->
-    <section class="our-services-list mt-5">
+    <section class="our-services-list mt-3 mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -165,7 +219,7 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-footer">
-                                <a href="<?= $pathindex ?>parco-macchine" class="service-btn">
+                                <a href="<?= $pathindex ?>azienda#what-we-do" class="service-btn">
                                     <img src="<?= $pathindex ?>assets/images/global/recapiti/arrow-white.svg" alt="immagine freccia">
                                 </a>
                             </div>
@@ -329,14 +383,14 @@ $heightseo = "115";
     <!-- What We Do End -->
 
     <!-- Start CTA -->
-    <section class="bg-accent text-white py-5">
+    <section class="bg-accent text-white py-3 py-lg-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12 text-center text-lg-start">
                     <span class="h2">Ti abbiamo convinto? <br>Richiedi un preventivo</span>
                 </div>
-                <div class="col-lg-6 col-12 d-flex align-items-center mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
-                    <a class="h2" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
+                <div class="col-lg-6 col-12 d-flex align-items-start mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
+                    <a class="h2 font-bold" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
                 </div>
             </div>
         </div>
@@ -360,6 +414,9 @@ $heightseo = "115";
                     <!-- Section Title Content Start -->
                     <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
                         <p>Lavoriamo con la massima serietà e dedizione: i componenti meccanici che produciamo vogliono essere sinonimo di qualità.</p>
+                    </div>
+                    <div class="hero-btn wow fadeInUp section-title-content mt-4" data-wow-delay="0.4s">
+                        <a href="<?= $pathindex ?>realizzazioni" class="btn-default"><span>Scopri di più</span></a>
                     </div>
                     <!-- Section Title Content End -->
                 </div>
@@ -472,14 +529,14 @@ $heightseo = "115";
     </section>
     <!-- Our Process Section End -->
     <!-- Start CTA -->
-    <section class="bg-accent text-white py-5">
+    <section class="bg-accent text-white py-3 py-lg-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-center text-lg-start">
                     <span class="h2">Hai un progetto da sviluppare? <br>Contattaci adesso</span>
                 </div>
-                <div class="col-lg-6 d-flex align-items-center mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
-                    <a class="h2" href="tel:+390445641300">+390445641300</a>
+                <div class="col-lg-6 d-flex align-items-start mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
+                    <a class="h2 font-bold" href="tel:+390445641300">+390445641300</a>
                 </div>
             </div>
         </div>
@@ -500,6 +557,23 @@ $heightseo = "115";
     <script src="<?= $pathindex ?>assets/js/jquery.slicknav.js"></script>
     <!-- Swiper js file -->
     <script src="<?= $pathindex ?>assets/js/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var heroSwiper = new Swiper('.hero-swiper', {
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                effect: 'slide',
+                speed: 800,
+            });
+        });
+    </script>
     <!-- Counter js file -->
     <script src="<?= $pathindex ?>assets/js/jquery.waypoints.min.js"></script>
     <script src="<?= $pathindex ?>assets/js/jquery.counterup.min.js"></script>

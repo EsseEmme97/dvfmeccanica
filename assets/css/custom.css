@@ -412,6 +412,10 @@ footer li, footer p {
 	font-size: 15px;
 }
 
+.font-bold{
+  font-weight: 700!important;
+}
+
 figure {
   margin: 0;
 }
@@ -596,7 +600,7 @@ body {
 
 .btn-default:hover span {
   background-color: transparent;
-  color: var(--primary-color);
+  color: var(--white-color);
 }
 
 .btn-default span::after {
@@ -2740,6 +2744,7 @@ header.main-header .header-sticky.active {
 
 .our-mission-vision {
   position: relative;
+  padding-bottom: 30px;
 }
 
 .mission-vision-bg {
@@ -6444,7 +6449,7 @@ header.main-header .header-sticky.active {
   .mission-vision-nav ul li .nav-link {
     display: grid;
     justify-content: center;
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px;
   }
 

@@ -143,7 +143,7 @@ $heightseo = "115";
     <!-- About Us End -->
 
     <!-- Our History Section Start -->
-    <section class="our-history">
+    <section class="our-history pt-0">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-lg-6">
@@ -371,7 +371,7 @@ $heightseo = "115";
             <div class="row">
                 <div class="col-lg-12">
                     <!-- Mission Vision Box Start -->
-                    <div class="mission-vision-box tab-content wow fadeInUp" data-wow-delay="0.25s" id="missionvision">
+                    <div class="mission-vision-box tab-content wow fadeInUp bg-white" data-wow-delay="0.25s" id="missionvision">
                         <!-- Sidebar Mission Vision Nav start -->
                         <div class="mission-vision-nav">
                             <ul class="nav nav-tabs" id="mvTab" role="tablist">
@@ -599,7 +599,7 @@ $heightseo = "115";
     <!-- Our Features Section End -->
      
     <!-- What We Do Start -->
-    <div class="what-we-do">
+    <div id="what-we-do" class="what-we-do">
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-lg-6">

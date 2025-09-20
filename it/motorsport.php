@@ -62,6 +62,9 @@ $heightseo = "115";
 								<li class="breadcrumb-item active" aria-current="page">Motorsport</li>
 							</ol>
 						</nav>
+						<div class="about-content-btn wow fadeInUp mt-5" data-wow-delay="0.75s">
+							<a href="<?= $pathindex ?>azienda" class="btn-default"><span>Scopri di più</span></a>
+						</div>
 					</div>
 					<!-- Page Header Box End -->
 				</div>
@@ -280,51 +283,51 @@ $heightseo = "115";
 	<!-- Our Features Section End -->
 
 	<!-- Our Work Section Start -->
-    <section class="our-work">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <span class="wow fadeInUp label text-black">Cosa facciamo</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
+	<section class="our-work">
+		<div class="container">
+			<div class="row section-row align-items-center">
+				<div class="col-lg-6">
+					<!-- Section Title Start -->
+					<div class="section-title">
+						<span class="wow fadeInUp label text-black">Cosa facciamo</span>
+						<h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
+					</div>
+					<!-- Section Title End -->
+				</div>
 
-                <div class="col-lg-6">
-                    <!-- Section Title Content Start -->
-                    <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                        <p>Lavoriamo con la massima serietà e dedizione: i componenti meccanici che produciamo vogliono essere sinonimo di qualità.</p>
-                    </div>
-                    <!-- Section Title Content End -->
-                </div>
-            </div>
+				<div class="col-lg-6">
+					<!-- Section Title Content Start -->
+					<div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
+						<p>Lavoriamo con la massima serietà e dedizione: i componenti meccanici che produciamo vogliono essere sinonimo di qualità.</p>
+					</div>
+					<!-- Section Title Content End -->
+				</div>
+			</div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Project Item Boxes start -->
-                    <div class="row project-item-boxes align-items-center">
-                        <? for ($i = 1; $i <= 4; $i++): ?>
-                            <div class="col-md-6 project-item-box manufacturing automation">
-                                <!-- Project Item Start -->
-                                <div class="project-item wow fadeInUp">
-                                    <div class="project-image">
-                                        <figure class="image-anime">
-                                            <img src="https://placehold.co/600x400" alt="immagine realizzazione">
-                                        </figure>
-                                    </div>
-                                </div>
-                                <!-- Project Item End -->
-                            </div>
-                        <? endfor; ?>
-                    </div>
-                    <!-- Project Item Boxes End -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Our Work Section End -->
+			<div class="row">
+				<div class="col-lg-12">
+					<!-- Project Item Boxes start -->
+					<div class="row project-item-boxes align-items-center">
+						<? for ($i = 1; $i <= 4; $i++): ?>
+							<div class="col-md-6 project-item-box manufacturing automation">
+								<!-- Project Item Start -->
+								<div class="project-item wow fadeInUp">
+									<div class="project-image">
+										<figure class="image-anime">
+											<img src="https://placehold.co/600x400" alt="immagine realizzazione">
+										</figure>
+									</div>
+								</div>
+								<!-- Project Item End -->
+							</div>
+						<? endfor; ?>
+					</div>
+					<!-- Project Item Boxes End -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Our Work Section End -->
 	<!-- ==================== Start Footer ==================== -->
 	<? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>
 	<!-- ==================== End Footer ==================== -->

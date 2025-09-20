@@ -119,9 +119,9 @@ $heightseo = "115";
     </section>
     <!-- Our Work Section End -->
 
-	 <section class="our-history">
+	 <section class="our-history p-0">
         <div class="container">
-            <div class="row section-row align-items-center">
+            <div class="row section-row">
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
@@ -140,7 +140,7 @@ $heightseo = "115";
                 </div>
             </div>
 
-			<div class="row page-services">
+			<div class="row page-services pt-0">
 				<? for($i=0; $i<8; $i++): ?>
                 <div class="col-lg-3 col-md-6">
                     <!-- Service Item Start -->
@@ -159,7 +159,7 @@ $heightseo = "115";
 	 <!-- Our Work Section Start -->
     <section class="our-work pt-0">
         <div class="container">
-            <div class="row section-row align-items-center">
+            <div class="row section-row">
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">

@@ -49,7 +49,7 @@ $heightseo = "115";
 	<!-- ==================== End Navbar ==================== -->
 
 	<!-- Page Header Start -->
-	<section class="page-header parallaxie">
+	<section class="page-header parallaxie" style="background-image: url('<?= $pathindex ?>assets/images/immagini/parco macchine/parco_macchine-header.webp');">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-12">
@@ -95,17 +95,18 @@ $heightseo = "115";
                 <div class="col-lg-12">
                     <!-- Project Item Boxes start -->
                     <div class="row project-item-boxes align-items-center">
-                        <? for ($i = 1; $i <= 8; $i++): ?>
+                        <? $imagesPaths= scandir("../assets/images/immagini/parco macchine/") ?>
+                        <? for ($i = 0; $i < 14; $i++): ?>
                             <div class="col-md-6 project-item-box manufacturing automation">
                                 <!-- Project Item Start -->
                                 <div class="project-item wow fadeInUp">
                                     <div class="project-image">
                                         <figure class="image-anime">
-                                            <img src="https://placehold.co/600x400" alt="immagine realizzazione">
+                                            <img src="<?= $imagesPaths[$i] ?>" alt="immagine realizzazione">
                                         </figure>
                                     </div>
                                     <div class="project-content">
-                                        <a href="<?= $pathindex ?>/parco-macchine">Macchinario nr.<?= $i ?></a>
+                                        <a href="<?= $pathindex ?>/parco-macchine">Macchinario nr.<?= $i +1 ?></a>
                                     </div>
                                 </div>
                                 <!-- Project Item End -->

@@ -4896,6 +4896,13 @@ header.main-header .header-sticky.active {
   transform: scale(1);
 }
 
+blockquote {
+  font-size: 24px;
+  width: 750px;
+  line-height: 1.6;
+  text-align: center;
+}
+
 .contact-info-item .icon-box img {
   position: relative;
   max-width: 30px;

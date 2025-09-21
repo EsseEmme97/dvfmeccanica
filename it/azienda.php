@@ -49,7 +49,7 @@ $heightseo = "115";
     <!-- ==================== End Navbar ==================== -->
 
     <!-- Page Header Start -->
-    <section class="page-header parallaxie">
+    <section class="page-header parallaxie" style="background-image: url('<?= $pathindex ?>/assets/images/immagini/azienda/azienda-header.webp');">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -80,7 +80,7 @@ $heightseo = "115";
                         <!-- About Image Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="https://placehold.co/332x232" alt="immagine servizio">
+                                <img src="<?= $pathindex ?>assets/images/immagini/azienda/azienda-intro-1.webp" alt="immagine servizio">
                             </figure>
                         </div>
                         <!-- About Image End -->
@@ -88,7 +88,7 @@ $heightseo = "115";
                         <!-- About Image Start -->
                         <div class="about-img-2">
                             <figure class="image-anime reveal">
-                                <img src="https://placehold.co/396x464" alt="immagine servizio">
+                                <img src="<?= $pathindex ?>assets/images/immagini/azienda/azienda-intro-2.webp" alt="immagine servizio">
                             </figure>
                         </div>
                         <!-- About Image End -->
@@ -210,7 +210,7 @@ $heightseo = "115";
                                     <!-- Our History Image Start -->
                                     <div class="our-history-image">
                                         <figure class="image-anime">
-                                            <img src="https://placehold.co/414x396" alt="immagine azienda">
+                                            <img src="<?= $pathindex ?>assets/images/immagini/azienda/timeline-1.webp" alt="immagine azienda">
                                         </figure>
                                     </div>
                                     <!-- Our History Image End -->
@@ -239,7 +239,7 @@ $heightseo = "115";
                                     <!-- Our History Image Start -->
                                     <div class="our-history-image">
                                         <figure class="image-anime">
-                                            <img src="https://placehold.co/414x396" alt="immagine azienda">
+                                            <img src="<?= $pathindex ?>assets/images/immagini/azienda/timeline-2.webp" alt="immagine azienda">
                                         </figure>
                                     </div>
                                     <!-- Our History Image End -->
@@ -268,7 +268,7 @@ $heightseo = "115";
                                     <!-- Our History Image Start -->
                                     <div class="our-history-image">
                                         <figure class="image-anime">
-                                            <img src="https://placehold.co/414x396" alt="immagine azienda">
+                                            <img src="<?= $pathindex ?>assets/images/immagini/azienda/timeline-3.webp" alt="immagine azienda">
                                         </figure>
                                     </div>
                                     <!-- Our History Image End -->
@@ -297,7 +297,7 @@ $heightseo = "115";
                                     <!-- Our History Image Start -->
                                     <div class="our-history-image">
                                         <figure class="image-anime">
-                                            <img src="https://placehold.co/414x396" alt="immagine azienda">
+                                            <img src="<?= $pathindex ?>assets/images/immagini/azienda/timeline-4.webp" alt="immagine azienda">
                                         </figure>
                                     </div>
                                     <!-- Our History Image End -->
@@ -326,7 +326,7 @@ $heightseo = "115";
                                     <!-- Our History Image Start -->
                                     <div class="our-history-image">
                                         <figure class="image-anime">
-                                            <img src="https://placehold.co/414x396" alt="immagine azienda">
+                                            <img src="<?= $pathindex ?>assets/images/immagini/azienda/timeline-5.webp" alt="immagine azienda">
                                         </figure>
                                     </div>
                                     <!-- Our History Image End -->
@@ -344,7 +344,7 @@ $heightseo = "115";
 
     <!-- Our Mission Vision Section Start -->
     <section class="our-mission-vision">
-        <div class="mission-vision-bg parallaxie">
+        <div class="mission-vision-bg parallaxie" style="background-image: url('<?= $pathindex ?>assets/images/immagini/azienda/azienda-parallax.webp');">
             <div class="container">
                 <div class="row section-row align-items-center">
                     <div class="col-lg-6">
@@ -414,7 +414,7 @@ $heightseo = "115";
                                     <!-- Mission Vision Image Start -->
                                     <div class="mission-vision-image">
                                         <figure class="image-anime">
-                                            <img src="https://placehold.co/556x350" alt="immagine missione aziendale">
+                                            <img src="<?= $pathindex ?>assets/images/immagini/azienda/azienda-amministrazione.webp" alt="immagine missione aziendale">
                                         </figure>
                                     </div>
                                     <!-- Mission Vision Image End -->
@@ -449,7 +449,7 @@ $heightseo = "115";
                                     <!-- Mission Vision Image Start -->
                                     <div class="mission-vision-image">
                                         <figure class="image-anime">
-                                            <img src="https://placehold.co/556x350" alt="immagine visione aziendale">
+                                            <img src="<?= $pathindex ?>assets/images/immagini/azienda/azienda-acquisti.webp" alt="immagine visione aziendale">
                                         </figure>
                                     </div>
                                     <!-- Mission Vision Image End -->
@@ -484,7 +484,7 @@ $heightseo = "115";
                                     <!-- Mission Vision Image Start -->
                                     <div class="mission-vision-image">
                                         <figure class="image-anime">
-                                            <img src="https://placehold.co/556x350" alt="immagine valori aziendali">
+                                            <img src="<?= $pathindex ?>assets/images/immagini/azienda/azienda-produzione.webp" alt="immagine valori aziendali">
                                         </figure>
                                     </div>
                                     <!-- Mission Vision Image End -->
@@ -587,7 +587,7 @@ $heightseo = "115";
                     <!-- Our Features Item Start -->
                     <div class="our-features-item features-image-box">
                         <figure class="image-anime">
-                            <img src="https://placehold.co/648x308" alt="immagine lavorazione">
+                            <img src="<?= $pathindex ?>assets/images/immagini/azienda/azienda-focus.webp" alt="immagine lavorazione">
                         </figure>
                     </div>
                     <!-- Our Features Item End -->
@@ -675,7 +675,7 @@ $heightseo = "115";
                     <!-- What We Do Image Start -->
                     <div class="what-we-do-image">
                         <figure class="image-anime">
-                            <img src="https://placehold.co/946x1020" alt="immagine prodotto">
+                            <img src="<?= $pathindex ?>assets/images/immagini/azienda/azienda-dettaglio_settori.webp" alt="immagine prodotto">
                         </figure>
                         <!-- What We Do Image End -->
                     </div>
@@ -692,8 +692,8 @@ $heightseo = "115";
                 <div class="col-lg-6 text-center text-lg-start">
                     <span class="h2">Macchine all'avanguardia <br>per ogni esigenza</span>
                 </div>
-                <div class="col-lg-6 d-flex align-items-center mt-lg-0 mt-5 text-center text-lg-start">
-                    <a class="h2 scale-animation" href="<?= $pathindex ?>parco-macchine">Scopri il nostro parco macchine</a>
+                <div class="col-lg-6 d-flex mt-lg-0 mt-5 text-center text-lg-start">
+                    <a class="h2 scale-animation fw-bold" href="<?= $pathindex ?>parco-macchine">Scopri il nostro parco macchine</a>
                 </div>
             </div>
         </div>

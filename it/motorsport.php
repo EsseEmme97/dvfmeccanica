@@ -74,15 +74,17 @@ $heightseo = "115";
 	<!-- Page Header End -->
 
 	<section class="py-5">
-		<div class="container">
-			<span class="h2">Correre veloci verso l'obbiettivo, al fianco di sognatori, pionieri e campioni... Determinazione, dedizione, concentrazione e voglia di vincere ci hanno fatto fare tanta strada in 30 anni di sfide. Accontentarsi? MAI</span>
+		<div class="container d-flex justify-content-center">
+			<blockquote class="wow fadeInUp">
+				Correre veloci verso l'obbiettivo, al fianco di sognatori, pionieri e campioni... Determinazione, dedizione, concentrazione e voglia di vincere ci hanno fatto fare tanta strada in 30 anni di sfide. Accontentarsi? MAI
+			</blockquote>
 		</div>
 	</section>
 
 	<!-- Our Story Start -->
-	<section class="our-story">
+	<section class="our-story pt-0">
 		<div class="container">
-			<div class="row section-row align-items-center">
+			<div class="row section-row">
 				<div class="col-lg-6">
 					<!-- Section Title Start -->
 					<div class="section-title">

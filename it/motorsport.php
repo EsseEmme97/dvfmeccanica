@@ -49,7 +49,7 @@ $heightseo = "115";
 	<!-- ==================== End Navbar ==================== -->
 
 	<!-- Page Header Start -->
-	<section class="page-header parallaxie">
+	<section class="page-header parallaxie motorsport">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-12">
@@ -72,6 +72,12 @@ $heightseo = "115";
 		</div>
 	</section>
 	<!-- Page Header End -->
+
+	<section class="py-5">
+		<div class="container">
+			<span class="h2">Correre veloci verso l'obbiettivo, al fianco di sognatori, pionieri e campioni... Determinazione, dedizione, concentrazione e voglia di vincere ci hanno fatto fare tanta strada in 30 anni di sfide. Accontentarsi? MAI</span>
+		</div>
+	</section>
 
 	<!-- Our Story Start -->
 	<section class="our-story">
@@ -140,51 +146,9 @@ $heightseo = "115";
 							</div>
 							<!-- Our Story Counter End -->
 						</div>
-
-						<!-- Our Story Intro Video Start -->
-						<div class="our-story-intro-video">
-							<!-- Our Story Client Image Start -->
-							<div class="our-story-client-img">
-								<!-- Client Image Start -->
-								<div class="client-image">
-									<figure class="image-anime reveal">
-										<img src="images/story-client-img-1.jpg" alt="">
-									</figure>
-								</div>
-								<!-- Client Image End -->
-
-								<!-- Client Image Start -->
-								<div class="client-image">
-									<figure class="image-anime reveal">
-										<img src="images/story-client-img-2.jpg" alt="">
-									</figure>
-								</div>
-								<!-- Client Image End -->
-
-								<!-- Client Image Start -->
-								<div class="client-image">
-									<figure class="image-anime reveal">
-										<img src="images/story-client-img-3.jpg" alt="">
-									</figure>
-								</div>
-								<!-- Client Image End -->
-							</div>
-							<!-- Our Story Client Image End -->
-
-							<!-- Intro Video Box Start -->
-							<div class="intro-video-box">
-								<!-- Video Play Button Start -->
-								<div class="video-play-button">
-									<a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
-										<i class="fa-solid fa-play"></i>
-									</a>
-									<p>watch intro</p>
-								</div>
-								<!-- Video Play Button End -->
-							</div>
-							<!-- Intro Video Box End -->
+						<div class="our-story-content-btn mt-4">
+							<a href="<?= $pathindex ?>azienda" class="btn-default"><span>Guarda il video</span></a>
 						</div>
-						<!-- Our Story Intro Video End -->
 					</div>
 				</div>
 			</div>
@@ -199,8 +163,8 @@ $heightseo = "115";
 				<div class="col-lg-6 text-center">
 					<span class="h2">La nostra esperienza<br>al tuo servizio</span>
 				</div>
-				<div class="col-lg-6 d-flex mt-5 align-items-center justify-content-center justify-content-lg-start">
-					<a class="h2" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
+				<div class="col-lg-6 d-flex mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
+					<a class="h2 fw-bold" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
 				</div>
 			</div>
 		</div>
@@ -283,7 +247,7 @@ $heightseo = "115";
 	<!-- Our Features Section End -->
 
 	<!-- Our Work Section Start -->
-	<section class="our-work">
+	<section class="our-work pt-0">
 		<div class="container">
 			<div class="row section-row align-items-center">
 				<div class="col-lg-6">

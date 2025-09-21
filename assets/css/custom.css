@@ -2731,6 +2731,10 @@ header.main-header .header-sticky.active {
   color: var(--accent-color);
 }
 
+.motorsport{
+  min-height: 568px;
+}
+
 .page-header-box ol .breadcrumb-item + .breadcrumb-item::before {
   content: "\f111";
   font-family: "FontAwesome";
@@ -5019,6 +5023,10 @@ header.main-header .header-sticky.active {
 
   .topbar {
     padding: 15px 0;
+  }
+
+  .motorsport{
+    min-height: fit-content;
   }
 
   .site-logo {

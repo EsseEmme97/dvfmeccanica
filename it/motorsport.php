@@ -49,7 +49,7 @@ $heightseo = "115";
 	<!-- ==================== End Navbar ==================== -->
 
 	<!-- Page Header Start -->
-	<section class="page-header parallaxie">
+	<section class="page-header parallaxie motorsport">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-12">
@@ -62,6 +62,9 @@ $heightseo = "115";
 								<li class="breadcrumb-item active" aria-current="page">Motorsport</li>
 							</ol>
 						</nav>
+						<div class="about-content-btn wow fadeInUp mt-5" data-wow-delay="0.75s">
+							<a href="<?= $pathindex ?>azienda" class="btn-default"><span>Scopri di più</span></a>
+						</div>
 					</div>
 					<!-- Page Header Box End -->
 				</div>
@@ -70,10 +73,18 @@ $heightseo = "115";
 	</section>
 	<!-- Page Header End -->
 
+	<section class="py-5">
+		<div class="container d-flex justify-content-center">
+			<blockquote class="wow fadeInUp">
+				Correre veloci verso l'obbiettivo, al fianco di sognatori, pionieri e campioni... Determinazione, dedizione, concentrazione e voglia di vincere ci hanno fatto fare tanta strada in 30 anni di sfide. Accontentarsi? MAI
+			</blockquote>
+		</div>
+	</section>
+
 	<!-- Our Story Start -->
-	<section class="our-story">
+	<section class="our-story pt-0">
 		<div class="container">
-			<div class="row section-row align-items-center">
+			<div class="row section-row">
 				<div class="col-lg-6">
 					<!-- Section Title Start -->
 					<div class="section-title">
@@ -137,51 +148,9 @@ $heightseo = "115";
 							</div>
 							<!-- Our Story Counter End -->
 						</div>
-
-						<!-- Our Story Intro Video Start -->
-						<div class="our-story-intro-video">
-							<!-- Our Story Client Image Start -->
-							<div class="our-story-client-img">
-								<!-- Client Image Start -->
-								<div class="client-image">
-									<figure class="image-anime reveal">
-										<img src="images/story-client-img-1.jpg" alt="">
-									</figure>
-								</div>
-								<!-- Client Image End -->
-
-								<!-- Client Image Start -->
-								<div class="client-image">
-									<figure class="image-anime reveal">
-										<img src="images/story-client-img-2.jpg" alt="">
-									</figure>
-								</div>
-								<!-- Client Image End -->
-
-								<!-- Client Image Start -->
-								<div class="client-image">
-									<figure class="image-anime reveal">
-										<img src="images/story-client-img-3.jpg" alt="">
-									</figure>
-								</div>
-								<!-- Client Image End -->
-							</div>
-							<!-- Our Story Client Image End -->
-
-							<!-- Intro Video Box Start -->
-							<div class="intro-video-box">
-								<!-- Video Play Button Start -->
-								<div class="video-play-button">
-									<a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
-										<i class="fa-solid fa-play"></i>
-									</a>
-									<p>watch intro</p>
-								</div>
-								<!-- Video Play Button End -->
-							</div>
-							<!-- Intro Video Box End -->
+						<div class="our-story-content-btn mt-4">
+							<a href="<?= $pathindex ?>azienda" class="btn-default"><span>Guarda il video</span></a>
 						</div>
-						<!-- Our Story Intro Video End -->
 					</div>
 				</div>
 			</div>
@@ -196,8 +165,8 @@ $heightseo = "115";
 				<div class="col-lg-6 text-center">
 					<span class="h2">La nostra esperienza<br>al tuo servizio</span>
 				</div>
-				<div class="col-lg-6 d-flex mt-5 align-items-center justify-content-center justify-content-lg-start">
-					<a class="h2" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
+				<div class="col-lg-6 d-flex mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
+					<a class="h2 fw-bold" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
 				</div>
 			</div>
 		</div>
@@ -280,51 +249,51 @@ $heightseo = "115";
 	<!-- Our Features Section End -->
 
 	<!-- Our Work Section Start -->
-    <section class="our-work">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <span class="wow fadeInUp label text-black">Cosa facciamo</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
+	<section class="our-work pt-0">
+		<div class="container">
+			<div class="row section-row align-items-center">
+				<div class="col-lg-6">
+					<!-- Section Title Start -->
+					<div class="section-title">
+						<span class="wow fadeInUp label text-black">Cosa facciamo</span>
+						<h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
+					</div>
+					<!-- Section Title End -->
+				</div>
 
-                <div class="col-lg-6">
-                    <!-- Section Title Content Start -->
-                    <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                        <p>Lavoriamo con la massima serietà e dedizione: i componenti meccanici che produciamo vogliono essere sinonimo di qualità.</p>
-                    </div>
-                    <!-- Section Title Content End -->
-                </div>
-            </div>
+				<div class="col-lg-6">
+					<!-- Section Title Content Start -->
+					<div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
+						<p>Lavoriamo con la massima serietà e dedizione: i componenti meccanici che produciamo vogliono essere sinonimo di qualità.</p>
+					</div>
+					<!-- Section Title Content End -->
+				</div>
+			</div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Project Item Boxes start -->
-                    <div class="row project-item-boxes align-items-center">
-                        <? for ($i = 1; $i <= 4; $i++): ?>
-                            <div class="col-md-6 project-item-box manufacturing automation">
-                                <!-- Project Item Start -->
-                                <div class="project-item wow fadeInUp">
-                                    <div class="project-image">
-                                        <figure class="image-anime">
-                                            <img src="https://placehold.co/600x400" alt="immagine realizzazione">
-                                        </figure>
-                                    </div>
-                                </div>
-                                <!-- Project Item End -->
-                            </div>
-                        <? endfor; ?>
-                    </div>
-                    <!-- Project Item Boxes End -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Our Work Section End -->
+			<div class="row">
+				<div class="col-lg-12">
+					<!-- Project Item Boxes start -->
+					<div class="row project-item-boxes align-items-center">
+						<? for ($i = 1; $i <= 4; $i++): ?>
+							<div class="col-md-6 project-item-box manufacturing automation">
+								<!-- Project Item Start -->
+								<div class="project-item wow fadeInUp">
+									<div class="project-image">
+										<figure class="image-anime">
+											<img src="https://placehold.co/600x400" alt="immagine realizzazione">
+										</figure>
+									</div>
+								</div>
+								<!-- Project Item End -->
+							</div>
+						<? endfor; ?>
+					</div>
+					<!-- Project Item Boxes End -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Our Work Section End -->
 	<!-- ==================== Start Footer ==================== -->
 	<? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>
 	<!-- ==================== End Footer ==================== -->

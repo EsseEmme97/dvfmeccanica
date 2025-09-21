@@ -124,9 +124,9 @@ $heightseo = "115";
 	<!-- end page job opportunities -->
 
 	<!-- Page Contact Us Start -->
-    <div class="page-contact-us">
+    <div class="page-contact-us pt-0">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row">
                 <div class="col-lg-5">
                     <!-- Contact Information Start -->
                     <div class="contact-information">

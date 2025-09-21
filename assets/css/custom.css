@@ -2735,6 +2735,10 @@ header.main-header .header-sticky.active {
   color: var(--accent-color);
 }
 
+.motorsport{
+  min-height: 568px;
+}
+
 .page-header-box ol .breadcrumb-item + .breadcrumb-item::before {
   content: "\f111";
   font-family: "FontAwesome";
@@ -4897,6 +4901,13 @@ header.main-header .header-sticky.active {
   transform: scale(1);
 }
 
+blockquote {
+  font-size: 24px;
+  width: 750px;
+  line-height: 1.6;
+  text-align: center;
+}
+
 .contact-info-item .icon-box img {
   position: relative;
   max-width: 30px;
@@ -5024,6 +5035,10 @@ header.main-header .header-sticky.active {
 
   .topbar {
     padding: 15px 0;
+  }
+
+  .motorsport{
+    min-height: fit-content;
   }
 
   .site-logo {

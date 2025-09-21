@@ -49,7 +49,7 @@ $heightseo = "115";
 	<!-- ==================== End Navbar ==================== -->
 
 	<!-- Page Header Start -->
-	<section class="page-header parallaxie">
+	<section class="page-header parallaxie" style="background-image: url('<?= $pathindex ?>assets/images/immagini/qualita/qualita-header.webp');">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-12">
@@ -97,7 +97,7 @@ $heightseo = "115";
 					<!-- Our Process Image Start -->
 					<div class="our-process-image">
 						<figure class="image-anime reveal">
-							<img src="https://placehold.co/594x550" alt="immagine lavoro svolto">
+							<img src="<?= $pathindex ?>assets/images/immagini/qualita/qualita-img.jpg" alt="immagine lavoro svolto">
 						</figure>
 					</div>
 					<!-- Our Process Image End -->
@@ -183,7 +183,7 @@ $heightseo = "115";
 					<!-- Project Query Image Start -->
 					<div class="project-query-img">
 						<figure class="image-anime reveal">
-							<img src="https://placehold.co/414x300" alt="">
+							<img src="<?= $pathindex ?>assets/images/immagini/qualita/qualita-iso9001.webp" alt="immagine lavoro svolto">
 						</figure>
 					</div>
 					<!-- Project Query Image End -->
@@ -202,7 +202,7 @@ $heightseo = "115";
 					<!-- Project Query Image Start -->
 					<div class="project-query-img">
 						<figure class="image-anime reveal">
-							<img src="https://placehold.co/414x300" alt="">
+							<img src="<?= $pathindex ?>assets/images/immagini/qualita/qualita-fotovoltaico.webp" alt="immagine fotovoltaico">
 						</figure>
 					</div>
 					<!-- Project Query Image End -->
@@ -220,7 +220,7 @@ $heightseo = "115";
 					<!-- Project Query Image Start -->
 					<div class="project-query-img">
 						<figure class="image-anime reveal">
-							<img src="https://placehold.co/414x300" alt="">
+							<img src="<?= $pathindex ?>assets/images/immagini/qualita/qualita-aspirazione.webp" alt="immagine aspirazione">
 						</figure>
 					</div>
 					<!-- Project Query Image End -->
@@ -238,7 +238,7 @@ $heightseo = "115";
 				<div class="col-lg-6 text-center text-lg-start">
 					<span class="h2">Hai un progetto da sviluppare? <br>Contattaci adesso</span>
 				</div>
-				<div class="col-lg-6 d-flex justify-content-center justify-content-lg-start mt-5 mt-lg-0 align-items-center">
+				<div class="col-lg-6 d-flex justify-content-center justify-content-lg-start fw-600 mt-5 mt-lg-0">
 					<a class="h2" href="tel:+390445641300">+390445641300</a>
 				</div>
 			</div>

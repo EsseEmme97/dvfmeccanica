@@ -118,7 +118,7 @@ $heightseo = "115";
                                 </div>
                                 <div class="contact-info-content">
                                     <span>Indirizzo</span>
-                                    <p>Via delle Prese, 26 36014 Santorso (VI)</p>
+                                    <p>Via delle Prese, 26 - 36014 Santorso (VI)</p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->

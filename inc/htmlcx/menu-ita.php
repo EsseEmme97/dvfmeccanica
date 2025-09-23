@@ -14,7 +14,7 @@ function setActiveLink($pages)
 <div class="preloader">
     <div class="loading-container">
         <div class="loading"></div>
-        <div id="loading-icon"><img src="<?= $pathindex ?>assets/images/global/logo/logo/DVF-logo_neg.svg" alt="logo"></div>
+        <div id="loading-icon"><img src="<?= $pathindex ?>assets/images/global/logo/logo/DVF-logo_header.svg" alt="logo"></div>
     </div>
 </div>
 <!-- Preloader End -->
@@ -26,7 +26,7 @@ function setActiveLink($pages)
             <div class="container">
                 <!-- Logo Start -->
                 <a class="navbar-brand" href="<?= $pathindex ?>">
-                    <img src="<?= $pathindex ?>assets/images/global/logo/logo/DVF-logo_neg.svg" alt="Logo">
+                    <img src="<?= $pathindex ?>assets/images/global/logo/logo/DVF-logo_header.svg" alt="Logo">
                 </a>
                 <!-- Logo End -->
 

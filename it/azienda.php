@@ -123,9 +123,9 @@ $heightseo = "115";
                             <div class="row align-items-center">
                                 <div class="col-md-6">
                                     <!-- About List Btn Box Start -->
-                                    <div class="about-list-btn">
+                                    <div class="about-list-btn mb-0">
                                         <!-- About Content Btn Start -->
-                                        <div class="about-content-btn wow fadeInUp" data-wow-delay="0.75s">
+                                        <div class="about-content-btn wow fadeInUp " data-wow-delay="0.75s">
                                             <a href="<?= $pathindex ?>azienda" class="btn-default"><span>Scopri di più</span></a>
                                         </div>
                                         <!-- About Content Btn End -->
@@ -686,7 +686,7 @@ $heightseo = "115";
     <!-- What We Do End -->
 
     <!-- Start CTA -->
-    <section class="bg-accent text-white py-5">
+    <section class="bg-accent text-white py-3 py-lg-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-center text-lg-start">

@@ -95,14 +95,15 @@ $heightseo = "115";
                 <div class="col-lg-12">
                     <!-- Project Item Boxes start -->
                     <div class="row project-item-boxes align-items-center">
-                        <? $imagesPaths= scandir("../assets/images/immagini/parco macchine/") ?>
+                        <? $images= array_values(array_filter(scandir("../assets/images/immagini/parco macchine"), function ($el) { return $el != "." && $el != "..";}));
+                           $pathDir= $pathindex . "assets/images/immagini/parco macchine/"; ?>
                         <? for ($i = 0; $i < 14; $i++): ?>
                             <div class="col-md-6 project-item-box manufacturing automation">
                                 <!-- Project Item Start -->
                                 <div class="project-item wow fadeInUp">
                                     <div class="project-image">
                                         <figure class="image-anime">
-                                            <img src="<?= $imagesPaths[$i] ?>" alt="immagine realizzazione">
+                                            <img src="<?= $pathDir . $images[$i] ?>" alt="immagine realizzazione">
                                         </figure>
                                     </div>
                                     <div class="project-content">

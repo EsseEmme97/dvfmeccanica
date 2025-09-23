@@ -49,7 +49,7 @@ $heightseo = "115";
 	<!-- ==================== End Navbar ==================== -->
 
 	<!-- Page Header Start -->
-	<section class="page-header parallaxie">
+	<section class="page-header parallaxie" style="background-image: url('<?= $pathindex ?>assets/images/immagini/realizzazioni/realizzazioni-header.webp');">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-12">

@@ -149,7 +149,7 @@ $heightseo = "115";
 	</section>
 	<!-- Our Process Section End -->
 
-	<section class="our-work">
+	<section class="our-work mb-4">
 		<div class="container">
 			<div class="row section-row align-items-center">
 				<div class="col-lg-6">
@@ -232,14 +232,14 @@ $heightseo = "115";
 	</section>
 
 	<!-- Start CTA -->
-	<section class="bg-accent text-white py-5">
+	<section class="bg-accent text-white py-3 py-lg-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 text-center text-lg-start">
 					<span class="h2">Hai un progetto da sviluppare? <br>Contattaci adesso</span>
 				</div>
-				<div class="col-lg-6 d-flex justify-content-center justify-content-lg-start fw-600 mt-5 mt-lg-0">
-					<a class="h2" href="tel:+390445641300">+390445641300</a>
+				<div class="col-lg-6 d-flex justify-content-center justify-content-lg-start mt-5 mt-lg-0">
+					<a class="h2 scale-animation font-bold" href="tel:+390445641300">+390445641300</a>
 				</div>
 			</div>
 		</div>

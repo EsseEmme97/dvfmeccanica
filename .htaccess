@@ -13,6 +13,7 @@ RewriteRule ^motorsport$ it/motorsport.php [L]
 RewriteRule ^lavora-con-noi$ it/lavora-con-noi.php [L]
 RewriteRule ^lavora-con-noi/([^/]+)$ it/posizione-lavorativa.php?posizione=$1 [L]
 RewriteRule ^contatti$ it/contatti.php [L]
+RewriteRule ^parco-macchine/macchina1$ it/singola-macchina.php [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

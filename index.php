@@ -57,7 +57,7 @@ $heightseo = "115";
                     <div class="hero-slide">
                         <!-- Slider Image Start -->
                         <div class="hero-slider-image">
-                            <img src="images/hero-bg.jpg" alt="">
+                            <img src="<?= $pathindex ?>assets/images/immagini/home/home-slider-1.webp" alt="immagine principale">
                         </div>
                         <!-- Slider Image End -->
 
@@ -93,7 +93,7 @@ $heightseo = "115";
                     <div class="hero-slide">
                         <!-- Slider Image Start -->
                         <div class="hero-slider-image">
-                            <img src="images/hero-bg-2.jpg" alt="">
+                            <img src="<?= $pathindex ?>assets/images/immagini/home/home-slider-2.webp" alt="immagine principale">
                         </div>
                         <!-- Slider Image End -->
 
@@ -139,7 +139,7 @@ $heightseo = "115";
                         <!-- About Image Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="https://placehold.co/332x232" alt="immagine servizio">
+                                <img src="<?= $pathindex ?>assets/images/immagini/home/home-intro-1.webp" alt="immagine servizio">
                             </figure>
                         </div>
                         <!-- About Image End -->
@@ -147,7 +147,7 @@ $heightseo = "115";
                         <!-- About Image Start -->
                         <div class="about-img-2">
                             <figure class="image-anime reveal">
-                                <img src="https://placehold.co/396x464" alt="immagine servizio">
+                                <img src="<?= $pathindex ?>assets/images/immagini/home/home-intro-2.webp" alt="immagine servizio">
                             </figure>
                         </div>
                         <!-- About Image End -->
@@ -372,7 +372,7 @@ $heightseo = "115";
                     <!-- What We Do Image Start -->
                     <div class="what-we-do-image">
                         <figure class="image-anime">
-                            <img src="https://placehold.co/946x1020" alt="immagine prodotto">
+                            <img src="<?= $pathindex ?>assets/images/immagini/home/home-parco_macchine.webp" alt="immagine prodotto">
                         </figure>
                         <!-- What We Do Image End -->
                     </div>
@@ -390,7 +390,7 @@ $heightseo = "115";
                     <span class="h2">Ti abbiamo convinto? <br>Richiedi un preventivo</span>
                 </div>
                 <div class="col-lg-6 col-12 d-flex align-items-start mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
-                    <a class="h2 font-bold" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
+                    <a class="h2 font-bold scale-animation" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
                 </div>
             </div>
         </div>
@@ -477,7 +477,7 @@ $heightseo = "115";
                     <!-- Our Process Image Start -->
                     <div class="our-process-image">
                         <figure class="image-anime reveal">
-                            <img src="https://placehold.co/594x550" alt="immagine lavoro svolto">
+                            <img src="<?= $pathindex ?>assets/images/immagini/qualita/qualita-img.jpg" alt="immagine lavoro svolto">
                         </figure>
                     </div>
                     <!-- Our Process Image End -->
@@ -536,7 +536,7 @@ $heightseo = "115";
                     <span class="h2">Hai un progetto da sviluppare? <br>Contattaci adesso</span>
                 </div>
                 <div class="col-lg-6 d-flex align-items-start mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
-                    <a class="h2 font-bold" href="tel:+390445641300">+390445641300</a>
+                    <a class="h2 font-bold scale-animation" href="tel:+390445641300">+390445641300</a>
                 </div>
             </div>
         </div>

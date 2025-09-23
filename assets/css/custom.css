@@ -2736,7 +2736,8 @@ header.main-header .header-sticky.active {
 }
 
 .motorsport{
-  min-height: 568px;
+  padding: 210px 0!important;
+  height: 800px;
 }
 
 .page-header-box ol .breadcrumb-item + .breadcrumb-item::before {
@@ -2745,7 +2746,6 @@ header.main-header .header-sticky.active {
   font-size: 6px;
   color: var(--accent-color);
 }
-
 .our-mission-vision {
   position: relative;
   padding-bottom: 30px;
@@ -5036,9 +5036,9 @@ blockquote {
   .topbar {
     padding: 15px 0;
   }
-
+  
   .motorsport{
-    min-height: fit-content;
+    height: fit-content;
   }
 
   .site-logo {

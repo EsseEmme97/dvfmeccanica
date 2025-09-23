@@ -49,7 +49,7 @@ $heightseo = "115";
 	<!-- ==================== End Navbar ==================== -->
 
 	<!-- Page Header Start -->
-	<section class="page-header parallaxie motorsport">
+	<section class="page-header parallaxie motorsport" style="background-image: url('<?= $pathindex ?>assets/images/immagini/motorsport/motorsport-header.webp');">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-12">
@@ -98,11 +98,11 @@ $heightseo = "115";
 					<!-- Our Story Header Image Start -->
 					<div class="our-story-header-img">
 						<figure class="reveal image-anime">
-							<img src="https://placehold.co/304x216" alt="immagine azienda">
+							<img src="<?= $pathindex ?>assets/images/immagini/motorsport/motorsport-intro-1.webp" alt="immagine azienda">
 						</figure>
 
 						<figure class="reveal image-anime">
-							<img src="https://placehold.co/304x216" alt="immagine azienda">
+							<img src="<?= $pathindex ?>assets/images/immagini/motorsport/motorsport-intro-2.webp" alt="immagine azienda">
 						</figure>
 					</div>
 					<!-- Our Story Header Image End -->
@@ -114,7 +114,7 @@ $heightseo = "115";
 					<!-- Our Story Image Start -->
 					<div class="our-story-img">
 						<figure class="reveal image-anime">
-							<img src="https://placehold.co/594x500" alt="immagine azienda">
+							<img src="<?= $pathindex ?>assets/images/immagini/motorsport/motorsport-intro-3.webp" alt="immagine azienda">
 						</figure>
 					</div>
 					<!-- Our Story Image End -->
@@ -159,14 +159,14 @@ $heightseo = "115";
 	<!-- Our Story End -->
 
 	<!-- Start CTA -->
-	<section class="bg-accent text-white py-5">
+	<section class="bg-accent text-white py-3 py-lg-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 text-center">
-					<span class="h2">La nostra esperienza<br>al tuo servizio</span>
+				<div class="col-lg-6">
+					<span class="h2 d-block text-center text-lg-start">La nostra esperienza<br>al tuo servizio</span>
 				</div>
 				<div class="col-lg-6 d-flex mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
-					<a class="h2 fw-bold" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
+					<a class="h2 fw-bold scale-animation" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
 				</div>
 			</div>
 		</div>
@@ -237,7 +237,7 @@ $heightseo = "115";
 					<!-- Our Features Item Start -->
 					<div class="our-features-item features-image-box">
 						<figure class="image-anime">
-							<img src="https://placehold.co/648x308" alt="immagine azienda">
+							<img src="<?= $pathindex ?>assets/images/immagini/motorsport/motorsport-focus.webp" alt="immagine azienda">
 						</figure>
 					</div>
 					<!-- Our Features Item End -->
@@ -280,7 +280,7 @@ $heightseo = "115";
 								<div class="project-item wow fadeInUp">
 									<div class="project-image">
 										<figure class="image-anime">
-											<img src="https://placehold.co/600x400" alt="immagine realizzazione">
+											<img src="<?= $pathindex . "assets/images/immagini/motorsport/motorsport-gallery-". $i . ".webp" ?>" alt="immagine realizzazione">
 										</figure>
 									</div>
 								</div>

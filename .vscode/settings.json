@@ -34,5 +34,9 @@
   // To improve performance
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
-  }
+  },
+
+  "vim.overrideCopy" : false
 }
+
+

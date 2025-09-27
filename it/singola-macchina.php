@@ -9,6 +9,13 @@ $descriptionseo = "descrizione";
 $image = "assets/images/global/favicon/DVF-favicon.ico";
 $widthseo = "400";
 $heightseo = "115";
+
+$uri = $_SERVER["REQUEST_URI"];
+$nome_macchina = explode("/", $uri)[2];
+$file = fopen("./dettaglio-macchine.json", "r");
+$content = fread($file, filesize("./dettaglio-macchine.json"));
+$json = json_decode($content, true);
+$macchina = $json[$nome_macchina]["caratteristiche"];
 ?>
 <!DOCTYPE html>
 <html lang="it">
@@ -55,12 +62,12 @@ $heightseo = "115";
 				<div class="col-lg-12">
 					<!-- Page Header Box Start -->
 					<div class="page-header-box">
-						<h1 class="text-anime-style-2" data-cursor="-opaque">Macchina <span>dettaglio</span></h1>
+						<h1 class="text-anime-style-2" data-cursor="-opaque"><?= $nome_macchina ?></h1>
 						<nav class="wow fadeInUp">
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="<?= $pathindex ?>">home</a></li>
-								<li class="breadcrumb-item" aria-current="page">Parco macchine</li>
-								<li class="breadcrumb-item active" aria-current="page">macchina1</li>
+								<li class="breadcrumb-item" aria-current="page"><a href="<?= $pathindex ?>parco-macchine">Parco macchine</a></li>
+								<li class="breadcrumb-item active" aria-current="page"><?= $nome_macchina ?></li>
 							</ol>
 						</nav>
 					</div>
@@ -80,31 +87,25 @@ $heightseo = "115";
 					<div class="service-sidebar">
 						<!-- Service Category List Start -->
 						<div class="service-catagery-list wow fadeInUp">
-							<h3>services category</h3>
-							<ul>
-								<li><a href="#">personal coaching</a></li>
-								<li><a href="#">career development</a></li>
-								<li><a href="#">team coaching</a></li>
-								<li><a href="#">relationship coaching</a></li>
-								<li><a href="#">spiritual coaching</a></li>
+							<h3>Scheda tecnica</h3>
+							<ul class="category-items">
+								<? foreach ($macchina as $element): ?>
+									<li>
+										<span><?= $element["titolo"] ?></span>
+										<p><?= $element["descrizione"] ?></p>
+									</li>
+								<? endforeach; ?>
 							</ul>
 						</div>
 						<!-- Service Category List End -->
 
 						<!-- Sidebar CTA Box Start -->
 						<div class="sidebar-cta-box wow fadeInUp" data-wow-delay="0.25s">
-							<!-- Sidebar Image Start -->
-							<div class="sidebar-cta-logo">
-								<img src="images/footer-logo.svg" alt="">
-							</div>
-							<!-- Sidebar Image End -->
-
 							<!-- Sidebar CTA Body Start -->
 							<div class="sidebar-cta-Body">
 								<!-- Sidebar CTA Content Start -->
 								<div class="sidebar-cta-content">
-									<h3>Need <span>help!</span></h3>
-									<p>Got questions or need assistance with your Industry needs?</p>
+									<span class="h2 text-white">Più info <br> Contattaci!</span>
 								</div>
 								<!-- Sidebar CTA Content End -->
 
@@ -112,27 +113,18 @@ $heightseo = "115";
 								<div class="sidebar-cta-contact-list">
 									<!-- Sidebar CTA Contact Item Start -->
 									<div class="sidebar-cta-contact-item">
-										<div class="icon-box">
-											<img src="images/icon-phone-accent.svg" alt="">
-										</div>
-
 										<div class="cta-contact-item-title">
-											<h3>+1 840 841 256</h3>
+											<img src="<?= $pathindex ?>assets/images/global/recapiti/Icon fa-solid-phone.svg" alt="icona telefono">
+											<a href="tel:+390445641300">0445 641330</a>
 										</div>
 									</div>
 									<!-- Sidebar CTA Contact Item End -->
-
-									<!-- Sidebar CTA Contact Item Start -->
 									<div class="sidebar-cta-contact-item">
-										<div class="icon-box">
-											<img src="images/icon-mail-accent.svg" alt="">
-										</div>
-
 										<div class="cta-contact-item-title">
-											<h3>info@domain.com</h3>
+											<img src="<?= $pathindex ?>assets/images/global/recapiti/mail.svg" alt="icona telefono">
+											<a href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
 										</div>
 									</div>
-									<!-- Sidebar CTA Contact Item End -->
 								</div>
 								<!-- Sidebar CTA Contact List End -->
 							</div>
@@ -149,14 +141,14 @@ $heightseo = "115";
 						<!-- Service Featured Image Start -->
 						<div class="service-featured-image">
 							<figure class="image-anime reveal">
-								<img src="<?= $pathindex ?>assets/images/immagini/parco macchine/01-DMG-MORI-DMC-80-U-DUOBLOCK.webp" alt="immagine macchinario">
+								<img src="<?= $pathindex . "assets/images/immagini/parco macchine/" . $nome_macchina . ".webp" ?>" alt="immagine macchinario">
 							</figure>
 						</div>
 						<!-- Service Featured Image End -->
 
 						<!-- Service Entry Start -->
 						<div class="service-entry">
-							<span class="d-block h2 wow fadeInDown">Macchina 1</span>
+							<span class="d-block h2 wow fadeInDown"><?= $nome_macchina ?></span>
 							<p class="wow fadeInUp">Our business coaching services are designed to help entrepreneurs and professionals unlock their full potential, overcome challenges, and achieve sustainable growth. We provide tailored strategies and expert insights to improve leadership skills, enhance team performance, and streamline business operations. Whether you're launching a startup or scaling an established business, our coaching empowers you to make informed decisions, set clear goals, and drive meaningful results. With a focus on both personal development and business success, we guide you toward building a thriving, purpose-driven enterprise.</p>
 							<p class="wow fadeInUp" data-wow-delay="0.2s">Through expert guidance, we focus on refining your vision, enhancing operations, and unlocking new opportunities for growth. With a collaborative approach, we empower you to make confident decisions and build a sustainable, thriving business.</p>
 							<span class="d-block h2">Caratteristiche <span class="fw-bold">Tecniche</span></span>
@@ -177,6 +169,87 @@ $heightseo = "115";
 			</div>
 	</section>
 	<!-- Page Service Single End -->
+	<!-- Start CTA -->
+	<section class="bg-accent text-white py-3 py-lg-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<span class="h2 d-block text-center text-lg-start">Ti interessa?<br>Richiedi un preventivo</span>
+				</div>
+				<div class="col-lg-6 d-flex mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
+					<a class="h2 fw-bold scale-animation" href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end cta -->
+
+	<!-- Our Work Section Start -->
+	<section class="our-work">
+		<div class="container">
+			<div class="row section-row">
+				<div class="col-lg-6">
+					<!-- Section Title Start -->
+					<div class="section-title">
+						<span class="wow fadeInUp label text-black">Cosa facciamo</span>
+						<h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
+					</div>
+					<!-- Section Title End -->
+				</div>
+
+				<div class="col-lg-6">
+					<!-- Section Title Content Start -->
+					<div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
+						<p>Lavoriamo con la massima serietà e dedizione: i componenti meccanici che produciamo vogliono essere sinonimo di qualità.</p>
+					</div>
+					<div class="hero-btn wow fadeInUp section-title-content mt-4" data-wow-delay="0.4s">
+						<a href="<?= $pathindex ?>azienda" class="btn-default"><span>Scopri di più</span></a>
+					</div>
+					<!-- Section Title Content End -->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-12">
+					<!-- Project Item Boxes start -->
+					<div class="row project-item-boxes align-items-center">
+						<? for ($i = 1; $i <= 4; $i++): ?>
+							<div class="col-md-6 project-item-box manufacturing automation">
+								<!-- Project Item Start -->
+								<div class="project-item wow fadeInUp">
+									<div class="project-image">
+										<figure class="image-anime">
+											<img src="https://placehold.co/600x400" alt="immagine realizzazione">
+										</figure>
+									</div>
+									<div class="project-content">
+										<a href="<?= $pathindex ?>parco-macchine">Realizzazione nr.<?= $i ?></a>
+									</div>
+								</div>
+								<!-- Project Item End -->
+							</div>
+						<? endfor; ?>
+					</div>
+					<!-- Project Item Boxes End -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Our Work Section End -->
+	<!-- Start CTA -->
+	<section class="bg-accent text-white py-3 py-lg-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 text-center text-lg-start">
+					<span class="h2">Hai un progetto da sviluppare? <br>Contattaci adesso</span>
+				</div>
+				<div class="col-lg-6 d-flex align-items-start mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
+					<a class="h2 font-bold scale-animation" href="tel:+390445641300">+390445641300</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end cta -->
 	<!-- ==================== Start Footer ==================== -->
 	<? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>
 	<!-- ==================== End Footer ==================== -->

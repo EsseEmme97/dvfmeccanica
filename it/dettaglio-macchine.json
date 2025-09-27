@@ -1,0 +1,99 @@
+{
+  "01-DMG-MORI-DMC-80-U-DUOBLOCK": {
+    "caratteristiche": [
+      {"titolo": "Fresatrice 5 assi", "descrizione": "Controllo Heidenhain 640"},
+      {"titolo": "Corse", "descrizione": "x 800; y 1.050; z 850"},
+      {"titolo": "Portata e velocità max", "descrizione": "1.200 kg; 20.000 giri"},
+      {"titolo": "Porta utensili", "descrizione": "nr. 183"},
+      {"titolo": "Sistema collegato", "descrizione": "Fastems a 20 pallet"}
+    ]
+  },
+  "02-DMG-MORI-DMC-80-DUOBLOCK": {
+    "caratteristiche": [
+      {"titolo": "Fresatrice 5 assi", "descrizione": "Controllo Heidenhain 640"},
+      {"titolo": "Corse", "descrizione": "x 800; y 1.050; z 800"},
+      {"titolo": "Portata e velocità max", "descrizione": "1.200 kg; 18.000 giri; cambio pallet (10)"},
+      {"titolo": "Porta utensili", "descrizione": "nr. 273"},
+      {"titolo": "Sistema collegato", "descrizione": "Fastems a 20 pallet"}
+    ]
+  },
+  "03-DMG-MORI-DMC-95-MONOBLOCK": {
+    "caratteristiche": [
+      {"titolo": "Fresatrice 5 assi", "descrizione": "Controllo Heidenhain 640"},
+      {"titolo": "Corse", "descrizione": "x 950; y 850; z 650"},
+      {"titolo": "Portata e velocità max", "descrizione": "1.000 kg; 20.000 giri; cambio pallet (3)"},
+      {"titolo": "Porta utensili", "descrizione": "nr. 120"}
+    ]
+  },
+  "04-DECKEL-MAHO-DMU-100-MONOBLOCK": {
+    "caratteristiche": [
+      {"titolo": "Centro di lavoro a 5 assi continui", "descrizione": "Controllo numerico Heidenhain 530"},
+      {"titolo": "Corse", "descrizione": "x 1.150; y 710; z 710"},
+      {"titolo": "Tavola rotante", "descrizione": "D = 800"},
+      {"titolo": "Testa", "descrizione": "Automatica"}
+    ]
+  },
+  "05-DECKEL-MAHO-DMU-100T": {
+    "caratteristiche": [
+      {"titolo": "Centro di lavoro a 5 assi continui", "descrizione": "Controllo numerico Heidenhain 530"},
+      {"titolo": "Corse", "descrizione": "x 1.080; y 710; z 710"},
+      {"titolo": "Tavola rotante", "descrizione": "D = 800"},
+      {"titolo": "Testa", "descrizione": "Automatica"}
+    ]
+  },
+  "06-DECKEL-MAHO-DMU-60-MONOBLOCK": {
+    "caratteristiche": [
+      {"titolo": "Fresatrice a 5 assi continui", "descrizione": "Controllo numerico Heidenhain 530"},
+      {"titolo": "Corse", "descrizione": "x 630; y 560; z 560"},
+      {"titolo": "Tavolo rotante", "descrizione": "D = 600"},
+      {"titolo": "Testa", "descrizione": "Automatica"}
+    ]
+  },
+  "07-AERRE-CL-60100": {
+    "caratteristiche": [
+      {"titolo": "Centro di lavoro verticale", "descrizione": "Controllo numerico Selca"},
+      {"titolo": "Corse", "descrizione": "x 1.000; y 600; z 600"}
+    ]
+  },
+  "08-TORNIO-DMG-GILDEMEISTER-CTX-410-V3": {
+    "caratteristiche": [
+      {"titolo": "Centro di lavoro verticale", "descrizione": "Controllo numerico Siemens ShopTurn"},
+      {"titolo": "Corse tornibili", "descrizione": "D = 400x600 motorizzato"}
+    ]
+  },
+  "09-RAMBAUDI-VERSAMATIC-500": {
+    "caratteristiche": [
+      {"titolo": "Centro di lavoro", "descrizione": "Controllo numerico Heidenhain"},
+      {"titolo": "Corse", "descrizione": "x 1.200; y 500; z 500"}
+    ]
+  },
+  "10-DOOSAN-DNM-650": {
+    "caratteristiche": [
+      {"titolo": "Centro di lavoro verticale", "descrizione": "Controllo numerico Heidenhain 530"},
+      {"titolo": "Corse", "descrizione": "x 1.270; y 670; z 620"}
+    ]
+  },
+  "11-DOOSAN-DNM-6700": {
+    "caratteristiche": [
+      {"titolo": "Centro di lavoro verticale", "descrizione": "Controllo numerico Heidenhain"},
+      {"titolo": "Corse", "descrizione": "x 1.300; y 670; z 625"}
+    ]
+  },
+  "12-DOOSAN-DNM-6700L": {
+    "caratteristiche": [
+      {"titolo": "Centro di lavoro verticale", "descrizione": "Controllo numerico Heidenhain TNC-620"},
+      {"titolo": "Corse", "descrizione": "x 1.500; y 670; z 625"}
+    ]
+  },
+  "13-METBA-MB-50X": {
+    "caratteristiche": [
+      {"titolo": "Fresatrice a banco con colonna mobile", "descrizione": "Controllo numerico Heidenhain"},
+      {"titolo": "Corse", "descrizione": "x 1.200; y 600; z 500"}
+    ]
+  },
+  "14-SISMA-EASY-OPEN-60": {
+    "caratteristiche": [
+      {"titolo": "Sistema laser di marcatura", "descrizione": "Sorgenti laser da 10 W a 50 W"}
+    ]
+  }
+}

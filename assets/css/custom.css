@@ -2640,7 +2640,6 @@ header.main-header .header-sticky.active {
 
 .footer-links ul li {
   color: var(--white-color);
-  text-transform: capitalize;
   margin-bottom: 15px;
 }
 
@@ -3440,10 +3439,20 @@ header.main-header .header-sticky.active {
 }
 
 .service-catagery-list ul li {
-  border-bottom: 1px solid var(--divider-color);
+  border-bottom: 1px solid var(--accent-color);
   padding-bottom: 20px;
   margin-bottom: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.service-catagery-list ul li span{
+  font-weight: 600;
+}
+
+.service-catagery-list ul li p{
+  margin-bottom: 0;
+  color: var(--text-color);
+  font-size: 14px;
 }
 
 .service-catagery-list ul li:last-child {
@@ -3593,6 +3602,14 @@ header.main-header .header-sticky.active {
   font-weight: 600;
   color: var(--white-color);
   transition: all 0.3s ease-in-out;
+}
+
+.cta-contact-item-title a{
+  font-size:20px;
+  font-weight: 700;
+  margin-left: 20px;
+  color: white;
+  align-self: end;
 }
 
 .sidebar-cta-contact-item:hover .cta-contact-item-title h3 {

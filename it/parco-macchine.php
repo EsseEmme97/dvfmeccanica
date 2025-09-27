@@ -107,7 +107,7 @@ $heightseo = "115";
                                         </figure>
                                     </div>
                                     <div class="project-content">
-                                        <a href="<?= $pathindex ?>/parco-macchine">Macchinario nr.<?= $i +1 ?></a>
+                                        <a href="<?= $pathindex . "parco-macchine/" . substr($images[$i],0,strlen($images[$i])-5) ?>"><?= substr($images[$i],0,strlen($images[$i])-5) ?></a>
                                     </div>
                                 </div>
                                 <!-- Project Item End -->

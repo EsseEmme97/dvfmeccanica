@@ -4,8 +4,10 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once($pathindex . "inc/mysqli.php");
 // $database = new DB();
-$titleseo = "DVF - azienda";
-$descriptionseo = "descrizione";
+$titleseo = "Motorsport: Sponsor Team SpeedRS | DVF Meccanica";
+$descriptionseo = "DVF Meccanica è sponsor del team SpeedRS in Moto2:
+passione, innovazione e risultati sono al fianco di SpeedRS, uniti da sfide e
+spirito vincente.";
 $image = "assets/images/global/favicon/DVF-favicon.ico";
 $widthseo = "400";
 $heightseo = "115";
@@ -88,8 +90,8 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Start -->
 					<div class="section-title">
-						<span class="wow fadeInUp label text-black">our story</span>
-						<h2 class="text-anime-style-2" data-cursor="-opaque">Transforming industries <span>with innovative efficient solutions</span></h2>
+						<span class="wow fadeInUp label text-black">IL TEAM</span>
+						<h2 class="text-anime-style-2" data-cursor="-opaque">In Moto2 con il team SpeedRS</h2>
 					</div>
 					<!-- Section Title End -->
 				</div>
@@ -123,28 +125,31 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<div class="our-story-content">
 						<div class="our-story-content-body">
-							<p>We specialize in revolutionizing industries by delivering innovative, efficient solutions that enhance productivity and streamline processes. Through advanced technologies, precision engineering, and sustainable practices.</p>
+							<p>È con infinito orgoglio che anche <a href="<?= $pathindex ?>">DVF Meccanica</a> prende parte al successo
+								sportivo del Team SpeedRS di Moto2.<strong>L’azienda è sponsor del progetto
+									racing del team SpeedRS</strong> , in cui crede fortemente e con il quale condivide
+								valori quali determinazione, innovazione e spirito vincente.</p>
 						</div>
 
 						<div class="our-story-counters">
 							<!-- Our Story Counter Start -->
 							<div class="our-story-counter">
-								<span><span class="counter">10</span>k+</span>
-								<p>completed project</p>
+								<span><span class="counter">15</span></span>
+								<p>Anni di rapporto</p>
 							</div>
 							<!-- Our Story Counter End -->
 
 							<!-- Our Story Counter Start -->
 							<div class="our-story-counter">
-								<span><span class="counter">15</span>+</span>
-								<p>satisfied customer</p>
+								<span><span class="counter">27</span></span>
+								<p>Collaboratori</p>
 							</div>
 							<!-- Our Story Counter End -->
 
 							<!-- Our Story Counter Start -->
 							<div class="our-story-counter">
-								<span><span class="counter">10</span>k+</span>
-								<p>years of mastery</p>
+								<span><span class="counter">204</span></span>
+								<p>Gare Vinte</p>
 							</div>
 							<!-- Our Story Counter End -->
 						</div>
@@ -180,8 +185,8 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Start -->
 					<div class="section-title">
-						<span class="wow fadeInUp label text-black">our key feature</span>
-						<h2 class="text-anime-style-2" data-cursor="-opaque">Core strengths in <span>industrial innovation</span></h2>
+						<span class="wow fadeInUp label text-black">PASSIONE RACING</span>
+						<h2 class="text-anime-style-2" data-cursor="-opaque">DVF Meccanica al fianco di SpeedRS</h2>
 					</div>
 					<!-- Section Title End -->
 				</div>
@@ -189,7 +194,9 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Content Start -->
 					<div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-						<p>Our expertise in industrial innovation combines advanced technology, sustainable practices, and a skilled workforce to deliver efficient, future-ready solutions that drive industry progress.</p>
+						<p>Da sempre crediamo nel motorsport come palestra di sfide ed innovazione
+							tecnologica: siamo al fianco del <strong>team SpeedRS</strong> , che corre nel mondiale
+							Moto2 con moto Boscoscuro.</p>
 					</div>
 					<!-- Section Title Content End -->
 				</div>
@@ -204,8 +211,9 @@ $heightseo = "115";
 							<img src="<?= $pathindex ?>assets/images/icon set/motorsport/motorsport-puntualita.svg" alt="icona puntualità">
 						</div>
 						<div class="features-item-content">
-							<span>Advanced Technology Integration</span>
-							<p>We integrate cutting-edge technologies into every aspect of our operations, enhancing efficiency, precision, and innovation to deliver superior industrial solutions.</p>
+							<span>Uniti nella sfida</span>
+							<p>Con SpeedRS condividiamo passione, determinazione e spirito di squadra,
+								elementi che ci spingono sempre oltre il traguardo.</p>
 						</div>
 					</div>
 					<!-- Our Features Item End -->
@@ -216,8 +224,9 @@ $heightseo = "115";
 							<img src="<?= $pathindex ?>assets/images/icon set/motorsport/motorsport-creativita.svg" alt="icona creatività">
 						</div>
 						<div class="features-item-content">
-							<span>Uncompromising Quality Standards</span>
-							<p>We uphold the highest quality standards across all processes, ensuring consistency, reliability, and excellence in every product and service we deliver.</p>
+							<span>Supporto costante</span>
+							<p>Sosteniamo il team stagione dopo stagione, credendo in un progetto sportivo
+								che unisce tecnologia e performance.</p>
 						</div>
 					</div>
 					<!-- Our Features Item End -->
@@ -228,8 +237,9 @@ $heightseo = "115";
 							<img src="<?= $pathindex ?>assets/images/icon set/motorsport/motorsport-magia.svg" alt="icona magia">
 						</div>
 						<div class="features-item-content">
-							<span>Continuous Innovation and R&D</span>
-							<p>We prioritize ongoing research and development to drive continuous innovation, staying ahead of industry trends and creating advanced solutions that meet evolving market demands.</p>
+							<span>Risultati concreti</span>
+							<p>Siamo orgogliosi dei successi raggiunti in Moto2, frutto di dedizione,
+								tecnologia e di tanto impegno.</p>
 						</div>
 					</div>
 					<!-- Our Features Item End -->
@@ -255,8 +265,8 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Start -->
 					<div class="section-title">
-						<span class="wow fadeInUp label text-black">Cosa facciamo</span>
-						<h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
+						<span class="wow fadeInUp label text-black">EMOZIONI IN PISTA</span>
+						<h2 class="text-anime-style-2" data-cursor="-opaque">Dove velocità e tecnologia si incontrano</h2>
 					</div>
 					<!-- Section Title End -->
 				</div>
@@ -264,7 +274,8 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Content Start -->
 					<div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-						<p>Lavoriamo con la massima serietà e dedizione: i componenti meccanici che produciamo vogliono essere sinonimo di qualità.</p>
+						<p>Le nostre iniziative con il team SpeedRS raccontano storie di impegno,
+							velocità e vittorie condivise in pista.</p>
 					</div>
 					<!-- Section Title Content End -->
 				</div>
@@ -280,7 +291,7 @@ $heightseo = "115";
 								<div class="project-item wow fadeInUp">
 									<div class="project-image">
 										<figure class="image-anime">
-											<img src="<?= $pathindex . "assets/images/immagini/motorsport/motorsport-gallery-". $i . ".webp" ?>" alt="immagine realizzazione">
+											<img src="<?= $pathindex . "assets/images/immagini/motorsport/motorsport-gallery-" . $i . ".webp" ?>" alt="immagine realizzazione">
 										</figure>
 									</div>
 								</div>

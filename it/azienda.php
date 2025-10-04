@@ -4,8 +4,10 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once($pathindex . "inc/mysqli.php");
 // $database = new DB();
-$titleseo = "DVF - azienda";
-$descriptionseo = "descrizione";
+$titleseo = "Lavorazioni meccaniche conto terzi | DVF Meccanica";
+$descriptionseo = "Specializzati in lavorazioni meccaniche conto terzi di
+precisione: fresatura e tornitura con tecnologia avanzata, qualità certificata.
+Scopri DVF Meccanica!";
 $image = "assets/images/global/favicon/DVF-favicon.ico";
 $widthseo = "400";
 $heightseo = "115";
@@ -55,11 +57,11 @@ $heightseo = "115";
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Su di <span>Noi</span></h1>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Lavorazioni meccaniche <span>conto terzi</span></h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?= $pathindex ?>">home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">about us</li>
+                                <li class="breadcrumb-item active" aria-current="page">azienda</li>
                             </ol>
                         </nav>
                     </div>
@@ -112,10 +114,18 @@ $heightseo = "115";
                     <div class="about-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <span class="wow fadeInUp label text-black">su di noi</span>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Building quality through <span>industrial innovation</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Nata alla fine degli anni ’80 per le lavorazioni meccaniche nel settore del packaging, oggi DVF è specializzata in lavorazioni meccaniche di precisione e prototipazione.</p>
-                            <p class="wow fadeInUp" data-wow-delay="0.35s"> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <span class="wow fadeInUp label text-black">Chi Siamo</span>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">L’ eccellenza nelle lavorazioni meccaniche conto terzi</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">DVF Meccanica, fondata nel 1989 a Schio (Vicenza), è specializzata in
+                                <strong>lavorazioni meccaniche conto terzi</strong> e prototipazione di parti metalliche.
+                                Oggi, l’azienda offre <a href="<?= $pathindex ?>">lavorazioni meccaniche di precisione</a> di <a href="<?= $pathindex ?>qualita">alta qualità</a> ,
+                                grazie a personale altamente qualificato, macchine all’avanguardia e processi
+                                controllati. Svariati sono i settori serviti: dall’automotive al racing , dal
+                                packaging alimentare al farmaceutico, fino alla ricerca scientifica. La
+                                pluridecennale esperienza nella meccanica conto terzi permette a DVF
+                                Meccanica di gestire sia progetti complessi sia produzioni in serie,
+                                garantendo puntualità, qualità e supporto completo ad ogni azienda cliente.
+                            </p>
                         </div>
                         <!-- Section Title End -->
 
@@ -149,8 +159,8 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <span class="wow fadeInUp label text-black">our history</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Foundation of excellences <span>in industry</span></h2>
+                        <span class="wow fadeInUp label text-black">La nostra storia</span>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">L’eccellenza in costante evoluzione</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -158,7 +168,11 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Content Start -->
                     <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                        <p>Built on a legacy of quality and innovation, we have established a strong foundation in the industrial sector, consistently delivering reliable solutions that drive progress and set industry standards.</p>
+                        <p>DVF Meccanica apre i battenti a fine anni Ottanta a Schio, con il chiaro
+                            obiettivo di fornire al territorio un qualificato punto di riferimento per le
+                            lavorazioni meccaniche conto terzi. Da allora, l’azienda cresce
+                            costantemente ampliando competenze e settori serviti, con lavorazioni
+                            meccaniche conto terzi di qualità.</p>
                     </div>
                     <!-- Section Title Content End -->
                 </div>
@@ -172,19 +186,19 @@ $heightseo = "115";
                         <div class="our-history-nav">
                             <ul class="nav nav-tabs" id="historyTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="1920-tab" data-bs-toggle="tab" data-bs-target="#1920" type="button" role="tab" aria-selected="true">In 1920 - Planning</button>
+                                    <button class="nav-link active" id="1920-tab" data-bs-toggle="tab" data-bs-target="#1920" type="button" role="tab" aria-selected="true">1989 – Fondazione azienda</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="1922-tab" data-bs-toggle="tab" data-bs-target="#1922" type="button" role="tab" aria-selected="false">In 1922 - Journey Started</button>
+                                    <button class="nav-link" id="1922-tab" data-bs-toggle="tab" data-bs-target="#1922" type="button" role="tab" aria-selected="false">2001 – Prima macchina a 5 assi</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="1925-tab" data-bs-toggle="tab" data-bs-target="#1925" type="button" role="tab" aria-selected="false">In 1925 - Journey Progress</button>
+                                    <button class="nav-link" id="1925-tab" data-bs-toggle="tab" data-bs-target="#1925" type="button" role="tab" aria-selected="false">2007 – Nuovo stabilimento</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="1930-tab" data-bs-toggle="tab" data-bs-target="#1930" type="button" role="tab" aria-selected="false">In 1930 - Global Reach</button>
+                                    <button class="nav-link" id="1930-tab" data-bs-toggle="tab" data-bs-target="#1930" type="button" role="tab" aria-selected="false">2011 – Settore motorsport</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="1940-tab" data-bs-toggle="tab" data-bs-target="#1940" type="button" role="tab" aria-selected="false">In 1940 - Industry Leadership</button>
+                                    <button class="nav-link" id="1940-tab" data-bs-toggle="tab" data-bs-target="#1940" type="button" role="tab" aria-selected="false">Oggi – Competenza avanzata</button>
                                 </li>
                             </ul>
                         </div>
@@ -198,8 +212,9 @@ $heightseo = "115";
                                     <div class="our-history-content">
                                         <!-- Section Title Start -->
                                         <div class="section-title">
-                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Company <span>started</span></span>
-                                            <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
+                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Fondazione <span>azienda</span></span>
+                                            <p>Più di 35 anni fa nasce DVF Meccanica a
+                                                Schio, fondata da Denis Dalla Vecchia.</p>
                                         </div>
                                         <!-- Section Title End -->
                                     </div>
@@ -227,8 +242,9 @@ $heightseo = "115";
                                     <div class="our-history-content">
                                         <!-- Section Title Start -->
                                         <div class="section-title">
-                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Journey <span>started</span></span>
-                                            <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
+                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Prima macchina <span>a 5 assi</span></span>
+                                            <p>Acquisto della prima macchina utensile
+                                                multiasse.</p>
                                         </div>
                                         <!-- Section Title End -->
                                     </div>
@@ -256,8 +272,9 @@ $heightseo = "115";
                                     <div class="our-history-content">
                                         <!-- Section Title Start -->
                                         <div class="section-title">
-                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Journey <span>progress</span></span>
-                                            <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
+                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Nuovo <span>stabilimento</span></span>
+                                            <p>Trasferimento a Santorso per aumentare
+                                                capacità produttiva.</p>
                                         </div>
                                         <!-- Section Title End -->
                                     </div>
@@ -285,8 +302,8 @@ $heightseo = "115";
                                     <div class="our-history-content">
                                         <!-- Section Title Start -->
                                         <div class="section-title">
-                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Global <span>reach</span></span>
-                                            <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
+                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Settore <span>motorsport</span></span>
+                                            <p>DVF entra nel settore racing e motorsport.</p>
                                         </div>
                                         <!-- Section Title End -->
                                     </div>
@@ -314,8 +331,9 @@ $heightseo = "115";
                                     <div class="our-history-content">
                                         <!-- Section Title Start -->
                                         <div class="section-title">
-                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Industry <span>leader</span></span>
-                                            <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for precision and a commitment to quality, we have been empowering industries and driving progress.</p>
+                                            <span class="text-anime-style-2 h2" data-cursor="-opaque">Competenza <span>avanzata</span></span>
+                                            <p>Specializzazione in lavorazioni complesse e
+                                                prototipazione di alta qualità.</p>
                                         </div>
                                         <!-- Section Title End -->
                                     </div>
@@ -350,8 +368,8 @@ $heightseo = "115";
                     <div class="col-lg-6">
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
-                            <span class="wow fadeInUp label">our approach</span>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Empowering sustainable <span>growth in industry</span></h2>
+                            <span class="wow fadeInUp label">LA NOSTRA MISSIONE</span>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Standard elevati garantiti</h2>
                         </div>
                         <!-- Section Title End -->
                     </div>
@@ -359,7 +377,9 @@ $heightseo = "115";
                     <div class="col-lg-6">
                         <!-- Section Title Content Start -->
                         <div class="section-title-content dark-section wow fadeInUp" data-wow-delay="0.25s">
-                            <p>We drive sustainable solutions in factory and industrial settings, focusing on efficiency, innovation, and environmental responsibility to support long-term growth.</p>
+                            <p>Le nostre <strong>lavorazioni meccaniche conto terzi</strong> assicurano componenti
+                                affidabili e durevoli, con: macchine di precisione avanzate, personale
+                                qualificato e in costante aggiornamento, controlli rigorosi.</p>
                         </div>
                         <!-- Section Title Content End -->
                     </div>
@@ -376,10 +396,10 @@ $heightseo = "115";
                         <div class="mission-vision-nav">
                             <ul class="nav nav-tabs" id="mvTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="remodeling-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button" role="tab" aria-selected="true">Amministrazione</button>
+                                    <button class="nav-link active" id="remodeling-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button" role="tab" aria-selected="true">Macchine d’avanguardia</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="installation-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button" role="tab" aria-selected="false">Acquisti</button>
+                                    <button class="nav-link" id="installation-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button" role="tab" aria-selected="false">Qualità</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="value-tab" data-bs-toggle="tab" data-bs-target="#value" type="button" role="tab" aria-selected="false">Produzione</button>
@@ -395,15 +415,17 @@ $heightseo = "115";
                                     <!-- Mission Vision Content Start -->
                                     <div class="mission-vision-content">
                                         <div class="mission-vision-content-header">
-                                            <p>Our mission is to transform the factory and industry sectors through sustainable practices, innovation, and advanced technology, fostering growth that benefits both business and the environment.</p>
+                                            <p>DVF Meccanica utilizza un parco macchine firmato DMG Mori e Overmach,
+                                                torni e frese a 3-4 o 5 assi continui e un magazzino automatico Fastems.
+                                                Le nostre lavorazioni meccaniche includono:</p>
                                         </div>
 
                                         <div class="mission-vision-content-list">
                                             <ul>
-                                                <li>Sustainable Manufacturing Practices</li>
-                                                <li>Advanced Technology Integration</li>
-                                                <li>Community Environmental Responsibility</li>
-                                                <li>Innovation-Driven Growth</li>
+                                                <li>Fresatura multiasse</li>
+                                                <li>Tornitura CNC</li>
+                                                <li>Elettroerosione a filo</li>
+                                                <li>Incisione laser</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -430,15 +452,18 @@ $heightseo = "115";
                                     <!-- Mission Vision Content Start -->
                                     <div class="mission-vision-content">
                                         <div class="mission-vision-content-header">
-                                            <p>Our vision is to transform the factory and industry sectors through sustainable practices, innovation, and advanced technology, fostering growth that benefits both business and the environment.</p>
+                                            <p>Con le nostre lavorazioni meccaniche di precisione conto terzi, realizziamo
+                                                componenti complessi per il tuo business, garantendo standard elevati,
+                                                affidabilità e miglioramento continuo. Siamo inoltre attenti alla sostenibilità,
+                                                con misure concrete.</p>
                                         </div>
 
                                         <div class="mission-vision-content-list">
                                             <ul>
-                                                <li>Sustainable Manufacturing Practices</li>
-                                                <li>Advanced Technology Integration</li>
-                                                <li>Community Environmental Responsibility</li>
-                                                <li>Innovation-Driven Growth</li>
+                                                <li>ISO 9001</li>
+                                                <li>Pannelli solari</li>
+                                                <li>Pompe di calore e refrigerazione in produzione</li>
+                                                <li>Sistemi di aspirazione centralizzati</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -465,15 +490,17 @@ $heightseo = "115";
                                     <!-- Mission Vision Content Start -->
                                     <div class="mission-vision-content">
                                         <div class="mission-vision-content-header">
-                                            <p>Our value is to transform the factory and industry sectors through sustainable practices, innovation, and advanced technology, fostering growth that benefits both business and the environment.</p>
+                                            <p><a href="<?= $pathindex ?>realizzazioni">Realizziamo</a> sia forniture complete sia lavoro conto terzi, gestendo
+                                                internamente ogni processo: dal taglio della materia prima, alla
+                                                programmazione, tornitura, fresatura, fino ai trattamenti esterni.</p>
                                         </div>
 
                                         <div class="mission-vision-content-list">
                                             <ul>
-                                                <li>Sustainable Manufacturing Practices</li>
-                                                <li>Advanced Technology Integration</li>
-                                                <li>Community Environmental Responsibility</li>
-                                                <li>Innovation-Driven Growth</li>
+                                                <li>Prototipi</li>
+                                                <li>Serie medie</li>
+                                                <li>Componenti complessi</li>
+                                                <li>Semilavorati</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -506,8 +533,8 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <span class="wow fadeInUp label text-black">our work</span>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
+                        <span class="wow fadeInUp label text-black">LA NOSTRA FILOSOFIA</span>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Qualità, precisione, aggiornamento costante</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -515,7 +542,9 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Content Start -->
                     <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                        <p>Our successful project initiatives showcase our commitment to excellence and innovation across various industries.</p>
+                        <p>Operiamo con trasparenza, dedizione e collaborazione, costruendo
+                            partnership solide con clienti e fornitori, rispettando standard internazionali e
+                            promuovendo la formazione continua in azienda.</p>
                     </div>
                     <!-- Section Title Content End -->
                 </div>
@@ -530,8 +559,8 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <span class="wow fadeInUp label text-black">our key feature</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Core strengths in <span>industrial innovation</span></h2>
+                        <span class="wow fadeInUp label text-black">VANTAGGIO COMPETITIVO</span>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Tecnologia, competenza, esperienza</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -539,7 +568,9 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Content Start -->
                     <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                        <p>Our expertise in industrial innovation combines advanced technology, sustainable practices, and a skilled workforce to deliver efficient, future-ready solutions that drive industry progress.</p>
+                        <p>La nostra forza è un mix di tecnologia avanzata, competenza tecnica e
+                            flessibilità, che ci permette di adattarci a qualsiasi richiesta, anche per pezzi
+                            singoli o prototipi.</p>
                     </div>
                     <!-- Section Title Content End -->
                 </div>
@@ -554,8 +585,9 @@ $heightseo = "115";
                             <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-panificazione.svg" alt="icona servizio">
                         </div>
                         <div class="features-item-content">
-                            <span>Advanced Technology Integration</span>
-                            <p>We integrate cutting-edge technologies into every aspect of our operations, enhancing efficiency, precision, and innovation to deliver superior industrial solutions.</p>
+                            <span>Team qualificato</span>
+                            <p>Il personale esperto e i continui investimenti in formazione permettono di
+                                gestire lavorazioni complesse, prototipi e pezzi singoli con altissima qualità.</p>
                         </div>
                     </div>
                     <!-- Our Features Item End -->
@@ -566,8 +598,9 @@ $heightseo = "115";
                             <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-motorsport.svg" alt="icona servizio">
                         </div>
                         <div class="features-item-content">
-                            <span>Uncompromising Quality Standards</span>
-                            <p>We uphold the highest quality standards across all processes, ensuring consistency, reliability, and excellence in every product and service we deliver.</p>
+                            <span>Processi completi</span>
+                            <p>La gestione di forniture complete o conto lavoro, con processi interni ed
+                                esterni, viene svolta curando trattamenti, finiture, prototipazione.</p>
                         </div>
                     </div>
                     <!-- Our Features Item End -->
@@ -578,8 +611,9 @@ $heightseo = "115";
                             <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-formatura.svg" alt="icona servizio">
                         </div>
                         <div class="features-item-content">
-                            <span>Continuous Innovation and R&D</span>
-                            <p>We prioritize ongoing research and development to drive continuous innovation, staying ahead of industry trends and creating advanced solutions that meet evolving market demands.</p>
+                            <span>Tecnologia avanzata</span>
+                            <p>Macchine multiasse DMG Mori, torni e frese a 5 assi, magazzino automatico
+                                Fastems, lavorazione 24/7.</p>
                         </div>
                     </div>
                     <!-- Our Features Item End -->
@@ -597,7 +631,7 @@ $heightseo = "115";
         </div>
     </section>
     <!-- Our Features Section End -->
-     
+
     <!-- What We Do Start -->
     <div id="what-we-do" class="what-we-do">
         <div class="container-fluid">
@@ -607,8 +641,8 @@ $heightseo = "115";
                     <div class="what-we-do-content">
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
-                            <span class="wow fadeInUp label">what we do</span>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Innovative factory and industry <span>solutions today</span></h2>
+                            <span class="wow fadeInUp label">COSA FACCIAMO</span>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Lavorazioni conto terzi di precisione, eccellenza al tuo servizio</h2>
                         </div>
                         <!-- Section Title End -->
 
@@ -621,8 +655,8 @@ $heightseo = "115";
                                         <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-formatura.svg" alt="icona servizio">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <span>automation solutions</span>
-                                        <p>Streamlining processes through cutting-edge technology.</p>
+                                        <span>Fresatura avanzata</span>
+                                        <p>Componenti complessi e dettagliati su misura.</p>
                                     </div>
                                 </div>
                                 <!-- What We Do Item End -->
@@ -633,8 +667,8 @@ $heightseo = "115";
                                         <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-motorsport.svg" alt="icona servizio">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <span>quality control</span>
-                                        <p>Ensuring product excellence through rigorous testing.</p>
+                                        <span>Tornitura professionale</span>
+                                        <p>Produzione di parti affidabili e durevoli.</p>
                                     </div>
                                 </div>
                                 <!-- What We Do Item End -->
@@ -647,8 +681,8 @@ $heightseo = "115";
                                         <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-panificazione.svg" alt="icona servizio">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <span>process engineering</span>
-                                        <p>Ensuring product excellence through rigorous testing.</p>
+                                        <span>Prototipi rapidi</span>
+                                        <p>Sviluppo CAD/CAM e realizzazione su richiesta.</p>
                                     </div>
                                 </div>
                                 <!-- What We Do Item End -->
@@ -659,8 +693,8 @@ $heightseo = "115";
                                         <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-ricerca.svg" alt="icona servizio">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <span>product development</span>
-                                        <p>Streamlining processes through cutting-edge technology.</p>
+                                        <span>Trattamenti superficiali</span>
+                                        <p>Finiture e incisioni laser di alta qualità.</p>
                                     </div>
                                 </div>
                                 <!-- What We Do Item End -->

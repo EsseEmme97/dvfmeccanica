@@ -4,8 +4,10 @@ require_once("./inc/global.php");
 require_once("./inc/header.php");
 require_once($pathindex . "inc/mysqli.php");
 // $database = new DB();
-$titleseo = "DVF";
-$descriptionseo = "descrizione";
+$titleseo = "Lavorazioni meccaniche di precisione | DVF Meccanica";
+$descriptionseo = "DVF Meccanica offre lavorazioni meccaniche di precisione
+a Vicenza: fresatura, tornitura e prototipazione con macchine di precisione e
+qualità certificata ISO 9001.";
 $image = "assets/images/global/favicon/DVF-favicon.ico";
 $widthseo = "400";
 $heightseo = "115";
@@ -68,15 +70,16 @@ $heightseo = "115";
                                     <div class="hero-content">
                                         <!-- Section Title Start -->
                                         <div class="section-title dark-section">
-                                            <span class="wow fadeInUp label">su di noi</span>
-                                            <h1 class="text-anime-style-2" data-cursor="-opaque">Excellence innovating <span>industry for today</span></h1>
-                                            <p class="wow fadeInUp" data-wow-delay="0.25s">At the heart of our operations is a commitment to delivering superior products through cutting-edge technology and innovative processes. </p>
+                                            <span class="wow fadeInUp label">DVF MECCANICA</span>
+                                            <h1 class="text-anime-style-2" data-cursor="-opaque">Specialisti in lavorazioni meccaniche <span>di alta precisione</span></h1>
+                                            <p class="wow fadeInUp" data-wow-delay="0.25s">Da oltre 35 anni specialisti in fresatura, tornitura e prototipazione ad alta
+                                                precisione </p>
                                         </div>
                                         <!-- Section Title End -->
 
                                         <!-- Hero Button Start -->
                                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                            <a href="contact.html" class="btn-default"><span>explore more</span></a>
+                                            <a href="<?= $pathindex ?>azienda" class="btn-default"><span>Scopri di più</span></a>
                                         </div>
                                         <!-- Hero Button End -->
                                     </div>
@@ -104,9 +107,10 @@ $heightseo = "115";
                                     <div class="hero-content">
                                         <!-- Section Title Start -->
                                         <div class="section-title dark-section">
-                                            <span class="wow fadeInUp label">su di noi</span>
-                                            <h1 class="text-anime-style-2" data-cursor="-opaque">Excellence innovating <span>industry for today</span></h1>
-                                            <p class="wow fadeInUp" data-wow-delay="0.25s">At the heart of our operations is a commitment to delivering superior products through cutting-edge technology and innovative processes. </p>
+                                            <span class="wow fadeInUp label">DVF MECCANICA</span>
+                                            <h1 class="text-anime-style-2" data-cursor="-opaque">Meccanica di precisione <span>per il tuo business</span></h1>
+                                            <p class="wow fadeInUp" data-wow-delay="0.25s">Componenti su misura con qualità garantita, tempi di consegna sempre
+                                                affidabili </p>
                                         </div>
                                         <!-- Section Title End -->
 
@@ -172,9 +176,21 @@ $heightseo = "115";
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <span class="wow fadeInUp label text-black">su di noi</span>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Building quality through <span>industrial innovation</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Nata alla fine degli anni ’80 per le lavorazioni meccaniche nel settore del packaging, oggi DVF è specializzata in lavorazioni meccaniche di precisione e prototipazione.</p>
-                            <p class="wow fadeInUp" data-wow-delay="0.35s"> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Realizziamo componenti metallici di qualità superiore</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">Nata alla fine degli anni ’80 per lavorazioni meccaniche a Vicenza rivolte al
+                                packaging, oggi <a href="<?= $pathindex ?>azienda">DVF Meccanica</a> è specializzata in <a href="<?= $pathindex ?>realizzazioni">lavorazioni meccaniche</a>
+                                di precisione e prototipazione per svariati settori. L’azienda vicentina
+                                garantisce soluzioni avanzate per clienti che richiedono affidabilità, puntualità
+                                e risultati impeccabili.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.35s"> <a href="<?= $pathindex ?>parco-macchine">parco macchine</a>Con un di ultima generazione,
+                                composto da centri di lavoro multiasse DMG Mori e magazzino automatico
+                                Fastems, vengono <strong>garantite solo produzioni di altissima qualità, 24 ore
+                                    su 24, 7 giorni su 7</strong> . La lunga esperienza nella lavorazione meccanica di
+                                precisione permette di spaziare da prototipi unici a produzioni in serie,
+                                servendo settori come: automotive, <a href="<?= $pathindex ?>motorsport">racing</a>, packaging alimentare,
+                                farmaceutico e ricerca scientifica. Precisione meticolosa, competenza tecnica
+                                e <strong>qualità certificata</strong> rendono DVF Meccanica il partner ideale per chi cerca
+                                l’eccellenza senza compromessi.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -215,11 +231,11 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-body">
-                                <span>custom manufacturing solution</span>
+                                <span>Parco macchine <br>avanzato</span>
                             </div>
 
                             <div class="service-footer">
-                                <a href="<?= $pathindex ?>azienda#what-we-do" class="service-btn">
+                                <a href="<?= $pathindex ?>parco-macchine" class="service-btn">
                                     <img src="<?= $pathindex ?>assets/images/global/recapiti/arrow-white.svg" alt="immagine freccia">
                                 </a>
                             </div>
@@ -233,7 +249,7 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-body">
-                                <span>industrial automation and robotics</span>
+                                <span>Eccelenza e qualità certificate</span>
                             </div>
 
                             <div class="service-footer">
@@ -251,11 +267,11 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-body">
-                                <span>product design and prototyping</span>
+                                <span>Lavorazioni meccaniche di altissima precisione</span>
                             </div>
 
                             <div class="service-footer">
-                                <a href="<?= $pathindex ?>parco-macchine" class="service-btn">
+                                <a href="<?= $pathindex ?>realizzazioni" class="service-btn">
                                     <img src="<?= $pathindex ?>assets/images/global/recapiti/arrow-white.svg" alt="immagine freccia">
                                 </a>
                             </div>
@@ -269,7 +285,7 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-body">
-                                <span>equipment maintenance support</span>
+                                <span>Una storia <br>trentennale</span>
                             </div>
 
                             <div class="service-footer">
@@ -297,7 +313,7 @@ $heightseo = "115";
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
                             <span class="wow fadeInUp label">cosa facciamo</span>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Innovative factory and industry <span>solutions today</span></h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">L’eccellenza nelle lavorazioni meccaniche</h2>
                         </div>
                         <!-- Section Title End -->
 
@@ -311,8 +327,8 @@ $heightseo = "115";
                                             <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
                                         </div>
                                         <div class="what-we-item-content">
-                                            <span>automation solutions</span>
-                                            <p>Streamlining processes through cutting-edge technology.</p>
+                                            <span>Fresatura avanzata</span>
+                                            <p>Componenti complessi con lavorazioni a 3, 4 e 5 assi</p>
                                         </div>
                                     </a>
                                 </div>
@@ -325,8 +341,8 @@ $heightseo = "115";
                                             <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
                                         </div>
                                         <div class="what-we-item-content">
-                                            <span>quality control</span>
-                                            <p>Ensuring product excellence through rigorous testing.</p>
+                                            <span>Tornitura precisa</span>
+                                            <p>Produzione di parti meccaniche affidabili e di altissima precisione</p>
                                         </div>
                                     </a>
                                 </div>
@@ -341,8 +357,8 @@ $heightseo = "115";
                                             <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
                                         </div>
                                         <div class="what-we-item-content">
-                                            <span>process engineering</span>
-                                            <p>Ensuring product excellence through rigorous testing.</p>
+                                            <span>Prototipi rapidi</span>
+                                            <p>Dallo sviluppo CAD/CAM alla realizzazione di prototipi unici</p>
                                         </div>
                                     </a>
                                 </div>
@@ -355,8 +371,8 @@ $heightseo = "115";
                                             <img src="<?= $pathindex ?>assets/images/icon set/parco macchine/focus-macchinari.svg" alt="icona ingranaggio">
                                         </div>
                                         <div class="what-we-item-content">
-                                            <span>product development</span>
-                                            <p>Streamlining processes through cutting-edge technology.</p>
+                                            <span>Trattamenti finali</span>
+                                            <p>Finiture superficiali e incisioni laser per prodotti completi</p>
                                         </div>
                                     </a>
                                 </div>
@@ -405,7 +421,7 @@ $heightseo = "115";
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <span class="wow fadeInUp label text-black">Cosa facciamo</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">La nostra esperienza nella meccanica di precisione al tuo servizio</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -413,7 +429,8 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Content Start -->
                     <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                        <p>Lavoriamo con la massima serietà e dedizione: i componenti meccanici che produciamo vogliono essere sinonimo di qualità.</p>
+                        <p>Lavoriamo con la massima serietà e dedizione: i componenti meccanici che
+                            produciamo vogliono essere sinonimo di qualità.</p>
                     </div>
                     <div class="hero-btn wow fadeInUp section-title-content mt-4" data-wow-delay="0.4s">
                         <a href="<?= $pathindex ?>realizzazioni" class="btn-default"><span>Scopri di più</span></a>
@@ -458,7 +475,7 @@ $heightseo = "115";
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <span class="wow fadeInUp label text-black">Come lo facciamo</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Streamlined processes <span>for optimal efficiency</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Tecnologia e qualità certificata</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -466,7 +483,9 @@ $heightseo = "115";
                 <div class="col-lg-6">
                     <!-- Section Title Content Start -->
                     <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                        <p>Lavoriamo con la massima serietà e dedizione: i componenti meccanici che produciamo vogliono essere sinonimo di qualità.</p>
+                        <p>Grazie a macchinari all’avanguardia e a procedure di lavorazione ottimizzate,
+                            garantiamo componenti meccanici di precisione di altissima qualità e durata,
+                            certificati secondo i più alti standard internazionali.</p>
                     </div>
                     <!-- Section Title Content End -->
                 </div>
@@ -493,7 +512,8 @@ $heightseo = "115";
                             </div>
                             <div class="process-step-content">
                                 <span class="title">Qualità certificata ISO 9001</span>
-                                <p>La qualità del nostro lavoro è certificata secondo gli standard internazionali ISO 9001</p>
+                                <p>La qualità del nostro lavoro è certificata secondo gli standard internazionali
+                                    ISO 9001</p>
                             </div>
                         </div>
                         <!-- Process Step Item End -->
@@ -505,7 +525,8 @@ $heightseo = "115";
                             </div>
                             <div class="process-step-content">
                                 <span class="title">Pannelli fotovoltaici</span class="title">
-                                <p>Riduciamo il nostro impatto ambientale grazie al nuovo impianto fotovoltaico, che ci rende green</p>
+                                <p>Riduciamo il nostro impatto ambientale grazie al nuovo impianto fotovoltaico,
+                                    che ci rende green</p>
                             </div>
                         </div>
                         <!-- Process Step Item End -->
@@ -517,7 +538,8 @@ $heightseo = "115";
                             </div>
                             <div class="process-step-content">
                                 <span class="title">Sistemi di aspirazione centralizzati</span>
-                                <p>Disponiamo di due sistemi d’aspirazione centralizzati, per garantire la massima qualità dell’aria</p>
+                                <p>Disponiamo di due sistemi d’aspirazione centralizzati, per garantire la
+                                    massima qualità dell’aria</p>
                             </div>
                         </div>
                         <!-- Process Step Item End -->

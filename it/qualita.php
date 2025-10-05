@@ -4,8 +4,10 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once($pathindex . "inc/mysqli.php");
 // $database = new DB();
-$titleseo = "DVF - azienda";
-$descriptionseo = "descrizione";
+$titleseo = "Meccanica di precisione con iso 9001 | DVF Meccanica";
+$descriptionseo = "In DVF Meccanica la meccanica di precisione è certificata
+ISO 9001: l’alta qualità dei prodotti è sempre garantita, per componenti
+affidabili e durevoli.";
 $image = "assets/images/global/favicon/DVF-favicon.ico";
 $widthseo = "400";
 $heightseo = "115";
@@ -77,8 +79,8 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Start -->
 					<div class="section-title">
-						<span class="wow fadeInUp label text-black">Come lo facciamo</span>
-						<h2 class="text-anime-style-2" data-cursor="-opaque">Streamlined processes <span>for optimal efficiency</span></h2>
+						<span class="wow fadeInUp label text-black">ECCELLENZA CERTIFICATA</span>
+						<h2 class="text-anime-style-2" data-cursor="-opaque">La qualità nella meccanica di precisione</h2>
 					</div>
 					<!-- Section Title End -->
 				</div>
@@ -86,7 +88,10 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Content Start -->
 					<div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-						<p>Lavoriamo con la massima serietà e dedizione: i componenti meccanici che produciamo vogliono essere sinonimo di qualità.</p>
+						<p>In <a href="<?= $pathindex ?>">DVF Meccanica</a> ogni fase produttiva viene gestita con attenzione, per
+							<strong>garantire una meccanica di precisione d’eccellenza</strong>, che soddisfi anche le
+							esigenze più complesse.
+						</p>
 					</div>
 					<!-- Section Title Content End -->
 				</div>
@@ -112,8 +117,9 @@ $heightseo = "115";
 								<span>01</span>
 							</div>
 							<div class="process-step-content">
-								<span class="title">Qualità certificata ISO 9001</span>
-								<p>La qualità del nostro lavoro è certificata secondo gli standard internazionali ISO 9001</p>
+								<span class="title">Certificazione ISO 9001</span>
+								<p>Il nostro impegno per l’eccellenza è riconosciuto dalla certificazione
+									internazionale ISO 9001, garanzia di qualità in ogni processo produttivo.</p>
 							</div>
 						</div>
 						<!-- Process Step Item End -->
@@ -124,8 +130,9 @@ $heightseo = "115";
 								<span>02</span>
 							</div>
 							<div class="process-step-content">
-								<span class="title">Pannelli fotovoltaici</span>
-								<p>Riduciamo il nostro impatto ambientale grazie al nuovo impianto fotovoltaico, che ci rende green</p>
+								<span class="title">Energia solare</span>
+								<p>Con l’installazione di un impianto fotovoltaico riduciamo consumi e impatto
+									ambientale, rafforzando il nostro approccio sostenibile.</p>
 							</div>
 						</div>
 						<!-- Process Step Item End -->
@@ -136,8 +143,9 @@ $heightseo = "115";
 								<span>03</span>
 							</div>
 							<div class="process-step-content">
-								<span class="title">Sistemi di aspirazione centralizzati</span>
-								<p>Disponiamo di due sistemi d’aspirazione centralizzati, per garantire la massima qualità dell’aria</p>
+								<span class="title">Aspirazione centralizzata</span>
+								<p>Due impianti di aspirazione centralizzati assicurano ambienti di lavoro più
+									salubri, con aria pulita e costante qualità produttiva.</p>
 							</div>
 						</div>
 						<!-- Process Step Item End -->
@@ -155,8 +163,8 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Start -->
 					<div class="section-title">
-						<span class="wow fadeInUp label text-black">our work</span>
-						<h2 class="text-anime-style-3" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
+						<span class="wow fadeInUp label text-black">VALORI AZIENDALI</span>
+						<h2 class="text-anime-style-3" data-cursor="-opaque">Trasparenza e responsabilità</h2>
 					</div>
 					<!-- Section Title End -->
 				</div>
@@ -164,7 +172,9 @@ $heightseo = "115";
 				<div class="col-lg-6">
 					<!-- Section Title Content Start -->
 					<div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-						<p>Our successful project initiatives showcase our commitment to excellence and innovation across various industries.</p>
+						<p>Operiamo con trasparenza e serietà, costruendo rapporti di fiducia duraturi
+							con clienti e fornitori, sempre nel rispetto delle normative e standard
+							internazionali e orientati al <strong>miglioramento continuo</strong>.</p>
 					</div>
 					<!-- Section Title Content End -->
 				</div>
@@ -175,8 +185,10 @@ $heightseo = "115";
 				<div class="project-query-item">
 					<!-- Project Query Content Start -->
 					<div class="project-query-content">
-						<span class="text-anime-style-2 h2 fw-bold">The problem</span>
-						<p class="wow fadeInUp" data-wow-delay="0.2s">The project addresses inconsistencies in product quality, inefficiencies in production processes.</p>
+						<span class="text-anime-style-2 h2 fw-bold">Qualità garantita</span>
+						<p class="wow fadeInUp" data-wow-delay="0.2s">Solo standard elevati: grazie a processi controllati e certificati UNI EN ISO
+							9001:2015, assicuriamo componenti meccanici affidabili, performanti e
+							durevoli nel tempo.</p>
 					</div>
 					<!-- Project Query Content End -->
 
@@ -194,8 +206,10 @@ $heightseo = "115";
 				<div class="project-query-item">
 					<!-- Project Query Content Start -->
 					<div class="project-query-content">
-						<span class="text-anime-style-2 h2 fw-bold">The solution</span>
-						<p class="wow fadeInUp" data-wow-delay="0.2s">The project implements Total Quality Management solutions to improve product quality.</p>
+						<span class="text-anime-style-2 h2 fw-bold">Precisione costante</span>
+						<p class="wow fadeInUp" data-wow-delay="0.2s">Le nostre <a href="<?= $pathindex ?>realizzazioni">lavorazioni meccaniche</a> seguono rigorosi protocolli interni e sono
+							eseguite con materiali selezionati, per mantenere stabilità dimensionale e
+							uniformità in ogni componente finito.</p>
 					</div>
 					<!-- Project Query Content End -->
 
@@ -212,8 +226,9 @@ $heightseo = "115";
 				<div class="project-query-item">
 					<!-- Project Query Content Start -->
 					<div class="project-query-content">
-						<span class="text-anime-style-2 h2 fw-bold">The problem</span>
-						<p class="wow fadeInUp" data-wow-delay="0.2s">The project addresses inconsistencies in product quality, inefficiencies in production processes.</p>
+						<span class="text-anime-style-2 h2 fw-bold">Politica per la qualità</span>
+						<p class="wow fadeInUp" data-wow-delay="0.2s">Perseguiamo l’eccellenza nei processi meccanici, con: soddisfazione del
+							cliente, innovazione tecnologica, conformità</p>
 					</div>
 					<!-- Project Query Content End -->
 

@@ -4265,7 +4265,7 @@ header.main-header .header-sticky.active {
 }
 
 .project-query-content {
-  width: calc(63%-15px);
+  width: calc(63%);
 }
 
 .project-query-box ul {

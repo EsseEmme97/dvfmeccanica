@@ -27,12 +27,11 @@
                     <span class="footer-title">Contatti</span>
                     <ul>
                         <li>T. <a href="tel:+390445641300">+39 0445 641300</a></li>
-                        <li>F. <a href="tel:+390445549301">+39 0445 549301</a></li>
                         <li><a href="mailto:info@dvfmeccanica.com">info@dvfmeccanica.com</a></li>
-                        <li class="d-flex gap-3">
-                            <a href="#"><img src="<?= $pathindex ?>assets/images/global/social/Icon corebrands-instagram.svg" alt="icona istagram"></a>
-                            <a href="#"><img src="<?= $pathindex ?>assets/images/global/social/Icon corebrands-linkedin.svg" alt="icona-linkedin"></a>
-                            <a href="#"><img src="<?= $pathindex ?>assets/images/global/social/Icon fa-brands-square-facebook.svg" alt="icona-facebook"></a>
+                        <li class="d-flex gap-3 mt-auto">
+                            <a href="https://www.instagram.com/p/DE5GtYGoKd7/" target="_blank"><img src="<?= $pathindex ?>assets/images/global/social/Icon corebrands-instagram.svg" alt="icona istagram"></a>
+                            <a href="https://it.linkedin.com/company/dvf-meccanica-srl" target="_blank"><img src="<?= $pathindex ?>assets/images/global/social/Icon corebrands-linkedin.svg" alt="icona-linkedin"></a>
+                            <a href="https://www.facebook.com/dvfmeccanica/" target="_blank"><img src="<?= $pathindex ?>assets/images/global/social/Icon fa-brands-square-facebook.svg" alt="icona-facebook"></a>
                         </li>
                     </ul>
                 </div>
@@ -44,7 +43,7 @@
                 <div class="footer-links">
                     <span class="footer-title">Link veloci</span>
                     <ul class="row">
-                        <li class="col-lg-6 col-12 p-0"><a href="<?= $pathindex ?>">home</a></li>
+                        <li class="col-lg-6 col-12 p-0"><a href="<?= $pathindex ?>">Home</a></li>
                         <li class="col-lg-6 col-12 p-0"><a href="<?= $pathindex ?>azienda">Azienda</a></li>
                         <li class="col-lg-6 col-12 p-0"><a href="<?= $pathindex ?>qualità">Qualità</a></li>
                         <li class="col-lg-6 col-12 p-0"><a href="<?= $pathindex ?>parco-macchine">Parco Macchine</a></li>
@@ -67,19 +66,20 @@
             </div>
         </div>
 
-        <!-- Footer Copyright Section Start -->
-        <div class="footer-copyright">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <!-- Footer Copyright Start -->
-                    <div class="footer-copyright-text">
-                        <p>© <?= date("Y") ?> DVF Meccanica Srl | P.I./C.F. e R.I. 02082700242 | R.E.A. VI-204887 | Capitale sociale Euro 10.000,00 i.v. | Politica per la Qualità | <a href="#">Privacy Policy</a> | <a href="#">Cookie Policy</a> | <a href="#">Preferenze Cookies</a> | <a href="https://carbonx.it/">by Carbonx</a> La società DVF Meccanica srl ha ricevuto nel corso degli anni 2020/2021 aiuti di Stato pubblicati sul RNA Sezione Trasparenza - Informazioni ex art. 1, comma125, della legge 4 agosto 2017 n. 124</p>
-                    </div>
-                    <!-- Footer Copyright End -->
+    </div>
+    <!-- Footer Copyright Section Start -->
+    <div class="footer-copyright">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <!-- Footer Copyright Start -->
+                <div class="footer-copyright-text">
+                    <p>© <?= date("Y") ?> DVF Meccanica Srl | P.I./C.F. e R.I. 02082700242 | R.E.A. VI-204887 | Capitale sociale Euro 10.000,00 i.v. | <a href="<?= $pathindex ?>politica-per-la-qualita">Politica per la qualità</a> | <a href="#">Privacy Policy</a> | <a href="#">Cookie Policy</a> | <a href="#">Preferenze Cookies</a> | <a href="https://carbonx.it/">by Carbonx</a> </p>
+                    <p>La società DVF Meccanica srl ha ricevuto nel corso degli anni 2020/2021 aiuti di Stato pubblicati sul RNA Sezione Trasparenza - Informazioni ex art. 1, comma125, della legge 4 agosto 2017 n. 124</p>
                 </div>
+                <!-- Footer Copyright End -->
             </div>
         </div>
-        <!-- Footer Copyright Section End -->
     </div>
+    <!-- Footer Copyright Section End -->
 </footer>
 <!-- Footer End -->

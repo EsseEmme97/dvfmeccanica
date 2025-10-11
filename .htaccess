@@ -14,7 +14,7 @@ RewriteRule ^lavora-con-noi$ it/lavora-con-noi.php [L]
 RewriteRule ^lavora-con-noi/([^/]+)$ it/posizione-lavorativa.php?posizione=$1 [L]
 RewriteRule ^contatti$ it/contatti.php [L]
 RewriteRule ^parco-macchine/(01-DMG-MORI-DMC-80-U-DUOBLOCK|02-DMG-MORI-DMC-80-DUOBLOCK|03-DMG-MORI-DMC-95-MONOBLOCK|04-DECKEL-MAHO-DMU-100-MONOBLOCK|05-DECKEL-MAHO-DMU-100T|06-DECKEL-MAHO-DMU-60-MONOBLOCK|07-AERRE-CL-60100|08-TORNIO-DMG-GILDEMEISTER-CTX-410-V3|09-RAMBAUDI-VERSAMATIC-500|10-DOOSAN-DNM-650|11-DOOSAN-DNM-6700|12-DOOSAN-DNM-6700L|13-METBA-MB-50X|14-SISMA-EASY-OPEN-60)$ it/singola-macchina.php [L]
-
+RewriteRule ^politica-per-la-qualita$ it/politica-qualita.php [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

@@ -101,7 +101,9 @@ $heightseo = "115";
                         <? $images = array_values(array_filter(scandir("../assets/images/immagini/parco macchine"), function ($el) {
                             return $el != "." && $el != "..";
                         }));
-                        $pathDir = $pathindex . "assets/images/immagini/parco macchine/"; ?>
+                        $pathDir = $pathindex . "assets/images/immagini/parco macchine/";
+                        $imagesTitles=["DMG MORI DMC 80-U DUOBLOCK","DMG MORI DMC 80 DUOBLOCK","DMG MORI DMC 95 MONOBLOCK","DECKEL MAHO DMU 100 MONOBLOCK","DECKEL MAHO DMU 100T","DECKEL MAHO 60T","AERRE CL 60100","TORNIO DMG GILDEMEISTER CTX 410 V3","RAMBAUDI VERSAMATIC 500","DOOSAN DNM 650","DOOSAN DNM 6700","DOOSAN DNM 6700L","METBA MB 50X","SISMA EASY OPEN 60"];
+                       ?>
                         <? for ($i = 0; $i < 14; $i++): ?>
                             <div class="col-md-6 project-item-box manufacturing automation">
                                 <!-- Project Item Start -->
@@ -112,7 +114,7 @@ $heightseo = "115";
                                         </figure>
                                     </div>
                                     <div class="project-content">
-                                        <a href="<?= $pathindex . "parco-macchine/" . substr($images[$i], 0, strlen($images[$i]) - 5) ?>"><?= substr($images[$i], 0, strlen($images[$i]) - 5) ?></a>
+                                        <a href="<?= $pathindex . "parco-macchine/" . pathinfo($images[$i], PATHINFO_FILENAME) ?>"><?= $imagesTitles[$i] ?></a>
                                     </div>
                                 </div>
                                 <!-- Project Item End -->
@@ -142,7 +144,7 @@ $heightseo = "115";
                     <!-- Section Title Content Start -->
                     <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
                         <p>DVF Meccanica dispone di <strong>torni, frese e centri di lavoro multiasse DMG
-                                Mori, Overmach e Deckel Maho</strong> , tutti collegati a sistemi automatizzati per
+                                Mori, Overmach e Deckel Maho</strong>, tutti collegati a sistemi automatizzati per
                             produzioni efficienti e continue. Il nostro team altamente qualificato ottimizza
                             ogni programma CNC, assicurando componenti affidabili e perfettamente
                             conformi alle specifiche del cliente.</p>
@@ -186,7 +188,7 @@ $heightseo = "115";
                     <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
                         <p>Tutti i nostri macchinari per la lavorazione del metallo permettono di
                             realizzare componenti <a href="<?= $pathindex ?>azienda">conto terzi</a> di qualsiasi complessità. Dalla
-                            progettazione alla consegna, garantiamo <a href="<?= $pathindex?>qualita">standard elevati</a> e flessibilità totale.</p>
+                            progettazione alla consegna, garantiamo <a href="<?= $pathindex ?>qualita">standard elevati</a> e flessibilità totale.</p>
                     </div>
                     <div class="hero-btn wow fadeInUp section-title-content mt-4" data-wow-delay="0.4s">
                         <a href="<?= $pathindex ?>azienda" class="btn-default"><span>Scopri di più</span></a>
@@ -199,8 +201,8 @@ $heightseo = "115";
                 <div class="col-lg-12">
                     <!-- Project Item Boxes start -->
                     <div class="row project-item-boxes align-items-center">
-                    <? $texts=["Fresatura multiasse","Tornitura CNC","Elettroerosione a filo","Incisione laser"] ?>
-                        <? foreach($texts as $text): ?>
+                        <? $texts = ["Fresatura multiasse", "Tornitura CNC", "Elettroerosione a filo", "Incisione laser"] ?>
+                        <? foreach ($texts as $text): ?>
                             <div class="col-md-6 project-item-box manufacturing automation">
                                 <!-- Project Item Start -->
                                 <div class="project-item wow fadeInUp">

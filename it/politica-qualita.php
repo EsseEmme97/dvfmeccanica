@@ -4,10 +4,10 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once($pathindex . "inc/mysqli.php");
 // $database = new DB();
-$titleseo = "Lavorazioni meccaniche: tornitura e fresatura | DVF Meccanica";
-$descriptionseo = "Scopri le lavorazioni meccaniche di DVF Meccanica:
-fresatura, tornitura e elettroerosione per produzioni meccaniche di precisione
-e prototipi su misura.";
+$titleseo = "Macchine per la lavorazione dei metalli | DVF Meccanica";
+$descriptionseo = "Parco macchine di ultima generazione: ogni macchina per
+la lavorazione del metallo garantisce precisione e qualità. Scopri tutti i nostri
+macchinari!";
 $image = "assets/images/global/favicon/DVF-favicon.ico";
 $widthseo = "400";
 $heightseo = "115";
@@ -49,86 +49,22 @@ $heightseo = "115";
 	<? require_once($pathindex . "inc/htmlcx/menu-ita.php") ?>
 
 	<!-- ==================== End Navbar ==================== -->
-
-	<!-- Page Header Start -->
-	<section class="page-header parallaxie" style="background-image: url('<?= $pathindex ?>assets/images/immagini/realizzazioni/realizzazioni-header.webp');">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-12">
-					<!-- Page Header Box Start -->
-					<div class="page-header-box">
-						<h1 class="text-anime-style-2" data-cursor="-opaque">Le nostre lavorazioni meccaniche</h1>
-						<nav class="wow fadeInUp">
-							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="<?= $pathindex ?>">home</a></li>
-								<li class="breadcrumb-item active" aria-current="page">Realizzazioni</li>
-							</ol>
-						</nav>
-					</div>
-					<!-- Page Header Box End -->
-				</div>
-			</div>
-		</div>
+	<section class="container">
+		<h1 class="my-5">Politica per la Qualità </h1>
+		<p class="fw-bold">DVF Meccanica è impegnata a garantire eccellenza e innovazione nel settore delle lavorazioni meccaniche di precisione, con particolare attenzione alle esigenze dei clienti, inclusi quelli dei settori motorsport, automazione industriale, automotive, medicale, dove precisione, affidabilità e prestazioni elevatesono fondamentali. </p>
+		<p class="fw-bold">Per raggiungere questi obiettivi, ci impegniamo nei seguenti punti: </p>
+		<ul>
+			<li><strong>Soddisfare le esigenze dei clienti:</strong>fornire prodotti e servizi di alta qualità che soddisfino pienamente i requisiti specifici e le aspettative dei nostri clienti, garantendo affidabilità e puntualità; </li>
+			<li><strong>Miglioramento continuo:</strong>ottimizzare costantemente i nostri processi, le tecnologie e le competenze del personale, al fine di incrementare la qualità e l’efficienza delle nostre lavorazioni; </li>
+			<li><strong>Conformità ai requisiti:</strong>operare in conformità ai requisiti normativi applicabili, ai regolamenti del settore e agli standard internazionali, tra cui la ISO 9001;</li>
+			<li><strong>Innovazione e precisione:</strong>investire in macchinari all’avanguardia e adottare metodologie innovative per garantire lavorazioni meccaniche di precisione, rispondendo alle sfide tecniche più complesse; </li>
+			<li><strong>Formazione e coinvolgimento del personale:</strong>promuovere lo sviluppo professionale continuo e il coinvolgimento attivo dei nostri collaboratori, riconoscendo il loro ruolo fondamentale per il successo aziendale; </li>
+			<li><strong>Partnership solide:</strong>costruire relazioni di fiducia con i nostri clienti e fornitori, favorendo una collaborazione basata su trasparenza e reciproco vantaggio.  </li>
+		</ul>
+		<p class="fw-bold">Questa politica è riesaminata periodicamente per garantirne la continua idoneità e viene comunicata a tutti i livelli dell’organizzazione, nonché resa disponibile alle parti interessate rilevanti. </p>
+		<p class="fw-bold">La direzione</p>
+		<p class="fw-bold">Data:18/10/2024</p>
 	</section>
-	<!-- Page Header End -->
-
-	<!-- Page Team Start -->
-	<section class="page-team">
-		<div class="container">
-			<div class="row section-row">
-				<div class="col-lg-6">
-					<!-- Section Title Start -->
-					<div class="section-title">
-						<span class="wow fadeInUp label text-black">REALIZZAZIONI</span>
-						<h2 class="text-anime-style-2" data-cursor="-opaque">Dove la meccanica prende forma</h2>
-					</div>
-					<!-- Section Title End -->
-				</div>
-
-				<div class="col-lg-6">
-					<!-- Section Title Content Start -->
-					<div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-						<p>Le realizzazioni di DVF Meccanica rappresentano il risultato di oltre trent’anni
-							di esperienza nel settore delle <a href="<?= $pathindex ?>">lavorazioni meccaniche</a> di precisione.
-							<strong>L’azienda è al servizio di numerosi ambiti produttivi</strong> – packaging,
-							panificazione, automotive, motorsport, ricerca scientifica e farmaceutico,
-							stampi e automazione industriale – offrendo soluzioni affidabili e su misura.
-							Ogni lavorazione meccanica, dalla fresatura dei metalli alla tornitura
-							meccanica di precisione, fino all’elettroerosione, è eseguita con <a href="<?= $pathindex ?>parco-macchine">macchinari avanzati</a> e <a href="<?= $pathindex?>qualita">processi certificati</a>. Le nostre produzioni meccaniche spaziano dai
-							prototipi ai lotti in serie, dimostrando versatilità, qualità e capacità tecnica che
-							fanno di <a href="<?= $pathindex ?>">DVF Meccanica</a> un partner d’eccellenza nelle lavorazioni
-							metalmeccaniche.</p>
-					</div>
-					<!-- Section Title Content End -->
-				</div>
-			</div>
-			<div class="row">
-				<? for ($i = 1; $i <= 8; $i++): ?>
-					<div class="col-lg-3 col-md-6">
-						<!-- Team Member Item Start -->
-						<div class="team-member-item wow fadeInUp">
-							<!-- Team Image Start -->
-							<div class="team-image">
-								<figure class="image-anime">
-									<img src="https://placehold.co/400x460" alt="immagine realizzazione">
-								</figure>
-							</div>
-							<!-- Team Image End -->
-
-							<!-- Team Content Start -->
-							<div class="team-content">
-								<span>nome riferimento</span>
-								<p>breve descrizione</p>
-							</div>
-							<!-- Team Content End -->
-						</div>
-						<!-- Team Member Item End -->
-					</div>
-				<? endfor ?>
-			</div>
-		</div>
-	</section>
-	<!-- Page Team End -->
 	<!-- ==================== Start Footer ==================== -->
 	<? require_once($pathindex . "inc/htmlcx/footer-ita.php") ?>
 	<!-- ==================== End Footer ==================== -->

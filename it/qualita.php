@@ -228,7 +228,8 @@ $heightseo = "115";
 					<div class="project-query-content">
 						<span class="text-anime-style-2 h2 fw-bold">Politica per la qualità</span>
 						<p class="wow fadeInUp" data-wow-delay="0.2s">Perseguiamo l’eccellenza nei processi meccanici, con: soddisfazione del
-							cliente, innovazione tecnologica, conformità</p>
+							cliente, innovazione tecnologica, conformità normativa, formazione del
+							personale e partnership trasparenti.</p>
 					</div>
 					<!-- Project Query Content End -->
 

@@ -116,7 +116,7 @@ $heightseo = "115";
 
                                         <!-- Hero Button Start -->
                                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                            <a href="contact.html" class="btn-default"><span>explore more</span></a>
+                                            <a href="<?= $pathindex ?>azienda" class="btn-default"><span>Scopri di più</span></a>
                                         </div>
                                         <!-- Hero Button End -->
                                     </div>
@@ -182,10 +182,10 @@ $heightseo = "115";
                                 di precisione e prototipazione per svariati settori. L’azienda vicentina
                                 garantisce soluzioni avanzate per clienti che richiedono affidabilità, puntualità
                                 e risultati impeccabili.</p>
-                            <p class="wow fadeInUp" data-wow-delay="0.35s"> <a href="<?= $pathindex ?>parco-macchine">parco macchine</a>Con un di ultima generazione,
+                            <p class="wow fadeInUp" data-wow-delay="0.35s"> Con un <a href="<?= $pathindex ?>parco-macchine">parco macchine</a> di ultima generazione,
                                 composto da centri di lavoro multiasse DMG Mori e magazzino automatico
                                 Fastems, vengono <strong>garantite solo produzioni di altissima qualità, 24 ore
-                                    su 24, 7 giorni su 7</strong> . La lunga esperienza nella lavorazione meccanica di
+                                    su 24, 7 giorni su 7</strong>. La lunga esperienza nella lavorazione meccanica di
                                 precisione permette di spaziare da prototipi unici a produzioni in serie,
                                 servendo settori come: automotive, <a href="<?= $pathindex ?>motorsport">racing</a>, packaging alimentare,
                                 farmaceutico e ricerca scientifica. Precisione meticolosa, competenza tecnica
@@ -227,7 +227,7 @@ $heightseo = "115";
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-formatura.svg" alt="immagine servizio">
+                                <img src="<?= $pathindex ?>assets/images/icon set/home/home-su_di_noi-parco_macchine.svg" alt="immagine servizio">
                             </div>
 
                             <div class="service-body">
@@ -245,7 +245,7 @@ $heightseo = "115";
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-motorsport.svg" alt="immagine servizio">
+                                <img src="<?= $pathindex ?>assets/images/icon set/home/home-su_di_noi-eccellenza_qualita.svg" alt="immagine servizio">
                             </div>
 
                             <div class="service-body">
@@ -253,7 +253,7 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-footer">
-                                <a href="<?= $pathindex ?>parco-macchine" class="service-btn">
+                                <a href="<?= $pathindex ?>qualita" class="service-btn">
                                     <img src="<?= $pathindex ?>assets/images/global/recapiti/arrow-white.svg" alt="immagine freccia">
                                 </a>
                             </div>
@@ -263,7 +263,7 @@ $heightseo = "115";
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-panificazione.svg" alt="immagine servizio">
+                                <img src="<?= $pathindex ?>assets/images/icon set/home/home-su_di_noi-lavorazioni_precisione.svg" alt="immagine servizio">
                             </div>
 
                             <div class="service-body">
@@ -281,7 +281,7 @@ $heightseo = "115";
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-ricerca.svg" alt="immagine servizio">
+                                <img src="<?= $pathindex ?>assets/images/icon set/home/home-su_di_noi-storia_trentennale.svg" alt="immagine servizio">
                             </div>
 
                             <div class="service-body">
@@ -289,7 +289,7 @@ $heightseo = "115";
                             </div>
 
                             <div class="service-footer">
-                                <a href="<?= $pathindex ?>parco-macchine" class="service-btn">
+                                <a href="<?= $pathindex ?>azienda" class="service-btn">
                                     <img src="<?= $pathindex ?>assets/images/global/recapiti/arrow-white.svg" alt="immagine freccia">
                                 </a>
                             </div>
@@ -558,7 +558,7 @@ $heightseo = "115";
                     <span class="h2">Hai un progetto da sviluppare? <br>Contattaci adesso</span>
                 </div>
                 <div class="col-lg-6 d-flex align-items-start mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
-                    <a class="h2 font-bold scale-animation" href="tel:+390445641300">+390445641300</a>
+                    <a class="h2 font-bold scale-animation" href="tel:+390445641300">+39 0445 641300</a>
                 </div>
             </div>
         </div>

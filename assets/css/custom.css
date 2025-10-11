@@ -384,12 +384,32 @@ h4,
   font-family: "Open Sans", sans-serif;
 }
 
-.bg-accent{
-	background-color: var(--accent-color);
+.bg-accent {
+  background-color: var(--accent-color);
 }
 
-.text-accent{
-  color: var(--accent-color)!important;
+.radius-40 {
+  border-radius: 40px;
+}
+
+.quotes {
+  font-size: 200px;
+  position: absolute;
+  top: 0;
+  color: var(--accent-color);
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .quotes {
+    display: none;
+  }
+}
+
+.text-accent {
+  color: var(--accent-color) !important;
 }
 
 .bg-light-gray {
@@ -397,23 +417,24 @@ h4,
 }
 
 .footer-copyright-text a {
-	color: var(--accent-color);
+  color: var(--accent-color);
 }
 
-.scale-animation{
+.scale-animation {
   transition: transform 0.3s ease-in-out;
 }
 
 .scale-animation:hover {
-  transform: scale(1.10);
+  transform: scale(1.1);
 }
 
-footer li, footer p {
-	font-size: 15px;
+footer li,
+footer p {
+  font-size: 15px;
 }
 
-.font-bold{
-  font-weight: 700!important;
+.font-bold {
+  font-weight: 700 !important;
 }
 
 figure {
@@ -426,6 +447,7 @@ img {
 
 a {
   text-decoration: none;
+  color: var(--accent-color);
 }
 
 a:hover {
@@ -526,7 +548,6 @@ body {
   font-size: 16px;
   font-weight: 600;
   line-height: 0.6em;
-  text-transform: capitalize;
   color: var(--primary-color);
   background-color: var(--accent-color);
   border-radius: 10px;
@@ -759,7 +780,8 @@ body {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  background: url("../images/global/logo/dettaglio/DVF-dettaglio_bianco.svg") no-repeat;
+  background: url("../images/global/logo/dettaglio/DVF-dettaglio_bianco.svg")
+    no-repeat;
   background-position: left center;
   background-size: contain;
   width: 16px;
@@ -953,7 +975,6 @@ header.main-header .header-sticky.active {
   font-weight: 500;
   padding: 10px 20px;
   color: var(--white-color);
-  text-transform: capitalize;
   transition: all 0.3s ease-in-out;
 }
 
@@ -1417,7 +1438,6 @@ header.main-header .header-sticky.active {
 .company-experience-content p {
   font-size: 18px;
   line-height: 1.4em;
-  text-transform: capitalize;
   color: var(--primary-color);
   margin: 0;
 }
@@ -1580,14 +1600,9 @@ header.main-header .header-sticky.active {
   max-width: 60px;
 }
 
-.service-body {
-  margin-bottom: 60px;
-}
-
 .service-body span {
   font-size: 20px;
   font-weight: 600;
-  text-transform: capitalize;
 }
 
 .service-item .service-footer a {
@@ -1612,7 +1627,7 @@ header.main-header .header-sticky.active {
 }
 
 .service-item .service-footer a:hover img {
-  transform: scale(1.20) rotate(45deg);
+  transform: scale(1.2) rotate(45deg);
 }
 
 /************************************/
@@ -1824,7 +1839,6 @@ header.main-header .header-sticky.active {
 .what-we-item-content span {
   font-size: 20px;
   font-weight: 600;
-  text-transform: capitalize;
   color: var(--white-color);
   margin-bottom: 10px;
 }
@@ -2016,7 +2030,6 @@ header.main-header .header-sticky.active {
 .project-content a {
   font-size: 20px;
   font-weight: 600;
-  text-transform: capitalize;
   color: inherit;
 }
 
@@ -2105,7 +2118,6 @@ header.main-header .header-sticky.active {
 .process-step-content span.title {
   font-size: 20px;
   font-weight: 600;
-  text-transform: capitalize;
   margin-bottom: 10px;
   transition: all 0.3s ease-in-out;
 }
@@ -2734,8 +2746,8 @@ header.main-header .header-sticky.active {
   color: var(--accent-color);
 }
 
-.motorsport{
-  padding: 210px 0!important;
+.motorsport {
+  padding: 210px 0 !important;
   height: 800px;
 }
 
@@ -2863,7 +2875,6 @@ header.main-header .header-sticky.active {
 .mission-vision-content-list ul li {
   position: relative;
   color: var(--primary-color);
-  text-transform: capitalize;
   padding-left: 40px;
   margin-bottom: 20px;
 }
@@ -2876,11 +2887,12 @@ header.main-header .header-sticky.active {
   content: "";
   position: absolute;
   width: 24px;
-  height: 24px;
+  height: 16px;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
-  background: url("../images/icon-check.svg") no-repeat center left;
+  background: url("../images/global/logo/dettaglio/DVF-dettaglio_rosso.svg")
+    no-repeat center left;
   background-size: cover;
 }
 
@@ -2947,7 +2959,6 @@ header.main-header .header-sticky.active {
   font-size: 20px;
   font-weight: 600;
   line-height: 1.2em;
-  text-transform: capitalize;
   border-bottom: 1px solid var(--divider-color);
   padding: 30px;
   transition: all 0.3s ease-in-out;
@@ -3072,7 +3083,6 @@ header.main-header .header-sticky.active {
 .features-item-content span {
   font-size: 20px;
   font-weight: 600;
-  text-transform: capitalize;
   margin-bottom: 20px;
   transition: all 0.3s ease-in-out;
 }
@@ -3445,11 +3455,11 @@ header.main-header .header-sticky.active {
   transition: all 0.3s ease-in-out;
 }
 
-.service-catagery-list ul li span{
+.service-catagery-list ul li span {
   font-weight: 600;
 }
 
-.service-catagery-list ul li p{
+.service-catagery-list ul li p {
   margin-bottom: 0;
   color: var(--text-color);
   font-size: 14px;
@@ -3604,8 +3614,8 @@ header.main-header .header-sticky.active {
   transition: all 0.3s ease-in-out;
 }
 
-.cta-contact-item-title a{
-  font-size:20px;
+.cta-contact-item-title a {
+  font-size: 20px;
   font-weight: 700;
   margin-left: 20px;
   color: white;
@@ -4931,9 +4941,9 @@ blockquote {
   z-index: 1;
 }
 
-.contact-info-item .icon-box i{
+.contact-info-item .icon-box i {
   z-index: 1;
-} 
+}
 
 .contact-info-content {
   width: calc(100% - 80px);
@@ -5053,8 +5063,8 @@ blockquote {
   .topbar {
     padding: 15px 0;
   }
-  
-  .motorsport{
+
+  .motorsport {
     height: fit-content;
   }
 
@@ -6146,12 +6156,12 @@ blockquote {
     padding: 10px 0;
   }
 
-  .nav-item > a.text-accent{
+  .nav-item > a.text-accent {
     color: var(--dark-red) !important;
   }
 
-  .h2{
-    font-size:28px
+  .h2 {
+    font-size: 28px;
   }
 
   .topbar-contact-info ul {

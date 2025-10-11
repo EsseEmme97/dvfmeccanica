@@ -64,9 +64,6 @@ $heightseo = "115";
 								<li class="breadcrumb-item active" aria-current="page">Motorsport</li>
 							</ol>
 						</nav>
-						<div class="about-content-btn wow fadeInUp mt-5" data-wow-delay="0.75s">
-							<a href="<?= $pathindex ?>azienda" class="btn-default"><span>Scopri di più</span></a>
-						</div>
 					</div>
 					<!-- Page Header Box End -->
 				</div>
@@ -76,8 +73,9 @@ $heightseo = "115";
 	<!-- Page Header End -->
 
 	<section class="py-5">
-		<div class="container d-flex justify-content-center">
-			<blockquote class="wow fadeInUp">
+		<div class="container row mx-auto d-flex justify-content-center bg-black radius-40 text-white p-4">
+			<blockquote class="wow fadeInUp font-weight-600 relative">
+				<span class="quotes">"</span>
 				Correre veloci verso l'obbiettivo, al fianco di sognatori, pionieri e campioni... Determinazione, dedizione, concentrazione e voglia di vincere ci hanno fatto fare tanta strada in 30 anni di sfide. Accontentarsi? MAI
 			</blockquote>
 		</div>

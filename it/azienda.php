@@ -115,12 +115,12 @@ $heightseo = "115";
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <span class="wow fadeInUp label text-black">Chi Siamo</span>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">L’ eccellenza nelle lavorazioni meccaniche conto terzi</h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">L’eccellenza nelle lavorazioni meccaniche conto terzi</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">DVF Meccanica, fondata nel 1989 a Schio (Vicenza), è specializzata in
                                 <strong>lavorazioni meccaniche conto terzi</strong> e prototipazione di parti metalliche.
-                                Oggi, l’azienda offre <a href="<?= $pathindex ?>">lavorazioni meccaniche di precisione</a> di <a href="<?= $pathindex ?>qualita">alta qualità</a> ,
+                                Oggi, l’azienda offre <a href="<?= $pathindex ?>">lavorazioni meccaniche di precisione</a> di <a href="<?= $pathindex ?>qualita">alta qualità</a>,
                                 grazie a personale altamente qualificato, macchine all’avanguardia e processi
-                                controllati. Svariati sono i settori serviti: dall’automotive al racing , dal
+                                controllati. Svariati sono i settori serviti: dall’automotive al <a href="<?= $pathindex ?>motorsport">racing</a>, dal
                                 packaging alimentare al farmaceutico, fino alla ricerca scientifica. La
                                 pluridecennale esperienza nella meccanica conto terzi permette a DVF
                                 Meccanica di gestire sia progetti complessi sia produzioni in serie,
@@ -582,7 +582,7 @@ $heightseo = "115";
                     <!-- Our Features Item Start -->
                     <div class="our-features-item">
                         <div class="icon-box">
-                            <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-panificazione.svg" alt="icona servizio">
+                            <img src="<?= $pathindex ?>assets/images/icon set/azienda/azienda-vantaggio_competitivo-team_qualificato.svg" alt="icona servizio">
                         </div>
                         <div class="features-item-content">
                             <span>Team qualificato</span>
@@ -595,7 +595,7 @@ $heightseo = "115";
                     <!-- Our Features Item Start -->
                     <div class="our-features-item">
                         <div class="icon-box">
-                            <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-motorsport.svg" alt="icona servizio">
+                            <img src="<?= $pathindex ?>assets/images/icon set/azienda/azienda-vantaggio_competitivo-processi_completi.svg" alt="icona servizio">
                         </div>
                         <div class="features-item-content">
                             <span>Processi completi</span>
@@ -608,7 +608,7 @@ $heightseo = "115";
                     <!-- Our Features Item Start -->
                     <div class="our-features-item">
                         <div class="icon-box">
-                            <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-formatura.svg" alt="icona servizio">
+                            <img src="<?= $pathindex ?>assets/images/icon set/azienda/azienda-vantaggio_competitivo-tech_avanzata.svg" alt="icona servizio">
                         </div>
                         <div class="features-item-content">
                             <span>Tecnologia avanzata</span>
@@ -652,7 +652,7 @@ $heightseo = "115";
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
                                     <div class="icon-box">
-                                        <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-formatura.svg" alt="icona servizio">
+                                        <img src="<?= $pathindex ?>assets/images/icon set/azienda/azienda-cosa_facciamo-dettaglio_servizi.svg" alt="icona servizio">
                                     </div>
                                     <div class="what-we-item-content">
                                         <span>Fresatura avanzata</span>
@@ -664,7 +664,7 @@ $heightseo = "115";
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
                                     <div class="icon-box">
-                                        <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-motorsport.svg" alt="icona servizio">
+                                        <img src="<?= $pathindex ?>assets/images/icon set/azienda/azienda-cosa_facciamo-dettaglio_servizi.svg" alt="icona servizio">
                                     </div>
                                     <div class="what-we-item-content">
                                         <span>Tornitura professionale</span>
@@ -678,7 +678,7 @@ $heightseo = "115";
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
                                     <div class="icon-box">
-                                        <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-panificazione.svg" alt="icona servizio">
+                                        <img src="<?= $pathindex ?>assets/images/icon set/azienda/azienda-cosa_facciamo-dettaglio_servizi.svg" alt="icona servizio">
                                     </div>
                                     <div class="what-we-item-content">
                                         <span>Prototipi rapidi</span>
@@ -690,7 +690,7 @@ $heightseo = "115";
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
                                     <div class="icon-box">
-                                        <img src="<?= $pathindex ?>assets/images/icon set/settori/settori-ricerca.svg" alt="icona servizio">
+                                        <img src="<?= $pathindex ?>assets/images/icon set/azienda/azienda-cosa_facciamo-dettaglio_servizi.svg" alt="icona servizio">
                                     </div>
                                     <div class="what-we-item-content">
                                         <span>Trattamenti superficiali</span>

@@ -2544,7 +2544,7 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .main-footer {
-  background: url(../images/footer-bg.svg), var(--primary-color);
+  background: var(--primary-color);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: auto;

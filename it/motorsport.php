@@ -73,8 +73,8 @@ $heightseo = "115";
 	<!-- Page Header End -->
 
 	<section class="py-5">
-		<div class="container row mx-auto bg-black radius-40 text-white p-4">
-			<div class="row">
+		<div class="container row mx-auto text-white ">
+			<div class="row bg-black mx-auto radius-40 p-4">
 				<div class="col-1">
 					<span class="quotes">
 						"

@@ -115,6 +115,9 @@ $content = [
 ];
 
 $macchina=$content[$nome_macchina]["caratteristiche"];
+$nome_macchina_formattato=explode("-", $nome_macchina);
+array_shift($nome_macchina_formattato);
+$nome_macchina_formattato=implode(" ", $nome_macchina_formattato);
 
 ?>
 <!DOCTYPE html>
@@ -162,12 +165,12 @@ $macchina=$content[$nome_macchina]["caratteristiche"];
 				<div class="col-lg-12">
 					<!-- Page Header Box Start -->
 					<div class="page-header-box">
-						<h1 class="text-anime-style-2" data-cursor="-opaque"><?= $nome_macchina ?></h1>
+						<h1 class="text-anime-style-2" data-cursor="-opaque"><?= $nome_macchina_formattato ?></h1>
 						<nav class="wow fadeInUp">
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="<?= $pathindex ?>">home</a></li>
 								<li class="breadcrumb-item" aria-current="page"><a href="<?= $pathindex ?>parco-macchine">Parco macchine</a></li>
-								<li class="breadcrumb-item active" aria-current="page"><?= $nome_macchina ?></li>
+								<li class="breadcrumb-item active" aria-current="page"><?= $nome_macchina_formattato ?></li>
 							</ol>
 						</nav>
 					</div>
@@ -248,7 +251,7 @@ $macchina=$content[$nome_macchina]["caratteristiche"];
 
 						<!-- Service Entry Start -->
 						<div class="service-entry">
-							<span class="d-block h2 wow fadeInDown"><?= $nome_macchina ?></span>
+							<span class="d-block h2 wow fadeInDown"><?= $nome_macchina_formattato ?></span>
 							<p class="wow fadeInUp">Our business coaching services are designed to help entrepreneurs and professionals unlock their full potential, overcome challenges, and achieve sustainable growth. We provide tailored strategies and expert insights to improve leadership skills, enhance team performance, and streamline business operations. Whether you're launching a startup or scaling an established business, our coaching empowers you to make informed decisions, set clear goals, and drive meaningful results. With a focus on both personal development and business success, we guide you toward building a thriving, purpose-driven enterprise.</p>
 							<p class="wow fadeInUp" data-wow-delay="0.2s">Through expert guidance, we focus on refining your vision, enhancing operations, and unlocking new opportunities for growth. With a collaborative approach, we empower you to make confident decisions and build a sustainable, thriving business.</p>
 							<span class="d-block h2">Caratteristiche <span class="fw-bold">Tecniche</span></span>

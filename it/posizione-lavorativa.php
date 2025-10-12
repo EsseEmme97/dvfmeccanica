@@ -10,7 +10,7 @@ $image = "assets/images/global/favicon/DVF-favicon.ico";
 $widthseo = "400";
 $heightseo = "115";
 
-$posizione_lavorativa = $_GET["posizione"];
+$posizione_lavorativa = str_replace("-", " ", $_GET["posizione"]);
 ?>
 <!DOCTYPE html>
 <html lang="it">
@@ -137,12 +137,12 @@ $posizione_lavorativa = $_GET["posizione"];
 										</div>
 
 										<div class="form-group col-md-12 mb-5">
-											<textarea name="message" class="form-control" id="message" rows="4" placeholder="Write Message"></textarea>
+											<textarea name="message" class="form-control" id="message" rows="4" placeholder="Scrivi un messaggio"></textarea>
 											<div class="help-block with-errors"></div>
 										</div>
 
 										<div class="col-md-12">
-											<button type="submit" class="btn-default"><span>submit message</span></button>
+											<button type="submit" class="btn-default"><span>Invia messaggio</span></button>
 											<div id="msgSubmit" class="h3 hidden"></div>
 										</div>
 									</div>

@@ -73,11 +73,18 @@ $heightseo = "115";
 	<!-- Page Header End -->
 
 	<section class="py-5">
-		<div class="container row mx-auto d-flex justify-content-center bg-black radius-40 text-white p-4">
-			<blockquote class="wow fadeInUp font-weight-600 relative">
-				<span class="quotes">"</span>
-				Correre veloci verso l'obbiettivo, al fianco di sognatori, pionieri e campioni... Determinazione, dedizione, concentrazione e voglia di vincere ci hanno fatto fare tanta strada in 30 anni di sfide. Accontentarsi? MAI
-			</blockquote>
+		<div class="container row mx-auto bg-black radius-40 text-white p-4">
+			<div class="row">
+				<div class="col-1">
+					<span class="quotes">
+						"
+					</span>
+				</div>
+				<div class="col-11">
+					<blockquote class="text-left mb-0"> Correre veloci verso l'obbiettivo, al fianco di sognatori, pionieri e campioni... Determinazione, dedizione, concentrazione e voglia di vincere ci hanno fatto fare tanta strada in 30 anni di sfide. Accontentarsi? MAI
+					</blockquote>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -124,8 +131,8 @@ $heightseo = "115";
 					<div class="our-story-content">
 						<div class="our-story-content-body">
 							<p>È con infinito orgoglio che anche <a href="<?= $pathindex ?>">DVF Meccanica</a> prende parte al successo
-								sportivo del Team SpeedRS di Moto2.<strong>L’azienda è sponsor del progetto
-									racing del team SpeedRS</strong> , in cui crede fortemente e con il quale condivide
+								sportivo del Team SpeedRS di Moto2.<strong> L’azienda è sponsor del progetto
+									racing del team SpeedRS</strong>, in cui crede fortemente e con il quale condivide
 								valori quali determinazione, innovazione e spirito vincente.</p>
 						</div>
 
@@ -147,12 +154,9 @@ $heightseo = "115";
 							<!-- Our Story Counter Start -->
 							<div class="our-story-counter">
 								<span><span class="counter">204</span></span>
-								<p>Gare Vinte</p>
+								<p>Gare vinte</p>
 							</div>
 							<!-- Our Story Counter End -->
-						</div>
-						<div class="our-story-content-btn mt-4">
-							<a href="<?= $pathindex ?>azienda" class="btn-default"><span>Guarda il video</span></a>
 						</div>
 					</div>
 				</div>
@@ -193,7 +197,7 @@ $heightseo = "115";
 					<!-- Section Title Content Start -->
 					<div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
 						<p>Da sempre crediamo nel motorsport come palestra di sfide ed innovazione
-							tecnologica: siamo al fianco del <strong>team SpeedRS</strong> , che corre nel mondiale
+							tecnologica: siamo al fianco del <strong>team SpeedRS</strong>, che corre nel mondiale
 							Moto2 con moto Boscoscuro.</p>
 					</div>
 					<!-- Section Title Content End -->

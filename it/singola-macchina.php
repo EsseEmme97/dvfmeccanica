@@ -115,6 +115,7 @@ $content = [
 ];
 
 $macchina=$content[$nome_macchina]["caratteristiche"];
+
 ?>
 <!DOCTYPE html>
 <html lang="it">
@@ -343,7 +344,7 @@ $macchina=$content[$nome_macchina]["caratteristiche"];
 					<span class="h2">Hai un progetto da sviluppare? <br>Contattaci adesso</span>
 				</div>
 				<div class="col-lg-6 d-flex align-items-start mt-5 mt-lg-0 justify-content-center justify-content-lg-start">
-					<a class="h2 font-bold scale-animation" href="tel:+390445641300">+390445641300</a>
+					<a class="h2 font-bold scale-animation" href="tel:+390445641300">+39 0445 641300</a>
 				</div>
 			</div>
 		</div>

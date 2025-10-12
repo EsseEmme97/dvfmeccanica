@@ -255,7 +255,7 @@ $heightseo = "115";
 					<span class="h2">Hai un progetto da sviluppare? <br>Contattaci adesso</span>
 				</div>
 				<div class="col-lg-6 d-flex justify-content-center justify-content-lg-start mt-5 mt-lg-0">
-					<a class="h2 scale-animation font-bold" href="tel:+390445641300">+390445641300</a>
+					<a class="h2 scale-animation font-bold" href="tel:+390445641300">+39 0445 641300</a>
 				</div>
 			</div>
 		</div>

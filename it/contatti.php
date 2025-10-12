@@ -4,8 +4,9 @@ require_once("../inc/global.php");
 require_once("../inc/header.php");
 require_once($pathindex . "inc/mysqli.php");
 // $database = new DB();
-$titleseo = "DVF - azienda";
-$descriptionseo = "descrizione";
+$titleseo = "Contattaci | DVF Meccanica";
+$descriptionseo = "Hai bisogno di informazioni o assistenza? Contattaci subito! Trovi qui il nostro numero, e-mail e la mappa per raggiungerci. Rispondiamo in 24h.
+";
 $image = "assets/images/global/favicon/DVF-favicon.ico";
 $widthseo = "400";
 $heightseo = "115";
@@ -81,7 +82,6 @@ $heightseo = "115";
                         <div class="section-title">
                             <span class="wow fadeInUp label text-black">Contattaci</span>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">Rimaniamo in <span>contatto</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Reach out for any inquiries, support, or to discuss how we can meet your industrial needs.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -94,7 +94,7 @@ $heightseo = "115";
                                 </div>
                                 <div class="contact-info-content">
                                     <span>Telefono</span>
-                                    <p>+1.809.120.670</p>
+                                    <p>+ 39 0445 641300</p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->

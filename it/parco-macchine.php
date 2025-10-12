@@ -191,7 +191,7 @@ $heightseo = "115";
                             progettazione alla consegna, garantiamo <a href="<?= $pathindex ?>qualita">standard elevati</a> e flessibilità totale.</p>
                     </div>
                     <div class="hero-btn wow fadeInUp section-title-content mt-4" data-wow-delay="0.4s">
-                        <a href="<?= $pathindex ?>azienda" class="btn-default"><span>Scopri di più</span></a>
+                        <a href="<?= $pathindex ?>realizzazioni" class="btn-default"><span>Scopri di più</span></a>
                     </div>
                     <!-- Section Title Content End -->
                 </div>

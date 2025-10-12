@@ -393,13 +393,15 @@ h4,
 }
 
 .quotes {
-  font-size: 200px;
-  position: absolute;
-  top: 0;
+  font-size: 125px;
   color: var(--accent-color);
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-weight: 600;
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+  line-height: 0.8em;
 }
 
 @media (max-width: 767px) {
@@ -1704,7 +1706,6 @@ header.main-header .header-sticky.active {
   font-size: 20px;
   font-weight: 600;
   line-height: 1.4em;
-  text-transform: capitalize;
   color: var(--primary-color);
   margin: 0;
 }
@@ -4930,9 +4931,7 @@ header.main-header .header-sticky.active {
 
 blockquote {
   font-size: 24px;
-  width: 750px;
   line-height: 1.6;
-  text-align: center;
 }
 
 .contact-info-item .icon-box img {

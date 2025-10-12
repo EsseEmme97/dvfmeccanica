@@ -136,7 +136,7 @@ $heightseo = "115";
                                     <div class="about-list-btn mb-0">
                                         <!-- About Content Btn Start -->
                                         <div class="about-content-btn wow fadeInUp " data-wow-delay="0.75s">
-                                            <a href="<?= $pathindex ?>azienda" class="btn-default"><span>Scopri di più</span></a>
+                                            <a href="<?= $pathindex ?>realizzazioni" class="btn-default"><span>Scopri di più</span></a>
                                         </div>
                                         <!-- About Content Btn End -->
                                     </div>
